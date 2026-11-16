@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:rust": 5000,
+    "minestuck:diamond": 5000,
+    "minestuck:uranium": 5000
+  },
+  "ingredient": {
+    "item": "hazennstuff:excalibur_fragment"
+  }
+}

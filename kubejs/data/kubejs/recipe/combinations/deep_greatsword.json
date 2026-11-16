@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:weapon_parts"
+  },
+  "input2": {
+    "item": "minecraft:echo_shard"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:deep_greatsword"
+}

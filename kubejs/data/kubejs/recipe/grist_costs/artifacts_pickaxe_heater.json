@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 30000,
+    "minestuck:rust": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:pickaxe_heater"
+  }
+}

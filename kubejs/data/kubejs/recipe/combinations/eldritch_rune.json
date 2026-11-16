@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:blank_rune"
+  },
+  "input2": {
+    "item": "minecraft:echo_shard"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:eldritch_rune"
+}

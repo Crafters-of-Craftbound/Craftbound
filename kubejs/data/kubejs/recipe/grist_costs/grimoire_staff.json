@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 14000,
+    "minestuck:uranium": 8000,
+    "minestuck:tar": 5000
+  },
+  "ingredient": {
+    "item": "hazennstuff:grimoire_staff"
+  }
+}

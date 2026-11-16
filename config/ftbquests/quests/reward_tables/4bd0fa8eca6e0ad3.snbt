@@ -1,0 +1,22 @@
+{
+	id: "4BD0FA8ECA6E0AD3"
+	loot_size: 1
+	order_index: 14
+	rewards: [{
+		auto: "no_toast"
+		command: "/rung add @p 1"
+		disable_reward_screen_blur: true
+		icon: {
+			components: {
+				"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		id: "555CCA0FA040169E"
+		ignore_reward_blocking: true
+		permission_level: 2
+		silent: true
+		team_reward: true
+		type: "command"
+	}]
+}

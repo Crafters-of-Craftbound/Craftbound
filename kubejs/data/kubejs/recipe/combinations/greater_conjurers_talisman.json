@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:conjurers_talisman"
+  },
+  "input2": {
+    "item": "irons_spellbooks:bloody_vellum"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:greater_conjurers_talisman"
+}

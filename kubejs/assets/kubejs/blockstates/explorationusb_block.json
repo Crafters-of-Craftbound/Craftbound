@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kubejs:block/explorationusb_block"
+    },
+    "facing=south": {
+      "model": "kubejs:block/explorationusb_block",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "kubejs:block/explorationusb_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "kubejs:block/explorationusb_block",
+      "y": 270
+    }
+  }
+}

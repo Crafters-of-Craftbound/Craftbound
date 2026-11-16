@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_helmet"
+  },
+  "input2": {
+    "item": "irons_spellbooks:ender_rune"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:shadowwalker_helmet"
+}

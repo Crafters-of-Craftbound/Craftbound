@@ -1,0 +1,12 @@
+{
+  "bad_apple": {
+    "replace": true,
+    "subtitle": "subtitles.farmers_spell.bad_apple",
+    "sounds": [
+      {
+        "name": "farmers_spell:rudebuster",
+        "stream": true
+      }
+    ]
+  }
+}

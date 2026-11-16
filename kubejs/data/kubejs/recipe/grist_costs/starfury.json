@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:gold": 15000,
+    "minestuck:diamond": 10000,
+    "minestuck:amethyst": 5000
+  },
+  "ingredient": {
+    "item": "hazennstuff:starfury"
+  }
+}

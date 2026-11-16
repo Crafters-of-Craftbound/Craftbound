@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:mercury": 21500,
+    "minestuck:diamond": 12900,
+    "minestuck:amethyst": 8600
+  },
+  "ingredient": {
+    "item": "hazennstuff:skyscorcher"
+  }
+}

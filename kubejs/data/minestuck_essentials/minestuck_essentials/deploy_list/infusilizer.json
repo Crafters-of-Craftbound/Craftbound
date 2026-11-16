@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "category": "deploy",
+      "cost": [
+        {
+          "grist": {
+            "minestuck:build": 50000,
+            "minestuck:ruby": 25000
+          }
+        }
+      ],
+      "structure": "minestuck_essentials:infusilizer",
+      "name": "Infusilizer"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_leggings"
+  },
+  "input2": {
+    "item": "hazentouvelib:radiance_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:radiant_crystal_leggings"
+}

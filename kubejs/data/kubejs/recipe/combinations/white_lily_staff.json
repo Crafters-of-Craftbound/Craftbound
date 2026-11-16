@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:wand"
+  },
+  "input2": {
+    "item": "minecraft:lily_of_the_valley"
+  },
+  "mode": "and",
+  "output": "hazennstuff:white_lily_staff"
+}

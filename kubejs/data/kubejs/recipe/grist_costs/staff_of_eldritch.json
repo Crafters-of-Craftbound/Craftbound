@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 14000,
+    "minestuck:amethyst": 8000,
+    "minestuck:uranium": 5000
+  },
+  "ingredient": {
+    "item": "discerning_the_eldritch:staff_of_eldritch"
+  }
+}

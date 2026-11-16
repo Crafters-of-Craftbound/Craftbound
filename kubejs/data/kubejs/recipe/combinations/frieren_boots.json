@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:netherite_mage_boots"
+  },
+  "input2": {
+    "item": "minecraft:white_dye"
+  },
+  "mode": "and",
+  "output": "hazennstuff:frieren_boots"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "discerning_the_eldritch:shard_of_malice"
+  },
+  "input2": {
+    "item": "irons_spellbooks:weapon_parts"
+  },
+  "mode": "and",
+  "output": "hazennstuff:malice"
+}

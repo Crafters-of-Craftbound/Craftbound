@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:diamond": 6500,
+    "minestuck:gold": 3900,
+    "minestuck:amethyst": 2600
+  },
+  "ingredient": {
+    "item": "hazennstuff:giorno_giovanna_leggings"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_helmet"
+  },
+  "input2": {
+    "item": "hazentouvelib:cosmic_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:cosmic_scholar_helmet"
+}

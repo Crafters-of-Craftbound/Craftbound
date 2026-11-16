@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "a_man_with_plushies:plush_box"
+  },
+  "sources": [
+    "minecraft:white_wool",
+    "minecraft:barrel"
+  ]
+}

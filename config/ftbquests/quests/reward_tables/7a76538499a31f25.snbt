@@ -1,0 +1,247 @@
+{
+	id: "7A76538499A31F25"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/grist add @p 2000 minestuck:build"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:build_gushers"
+			}
+			id: "404D7EB8BF1EBF24"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 6.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 1200 minestuck:amber"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:amber_gummy_worm"
+			}
+			id: "56AF42E43DBF5812"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 1200 minestuck:caulk"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:caulk_pretzel"
+			}
+			id: "40C49C90DCBCFF55"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 1200 minestuck:chalk"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:chalk_candy_cigarette"
+			}
+			id: "6AB56BB92EDBF2BE"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 1200 minestuck:iodine"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:iodine_licorice"
+			}
+			id: "61A02752161A1A35"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 1200 minestuck:shale"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:shale_peep"
+			}
+			id: "62DFAE33B0DF5A57"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 1200 minestuck:tar"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:tar_licorice"
+			}
+			id: "06BB4334288762B6"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 700 minestuck:cobalt"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:cobalt_gum"
+			}
+			id: "7D0B9DCE2553301B"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 700 minestuck:marble"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:marble_jawbreaker"
+			}
+			id: "0408AFB7FEB2917D"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 700 minestuck:mercury"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:mercury_sixlets"
+			}
+			id: "656E98B1C31C750F"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 700 minestuck:quartz"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:quartz_jelly_bean"
+			}
+			id: "4C701CD615529E08"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 700 minestuck:sulfur"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:sulfur_candy_apple"
+			}
+			id: "598B32B491B50AB8"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 300 minestuck:amethyst"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:amethyst_hard_candy"
+			}
+			id: "34FF08687D98C9A9"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 300 minestuck:garnet"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:garnet_twix"
+			}
+			id: "5F84824DA878E087"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 300 minestuck:ruby"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:ruby_lollipop"
+			}
+			id: "7F380A1A6BFEBE0E"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 300 minestuck:rust"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:rust_gummy_eye"
+			}
+			id: "4AB0204DD44EFD65"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+	]
+}

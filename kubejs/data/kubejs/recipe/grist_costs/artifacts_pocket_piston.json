@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:rust": 30000,
+    "minestuck:build": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:pocket_piston"
+  }
+}

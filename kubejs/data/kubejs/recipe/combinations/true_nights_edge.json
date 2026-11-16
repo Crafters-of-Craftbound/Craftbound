@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:nights_edge"
+  },
+  "input2": {
+    "item": "hazennstuff:lights_bane"
+  },
+  "mode": "and",
+  "output": "hazennstuff:true_nights_edge"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 13500,
+    "minestuck:diamond": 8100,
+    "minestuck:amethyst": 5400
+  },
+  "ingredient": {
+    "item": "hazennstuff:abberant_predator_chestplate"
+  }
+}

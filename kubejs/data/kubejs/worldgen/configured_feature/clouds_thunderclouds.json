@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": { "type": "minecraft:simple_state_provider", "state": { "Name": "kubejs:thundercloud" } },
+      "inner_layer_provider": { "type": "minecraft:simple_state_provider", "state": { "Name": "kubejs:thundercloud" } },
+      "alternate_inner_layer_provider": { "type": "minecraft:simple_state_provider", "state": { "Name": "kubejs:thundercloud" } },
+      "middle_layer_provider": { "type": "minecraft:simple_state_provider", "state": { "Name": "kubejs:thundercloud" } },
+      "outer_layer_provider": { "type": "minecraft:simple_state_provider", "state": { "Name": "kubejs:dark_cloud" } },
+      "inner_placements": [ { "Name": "kubejs:thundercloud" } ],
+      "cannot_replace": "#kubejs:thundercloud_cannot_replace",
+      "invalid_blocks": "#minecraft:geode_invalid_blocks"
+    },
+    "layers": { "filling": 1.0, "inner_layer": 2.0, "middle_layer": 15.0, "outer_layer": 29.0 },
+    "crack": { "generate_crack_chance": 0.0, "base_crack_size": 2.0, "crack_point_offset": 2 },
+    "use_potential_placements_chance": 0.0,
+    "use_alternate_layer0_chance": 0.0,
+    "placements_require_layer0_alternate": true,
+    "outer_wall_distance": 1,
+    "distribution_points": 1,
+    "point_offset": { "type": "minecraft:uniform", "min_inclusive": 0, "max_inclusive": 10 },
+    "min_gen_offset": -6,
+    "max_gen_offset": 8,
+    "noise_multiplier": 0.01,
+    "invalid_blocks_threshold": 1
+  }
+}

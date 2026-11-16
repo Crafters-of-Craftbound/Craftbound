@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:firestarter"
+  },
+  "input2": {
+    "item": "hazennstuff:solar_core"
+  },
+  "mode": "and",
+  "output": "hazennstuff:fireblossom_rapier"
+}

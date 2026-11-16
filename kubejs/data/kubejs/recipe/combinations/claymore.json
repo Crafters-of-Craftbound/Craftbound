@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:regisword"
+  },
+  "input2": {
+    "item": "irons_spellbooks:weapon_parts"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:claymore"
+}

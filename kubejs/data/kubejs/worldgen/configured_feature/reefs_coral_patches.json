@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:noise_provider",
+        "seed": 4321,
+        "noise": { "firstOctave": 0, "amplitudes": [ 1.0 ] },
+        "scale": 0.02,
+        "states": [ { "Name": "kubejs:tube_coral_block" }, { "Name": "kubejs:brain_coral_block" }, { "Name": "kubejs:bubble_coral_block" }, { "Name": "kubejs:fire_coral_block" }, { "Name": "kubejs:horn_coral_block" } ]
+      },
+      "rules": []
+    },
+    "target": { "type": "minecraft:matching_blocks", "blocks": [ "minecraft:sand", "minecraft:moss_block" ] },
+    "radius": { "type": "minecraft:uniform", "min_inclusive": 2, "max_inclusive": 4 },
+    "half_height": 1
+  }
+}

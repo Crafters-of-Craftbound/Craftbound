@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:ruby": 30000,
+    "minestuck:diamond": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:crystal_heart"
+  }
+}

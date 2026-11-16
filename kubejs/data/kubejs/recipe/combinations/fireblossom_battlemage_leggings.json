@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:fireblossom_gown_leggings"
+  },
+  "input2": {
+    "item": "hazennstuff:solar_core"
+  },
+  "mode": "and",
+  "output": "hazennstuff:fireblossom_battlemage_leggings"
+}

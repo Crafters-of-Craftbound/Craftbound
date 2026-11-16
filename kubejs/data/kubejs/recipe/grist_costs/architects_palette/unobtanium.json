@@ -1,0 +1,9 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": { "item": "architects_palette:unobtanium" },
+  "sources": [
+    "minecraft:netherite_ingot",
+    "minecraft:netherrack"
+  ]
+}

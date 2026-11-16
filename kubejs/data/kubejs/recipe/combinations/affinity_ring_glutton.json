@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "farmers_spell:foodgeist_ring"
+  },
+  "input2": {
+    "item": "farmers_spell:bowl_of_glutton_hotchpotch"
+  },
+  "mode": "and",
+  "output": "farmers_spell:affinity_ring_glutton"
+}

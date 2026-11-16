@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:obsidian_axe_knife"
+  },
+  "input2": {
+    "item": "hazennstuff:runestone_fragments"
+  },
+  "mode": "and",
+  "output": "hazennstuff:ancient_warriors_axe"
+}

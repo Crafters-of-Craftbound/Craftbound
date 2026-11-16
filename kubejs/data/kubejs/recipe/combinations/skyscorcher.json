@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:beongae"
+  },
+  "input2": {
+    "item": "irons_spellbooks:lightning_bottle"
+  },
+  "mode": "and",
+  "output": "hazennstuff:skyscorcher"
+}

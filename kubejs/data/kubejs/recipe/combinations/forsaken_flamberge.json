@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:firestarter"
+  },
+  "input2": {
+    "item": "discerning_the_eldritch:soul_ember"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:forsaken_flamberge"
+}

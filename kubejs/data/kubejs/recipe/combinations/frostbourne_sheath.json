@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:magic_cloth"
+  },
+  "input2": {
+    "item": "irons_spellbooks:ice_venom_vial"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:frostbourne_sheath"
+}

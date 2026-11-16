@@ -1,0 +1,29 @@
+{
+  "__comment": "This is an ignore list for the target of Jade. You can add registry ids to the \"values\" list.",
+  "values": [
+    "area_effect_cloud",
+    "firework_rocket",
+    "interaction",
+    "text_display",
+    "lightning_bolt",
+    "cataclysm:maledictus",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:ender_guardian",
+    "cataclysm:the_leviathan",
+    "cataclysm:ancient_remnant",
+    "cataclysm:the_harbinger",
+    "cataclysm:ignis",
+    "mowziesmobs:umvuthi",
+    "mowziesmobs:frostmaw",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:obsidilith",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:lich",
+    "irons_spellbooks:dead_king",
+    "cataclysm:scylla",
+    "discerning_the_eldritch:ascended_one",
+    "irons_spellbooks:fire_boss",
+    "irons_spellbooks:dragon_breath",
+    "irons_spellbooks:dragon_breath_pool"
+  ]
+}

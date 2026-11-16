@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:masked_fool_boots"
+  },
+  "input2": {
+    "item": "hazennstuff:demonite_ingot"
+  },
+  "mode": "and",
+  "output": "hazennstuff:shadow_scale_boots"
+}

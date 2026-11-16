@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:needle_wand"
+  },
+  "input2": {
+    "item": "minecraft:tinted_glass"
+  },
+  "mode": "and",
+  "output": "hazennstuff:glassweaver_scepter"
+}

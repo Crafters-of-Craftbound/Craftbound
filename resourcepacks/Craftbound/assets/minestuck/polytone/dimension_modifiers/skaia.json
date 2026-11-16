@@ -1,0 +1,10 @@
+{
+  "fog_colormap": "my_namespace:fog",
+  "sky_colormap": {
+	  "x_axis": "biome_id",
+	  "y_axis": "0",
+	  "biome_id_mapper":{
+		  "texture_size": 8
+	  }
+  }
+}

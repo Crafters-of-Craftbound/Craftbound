@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:diamond": 12000,
+    "minestuck:marble": 9000,
+    "minestuck:amethyst": 6000
+  },
+  "ingredient": {
+    "item": "hazennstuff:arbitrium_robes_boots"
+  }
+}

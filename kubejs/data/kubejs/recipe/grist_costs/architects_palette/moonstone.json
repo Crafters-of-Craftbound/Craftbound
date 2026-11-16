@@ -1,0 +1,9 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": { "item": "architects_palette:moonstone" },
+  "sources": [
+    "architects_palette:sunstone",
+    "minecraft:netherrack"
+  ]
+}

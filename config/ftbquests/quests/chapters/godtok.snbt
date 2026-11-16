@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "none"
+	default_quest_size: 2.0d
+	default_repeatable_quest: true
+	filename: "godtok"
+	group: "22D4E158356BE0A6"
+	icon: {
+		id: "hazennstuff:radiance"
+	}
+	id: "69A34B2C4D30D173"
+	images: [
+		{
+			click_action: "none:"
+			height: 20.76923076923077d
+			id: "3D23B174999FF4E8"
+			image: "kubejs:textures/gui/quest/godify.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 6.0d
+			id: "4F2E49F8C98693F0"
+			image: "kubejs:textures/gui/quest/cloudapp.png"
+			rotation: 0.0d
+			width: 9.692307692307693d
+			x: -6.75d
+			y: -1.25d
+		}
+		{
+			click_action: "none:"
+			height: 6.0d
+			id: "771660AE6B382A95"
+			image: "kubejs:textures/gui/quest/cloudapp.png"
+			rotation: 0.0d
+			width: 9.692307692307693d
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			click_action: "none:"
+			height: 6.0d
+			id: "4EE5376183E4DF5D"
+			image: "kubejs:textures/gui/quest/cloudapp.png"
+			rotation: 0.0d
+			width: 9.692307692307693d
+			x: 7.75d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.333333333333333d
+			id: "352BCEC4BD4B1775"
+			image: "kubejs:textures/gui/quest/cloudapp.png"
+			rotation: 180.0d
+			width: 7.0d
+			x: 1.75d
+			y: -0.25d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B4312FCCAEB5CE9"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:textures/gui/quest/imp.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "5B921D600FFFC78B"
+			optional: true
+			rewards: [
+				{
+					id: "05B2229BD4C0577B"
+					item: {
+						count: 1
+						id: "kubejs:divine_note"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79D6ACD23521F0D2"
+					table_id: 8824332348857458469L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D475CB0449B1BA0"
+					table_id: 986755152597019081L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minestuck:imp"
+				id: "4E7BDE44895E00A4"
+				type: "kill"
+				value: 400L
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B4312FCCAEB5CE9"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:textures/gui/quest/basilisk.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "15A359E9F11D936E"
+			optional: true
+			rewards: [
+				{
+					id: "51BCD5E5CB159EAB"
+					item: {
+						count: 1
+						id: "kubejs:divine_note"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "510FF815F9EEC880"
+					table_id: 8824332348857458469L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "426DBAB3B467F865"
+					table_id: 986755152597019081L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minestuck:basilisk"
+				id: "4CCBDC73DBAF63CC"
+				type: "kill"
+				value: 150L
+			}]
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5B4312FCCAEB5CE9"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:textures/gui/quest/ogre.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "541B21F04B21FA4B"
+			optional: true
+			rewards: [
+				{
+					id: "10CE7918CA43D306"
+					item: {
+						count: 1
+						id: "kubejs:divine_note"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C63AA84BF81AF0F"
+					table_id: 8824332348857458469L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A613DA5547648A4"
+					table_id: 986755152597019081L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minestuck:ogre"
+				id: "58144F8A24BDF100"
+				type: "kill"
+				value: 200L
+			}]
+			x: 2.0d
+			y: -0.25d
+		}
+		{
+			can_repeat: false
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:textures/gui/quest/godify_logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "5B4312FCCAEB5CE9"
+			invisible: true
+			rewards: [
+				{
+					auto: "disabled"
+					id: "11E5A0C3D4B2F7A1"
+					item: {
+						count: 1
+						id: "kubejs:transportablizer2"
+					}
+					type: "item"
+				}
+				{
+					id: "1F2EE07049EFBCC2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D09D6BE4CA2EEB4"
+					table_id: 986755152597019081L
+					type: "random"
+				}
+			]
+			size: 4.0d
+			tasks: [{
+				id: "092B100F84EA6EF0"
+				item: { count: 1, id: "kubejs:divine_note" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5B4312FCCAEB5CE9"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:textures/gui/quest/lich.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "44CECD069A6C707E"
+			optional: true
+			rewards: [
+				{
+					id: "0E1541B94172A9B8"
+					item: {
+						count: 1
+						id: "kubejs:divine_note"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3789ED3E24CB690D"
+					table_id: 8824332348857458469L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43FB260A3C49318B"
+					table_id: 986755152597019081L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minestuck:lich"
+				id: "1E06D3247CD25B5D"
+				type: "kill"
+				value: 300L
+			}]
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			can_repeat: false
+			id: "6EE240B7CA32A06E"
+			invisible: true
+			rewards: [{
+				id: "32610AD9348C60E3"
+				item: {
+					components: {
+						"minestuck:frog_traits": {
+							variant: "susan"
+						}
+					}
+					count: 1
+					id: "minestuck:frog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 999L
+				id: "1D970055EDC61C65"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+	]
+}

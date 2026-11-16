@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:mercury": 30000,
+    "minestuck:rust": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:universal_attractor"
+  }
+}

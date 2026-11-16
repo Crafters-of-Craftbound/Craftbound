@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 8000,
+    "minestuck:iodine": 5000,
+    "minestuck:amber": 3000
+  },
+  "ingredient": {
+    "item": "hazennstuff:wisewood_cane"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [],
+  "remove": [
+    "hazentouvelib:steel_ingot",
+    "hazennstuff:steel_ingot",
+    "ms_extras:steel_ingot"
+  ]
+}

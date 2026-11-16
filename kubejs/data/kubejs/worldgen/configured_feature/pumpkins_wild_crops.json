@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 32,
+    "xz_spread": 5,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              { "data": { "Name": "farmersdelight:wild_potatoes" }, "weight": 1 },
+              { "data": { "Name": "farmersdelight:wild_onions" }, "weight": 1 },
+              { "data": { "Name": "farmersdelight:wild_carrots" }, "weight": 1 },
+              { "data": { "Name": "farmersdelight:wild_tomatoes" }, "weight": 1 }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              { "type": "minecraft:matching_blocks", "blocks": "minecraft:air" },
+              { "type": "minecraft:matching_blocks", "blocks": "minecraft:podzol", "offset": [0, -1, 0] }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:nautilus_knight_helmet"
+  },
+  "input2": {
+    "item": "hazennstuff:zenalite_ingot"
+  },
+  "mode": "and",
+  "output": "hazennstuff:elder_guardian_helmet"
+}

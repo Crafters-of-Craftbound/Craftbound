@@ -1,0 +1,23 @@
+{
+	id: "34C8C1484CD17A6E"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			id: "3DCEC0DEABA7E945"
+			item: {
+				count: 1
+				id: "a_man_with_plushies:plush_box"
+			}
+			weight: 0.9f
+		}
+		{
+			id: "27B3FF926596F1A7"
+			item: {
+				count: 1
+				id: "a_man_with_plushies:golden_plush_box"
+			}
+			weight: 0.1f
+		}
+	]
+}

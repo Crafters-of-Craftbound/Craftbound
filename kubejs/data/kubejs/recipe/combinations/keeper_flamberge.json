@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:cinder_essence"
+  },
+  "input2": {
+    "item": "minestuck:regisword"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:keeper_flamberge"
+}

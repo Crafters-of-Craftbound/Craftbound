@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": { "type": "minecraft:simple_state_provider", "state": { "Name": "minecraft:crimson_nylium" } },
+      "rules": []
+    },
+    "target": { "type": "minecraft:solid" },
+    "radius": 3,
+    "half_height": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "discerning_the_eldritch:forsaken_flamberge"
+  },
+  "input2": {
+    "item": "discerning_the_eldritch:eldritch_soul_shard"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:ymir"
+}

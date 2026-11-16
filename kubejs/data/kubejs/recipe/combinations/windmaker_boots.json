@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_boots"
+  },
+  "input2": {
+    "item": "aero_additions:wind_rune"
+  },
+  "mode": "and",
+  "output": "aero_additions:windmaker_boots"
+}

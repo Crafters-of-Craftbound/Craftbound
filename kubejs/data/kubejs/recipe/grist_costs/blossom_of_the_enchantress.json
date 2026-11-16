@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:iodine": 8500,
+    "minestuck:diamond": 5100,
+    "minestuck:amethyst": 3400
+  },
+  "ingredient": {
+    "item": "hazennstuff:blossom_of_the_enchantress"
+  }
+}

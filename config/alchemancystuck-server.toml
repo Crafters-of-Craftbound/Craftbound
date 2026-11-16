@@ -1,0 +1,3 @@
+[gameplay]
+	#Whether default Alchemancy properties add a grist surcharge to Alchemiter costs. Does not affect Cruxite or SBAHJ.
+	propertyGristCosts = true

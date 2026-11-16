@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:flaming_template"
+  },
+  "input2": {
+    "item": "hazennstuff:fireblossom_gown_helmet"
+  },
+  "mode": "and",
+  "output": "hazennstuff:fireblossom_knight_helmet"
+}

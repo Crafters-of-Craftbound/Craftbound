@@ -1,0 +1,39 @@
+{
+	id: "0C2FFE2B05B72B05"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ id: "042F401521425ABA", item: { count: 1, id: "cataclysm:ender_guardian_spawn_egg" } }
+		{ id: "5D34EF6E85D87EB5", item: { count: 1, id: "cataclysm:netherite_monstrosity_spawn_egg" } }
+		{ id: "78687133606E66EB", item: { count: 1, id: "cataclysm:ignis_spawn_egg" } }
+		{ id: "748E1F4EAB7169BE", item: { count: 1, id: "cataclysm:the_harbinger_spawn_egg" } }
+		{ id: "35B61CB49D7A93EB", item: { count: 1, id: "cataclysm:the_leviathan_spawn_egg" } }
+		{ id: "2B30766F6D88ABB4", item: { components: { "minecraft:entity_data": { has_necklace: 1b, id: "cataclysm:ancient_remnant" } }, count: 1, id: "cataclysm:ancient_remnant_spawn_egg" } }
+		{ id: "3148339D46F7A595", item: { count: 1, id: "cataclysm:maledictus_spawn_egg" } }
+		{ id: "48542092230C0F6B", item: { count: 1, id: "cataclysm:scylla_spawn_egg" } }
+		{ id: "4A30B9CEBBC9187E", item: { count: 1, id: "mowziesmobs:frostmaw_spawn_egg" } }
+		{ id: "5485882FF8F77E6C", item: { count: 1, id: "mowziesmobs:umvuthi_spawn_egg" } }
+		{ id: "210AA43CCFDCF8E7", item: { components: { "minecraft:entity_data": { id: "bosses_of_mass_destruction:void_blossom" }, "minecraft:item_name": "\"Cainte Spawn Egg\"" }, count: 1, id: "quark:stoneling_spawn_egg" } }
+		{ id: "30B4C9C06F759DD1", item: { components: { "minecraft:entity_data": { id: "bosses_of_mass_destruction:obsidilith" }, "minecraft:item_name": "\"Ecne Spawn Egg\"" }, count: 1, id: "quark:stoneling_spawn_egg" } }
+		{
+			count: 2
+			id: "56B4B0B86EAD2DFE"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "bosses_of_mass_destruction:gauntlet"
+					}
+					"minecraft:item_name": "\"Litavis Spawn Egg\""
+				}
+				count: 1
+				id: "quark:stoneling_spawn_egg"
+			}
+		}
+		{ id: "38FCBD34DDCF24D3", item: { components: { "minecraft:entity_data": { id: "bosses_of_mass_destruction:lich" }, "minecraft:item_name": "\"Black King Spawn Egg\"" }, count: 1, id: "quark:stoneling_spawn_egg" } }
+		{ id: "3CE90EED53419D06", item: { components: { "minecraft:entity_data": { id: "irons_spellbooks:dead_king" }, "minecraft:item_name": "\"Black Queen Spawn Egg\"" }, count: 1, id: "quark:stoneling_spawn_egg" } }
+		{ id: "72B5328902B74E9B", item: { components: { "minecraft:entity_data": { id: "irons_spellbooks:fire_boss" }, "minecraft:item_name": "\"Flamebearer Spawn Egg\"" }, count: 1, id: "quark:stoneling_spawn_egg" } }
+		{ id: "691A72A5500F2F74", item: { components: { "minecraft:entity_data": { id: "discerning_the_eldritch:ascended_one" }, "minecraft:item_name": "\"Ascended One Spawn Egg\"" }, count: 1, id: "quark:stoneling_spawn_egg" } }
+		{ id: "5DA584D21FC30A61", item: { count: 1, id: "minecraft:wither_spawn_egg" } }
+		{ id: "10F6048567AF7E94", item: { count: 1, id: "minecraft:ender_dragon_spawn_egg" } }
+	]
+}

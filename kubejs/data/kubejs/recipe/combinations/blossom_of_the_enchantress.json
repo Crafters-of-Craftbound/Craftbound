@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:graybeard_staff"
+  },
+  "input2": {
+    "item": "irons_spellbooks:nature_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:blossom_of_the_enchantress"
+}

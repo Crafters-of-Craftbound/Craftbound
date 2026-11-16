@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      { "chance": 0.35, "feature": { "feature": "kubejs:crystals_spire_amethyst", "placement": [] } },
+      { "chance": 0.2, "feature": { "feature": "kubejs:crystals_spire_indigo", "placement": [] } },
+      { "chance": 0.2, "feature": { "feature": "kubejs:crystals_spire_blue", "placement": [] } },
+      { "chance": 0.2, "feature": { "feature": "kubejs:crystals_spire_green", "placement": [] } },
+      { "chance": 0.2, "feature": { "feature": "kubejs:crystals_spire_yellow", "placement": [] } },
+      { "chance": 0.2, "feature": { "feature": "kubejs:crystals_spire_orange", "placement": [] } },
+      { "chance": 0.25, "feature": { "feature": "kubejs:crystals_spire_red", "placement": [] } }
+    ],
+    "default": { "feature": "kubejs:crystals_spire_violet", "placement": [] }
+  }
+}

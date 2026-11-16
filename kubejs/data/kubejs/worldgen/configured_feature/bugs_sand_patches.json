@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "minecraft:disk",
+        "config": {
+          "state_provider": {
+            "fallback": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:red_sand"
+              }
+            },
+            "rules": []
+          },
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:mud"
+          },
+          "radius": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 3,
+            "max_inclusive": 5
+          },
+          "half_height": 1
+        }
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": {
+            "type": "minecraft:disk",
+            "config": {
+              "state_provider": {
+                "fallback": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "biomeswevegone:pink_sand"
+                  }
+                },
+                "rules": []
+              },
+              "target": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:mud"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 3,
+                "max_inclusive": 5
+              },
+              "half_height": 1
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}

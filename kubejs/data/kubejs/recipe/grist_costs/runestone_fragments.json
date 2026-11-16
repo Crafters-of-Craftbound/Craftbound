@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 4000,
+    "minestuck:amethyst": 1000,
+    "minestuck:cobalt": 800,
+    "minestuck:diamond": 200
+  },
+  "ingredient": {
+    "item": "hazennstuff:runestone_fragments"
+  }
+}

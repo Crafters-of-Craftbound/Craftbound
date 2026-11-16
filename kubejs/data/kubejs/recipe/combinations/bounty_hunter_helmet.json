@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_helmet"
+  },
+  "input2": {
+    "item": "hazennstuff:archery_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:bounty_hunter_helmet"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:pointer_wand"
+  },
+  "input2": {
+    "item": "minecraft:ender_eye"
+  },
+  "mode": "and",
+  "output": "hazennstuff:enderconic_scepter"
+}

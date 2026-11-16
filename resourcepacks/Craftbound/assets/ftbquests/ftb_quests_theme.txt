@@ -1,0 +1,26 @@
+[*]
+background:          ftblibrary:textures/gui/background_squares.png; tile_size=64
+text_color:          #ffffff
+hover_text_color:    #6bfd61
+disabled_text_color: #c5c5c5
+
+widget_border:     #0fff00
+widget_background: #000000
+symbol_in:         #0fff00
+symbol_out:        #0cba00
+
+border_round_edges=true
+full_screen_quest:                  0
+tasks_text_color:                   #ffffff
+rewards_text_color:                 #ffffff
+quest_view_title:                   #ffffff
+quest_completed_color:              #0fff00
+quest_started_color:                #60ff55
+dependency_line_completed_color:    #0fff00
+dependency_line_requires_color:     #0fff00
+dependency_line_required_for_color: #0fff00
+dependency_line_selected_speed:     1.0
+dependency_line_unselected_speed:   0.0
+dependency_line_thickness:          0.175
+quest_spacing:                      1.0
+pinned_quest_size:                  0.75

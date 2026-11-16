@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "kubejs:block/infusizer_top" },
+    "facing=east": { "model": "kubejs:block/infusizer_top", "y": 90 },
+    "facing=south": { "model": "kubejs:block/infusizer_top", "y": 180 },
+    "facing=west": { "model": "kubejs:block/infusizer_top", "y": 270 }
+  }
+}

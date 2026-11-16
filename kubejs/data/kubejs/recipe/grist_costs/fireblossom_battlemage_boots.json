@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 9000,
+    "minestuck:ruby": 6000,
+    "minestuck:amethyst": 3000
+  },
+  "ingredient": {
+    "item": "hazennstuff:fireblossom_battlemage_boots"
+  }
+}

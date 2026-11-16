@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "category": "deploy",
+      "cost": [
+        {
+          "grist": {
+            "minestuck:build": 19413
+          }
+        }
+      ],
+      "structure": "minestuck_essentials:intellibeam_laserstation",
+      "name": "Intellibeam Laserstation",
+      "facing": "east"
+    }
+  ]
+}

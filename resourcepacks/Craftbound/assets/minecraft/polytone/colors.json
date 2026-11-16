@@ -1,0 +1,15 @@
+{
+  "text": {
+    "dark_red": "0xba1016",
+    "red": "0xff2106",
+    "gold": "0xf0840c",
+    "yellow": "0xf6fa4e",
+    "dark_green": "0x306800",
+    "green": "0x72eb34",
+    "aqua": "0x47dff9",
+    "dark_aqua": "0x06ffc9",
+    "dark_blue": "0x104ea2",
+    "light_purple": "0xbd1864",
+    "dark_purple": "0x9c4dad"
+  }
+}

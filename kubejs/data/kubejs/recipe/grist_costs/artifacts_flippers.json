@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:cobalt": 30000,
+    "minestuck:caulk": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:flippers"
+  }
+}

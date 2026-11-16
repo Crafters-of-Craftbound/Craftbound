@@ -1,0 +1,6 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": { "item": "kubejs:honeyfied_slime_block" },
+  "sources": [ "minecraft:honey_block" ]
+}

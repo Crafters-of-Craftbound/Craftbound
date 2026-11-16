@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:gold": 14000,
+    "minestuck:diamond": 8400,
+    "minestuck:amethyst": 5600
+  },
+  "ingredient": {
+    "item": "hazennstuff:mothic_witch_boots"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:netherite_mage_chestplate"
+  },
+  "input2": {
+    "item": "hazennstuff:zenalite_ingot"
+  },
+  "mode": "and",
+  "output": "hazennstuff:infestation_chestplate"
+}

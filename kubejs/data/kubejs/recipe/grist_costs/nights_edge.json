@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 14000,
+    "minestuck:uranium": 8000,
+    "minestuck:amethyst": 5000
+  },
+  "ingredient": {
+    "item": "hazennstuff:nights_edge"
+  }
+}

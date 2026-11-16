@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:diamond": 40000,
+    "minestuck:gold": 30000,
+    "minestuck:uranium": 20000
+  },
+  "ingredient": {
+    "item": "hazennstuff:ascended_arbitrium_robes_boots"
+  }
+}

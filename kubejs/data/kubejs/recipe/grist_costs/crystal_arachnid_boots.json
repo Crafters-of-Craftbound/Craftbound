@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:cobalt": 12000,
+    "minestuck:diamond": 7200,
+    "minestuck:amethyst": 4800
+  },
+  "ingredient": {
+    "item": "hazennstuff:crystal_arachnid_boots"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:shadowwalker_leggings"
+  },
+  "input2": {
+    "item": "discerning_the_eldritch:eldritch_rune"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:eldritch_warlock_leggings"
+}

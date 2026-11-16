@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:prospecting_pickscythe"
+  },
+  "input2": {
+    "item": "irons_spellbooks:arcane_essence"
+  },
+  "mode": "and",
+  "output": "hazennstuff:spectral_pickaxe"
+}

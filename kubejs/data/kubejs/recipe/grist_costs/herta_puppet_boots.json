@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:cobalt": 5000,
+    "minestuck:diamond": 3000,
+    "minestuck:amethyst": 2000
+  },
+  "ingredient": {
+    "item": "hazennstuff:herta_puppet_boots"
+  }
+}

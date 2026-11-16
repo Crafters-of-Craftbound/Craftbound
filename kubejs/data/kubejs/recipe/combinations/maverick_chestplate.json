@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:seraph_chestplate"
+  },
+  "input2": {
+    "item": "minecraft:vine"
+  },
+  "mode": "and",
+  "output": "hazennstuff:maverick_chestplate"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "discerning_the_eldritch:cataclysm"
+  },
+  "input2": {
+    "item": "discerning_the_eldritch:bucket_of_malice"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:cataclysm_awakened"
+}

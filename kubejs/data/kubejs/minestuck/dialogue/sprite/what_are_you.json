@@ -1,0 +1,30 @@
+{
+  "node": {
+    "animation": {},
+    "gui": "minestuck:textures/gui/dialogue/dialogue.png",
+    "messages": [
+      {
+        "type": "entity",
+        "message": "kubejs.dialogue.sprite.what_are_you"
+      },
+      {
+        "type": "description",
+        "message": "kubejs.dialogue.sprite.what_are_you.desc"
+      }
+    ],
+    "responses": [
+      {
+        "condition": {
+          "type": "minestuck:always_true"
+        },
+        "hide_if_failed": true,
+        "message": "minestuck.dialogue.individual.kernelsprite.return",
+        "next_dialogue": {
+          "id": "kubejs:sprite/start",
+          "set_as_entrypoint": true
+        },
+        "triggers": []
+      }
+    ]
+  }
+}

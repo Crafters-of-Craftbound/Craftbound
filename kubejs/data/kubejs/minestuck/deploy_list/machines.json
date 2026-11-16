@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "cost": [ { "grist": { "minestuck:rust": 200, "minestuck:uranium": 200, "minestuck:chalk": 200 } } ],
+      "item": { "count": 1, "id": "kubejs:dna_sequencer" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:chalk": 48, "minestuck:uranium": 13, "minestuck:mercury": 8, "minestuck:diamond": 5 } } ],
+      "item": { "count": 1, "id": "elevatorid:elevator_white" }
+    }
+  ],
+  "priority": 100
+}

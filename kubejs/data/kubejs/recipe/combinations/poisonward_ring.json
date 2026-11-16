@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:mithril_scrap"
+  },
+  "input2": {
+    "item": "irons_spellbooks:nature_rune"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:poisonward_ring"
+}

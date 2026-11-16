@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:silver_ring"
+  },
+  "input2": {
+    "item": "minestuck:energy_core"
+  },
+  "mode": "and",
+  "output": "hazennstuff:ring_of_efficiency"
+}

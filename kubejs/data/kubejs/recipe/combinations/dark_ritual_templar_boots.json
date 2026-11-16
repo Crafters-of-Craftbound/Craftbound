@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:cultist_boots"
+  },
+  "input2": {
+    "item": "discerning_the_eldritch:ritual_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:dark_ritual_templar_boots"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:shale": 2500,
+    "minestuck:amethyst": 500
+  },
+  "ingredient": {
+    "item": "gtbcs_geomancy_plus:geo_rune"
+  }
+}

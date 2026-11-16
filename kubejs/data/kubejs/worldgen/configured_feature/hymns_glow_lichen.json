@@ -1,0 +1,1 @@
+{"type":"minecraft:multiface_growth","config":{"block":"minecraft:glow_lichen","search_range":12,"can_place_on_floor":true,"can_place_on_ceiling":false,"can_place_on_wall":true,"chance_of_spreading":0.5,"can_be_placed_on":["biomeswevegone:lush_grass_block","biomeswevegone:lush_dirt","minecraft:dripstone_block","abyssal_decor:brittle_tuff"]}}

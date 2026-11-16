@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:artificer_cane"
+  },
+  "input2": {
+    "item": "hazennstuff:cosmic_gold_ingot"
+  },
+  "mode": "and",
+  "output": "hazennstuff:nexus"
+}

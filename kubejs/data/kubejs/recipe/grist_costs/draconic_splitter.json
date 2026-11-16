@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 19000,
+    "minestuck:diamond": 11400,
+    "minestuck:amethyst": 7600
+  },
+  "ingredient": {
+    "item": "hazennstuff:draconic_splitter"
+  }
+}

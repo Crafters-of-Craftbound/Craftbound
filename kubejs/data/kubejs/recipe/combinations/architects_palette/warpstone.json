@@ -1,0 +1,7 @@
+{
+  "type": "minestuck:combination",
+  "input1": { "item": "minecraft:clay" },
+  "input2": { "item": "minecraft:netherrack" },
+  "mode": "or",
+  "output": "architects_palette:warpstone"
+}

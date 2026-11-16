@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "aero_additions:wind_rune"
+  },
+  "input2": {
+    "item": "irons_spellbooks:magic_cloth"
+  },
+  "mode": "and",
+  "output": "aero_additions:air_staff"
+}

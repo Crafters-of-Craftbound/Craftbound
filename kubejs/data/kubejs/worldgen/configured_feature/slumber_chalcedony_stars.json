@@ -1,0 +1,1 @@
+{"type":"minecraft:replace_single_block","config":{"targets":[{"target":{"predicate_type":"minecraft:block_match","block":"cluttered:deep_raw_chalcedony"},"state":{"Name":"cluttered:deep_chalcedony_sun_block"}}]}}

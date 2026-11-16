@@ -1,0 +1,18 @@
+(() => {
+	LootJS.modifiers(event => {
+		event.addTableModifier(LootType.CHEST, LootType.VAULT)
+			.matchDimension('minecraft:overworld')
+			.removeLoot(['@irons_spellbooks', '@hazennstuff', '@hazentouvelib', '@discerning_the_eldritch', '@aero_additions', '@farmers_spell', '@aces_spell_utils', '@gtbcs_geomancy_plus', ItemFilter.hasStoredEnchantment('@irons_spellbooks'), ItemFilter.hasStoredEnchantment('@hazennstuff')])
+		event.addTableModifier(LootType.CHEST, LootType.VAULT)
+			.matchDimension('minecraft:the_nether', 'minecraft:the_end')
+			.removeLoot('irons_spellbooks:scroll')
+		event.addTableModifier(LootType.CHEST, LootType.VAULT).removeLoot('minestuck:transportalizer')
+		event.addTableModifier(LootType.CHEST)
+			.replaceLoot('farmersdelight:iron_knife', 'kaleidoscope_cookery:iron_kitchen_knife', true)
+			.replaceLoot('farmersdelight:golden_knife', 'kaleidoscope_cookery:gold_kitchen_knife', true)
+			.replaceLoot('farmersdelight:diamond_knife', 'kaleidoscope_cookery:diamond_kitchen_knife', true)
+			.replaceLoot('farmersdelight:cooking_pot', 'kaleidoscope_cookery:stockpot', true)
+			.replaceLoot('farmersdelight:skillet', 'kaleidoscope_cookery:pot', true)
+		event.addTableModifier(/.*/).removeLoot(['abyssal_decor:clam_and_cheese_sandwich', 'abyssal_decor:cinnamon_roll', 'abyssal_decor:candy_bog_apple', 'abyssal_decor:fever_blossom_tea', 'abyssal_decor:cooked_muckroot', 'abyssal_decor:toasted_seeds', 'abyssal_decor:cinnamon_tea', 'abyssal_decor:bog_roll', 'abyssal_decor:muckroot_soup', 'abyssal_decor:le_fishe_au_chocolat', 'abyssal_decor:cinnamon_apple', 'abyssal_decor:bog_apple', 'abyssal_decor:spidercorn_tortilla', 'abyssal_decor:popped_spidercorn', 'abyssal_decor:cave_taco', 'abyssal_decor:cave_taco_with_stones', 'abyssal_decor:shucked_clam', 'abyssal_decor:bog_apple_pie', 'abyssal_decor:laser_assisted_electrical_rifle', 'abyssal_decor:bottomless_bag_of_snow', 'abyssal_decor:bottomless_bag_of_netherrack', 'abyssal_decor:bottomless_bag_of_cobblestone', 'abyssal_decor:bottomless_bag_of_dirt', 'abyssal_decor:dusty_cd', 'abyssal_decor:chorus_pearl_item', 'abyssal_decor:strange_metal_rod', 'abyssal_decor:fallen_barrier_block'])
+	})
+})()

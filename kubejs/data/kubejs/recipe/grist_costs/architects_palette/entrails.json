@@ -1,0 +1,9 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": { "item": "architects_palette:entrails" },
+  "sources": [
+    "architects_palette:rotten_flesh_block",
+    "minecraft:netherrack"
+  ]
+}

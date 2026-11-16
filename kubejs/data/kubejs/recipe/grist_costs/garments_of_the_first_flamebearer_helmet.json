@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 11000,
+    "minestuck:diamond": 6600,
+    "minestuck:amethyst": 4400
+  },
+  "ingredient": {
+    "item": "hazennstuff:garments_of_the_first_flamebearer_helmet"
+  }
+}

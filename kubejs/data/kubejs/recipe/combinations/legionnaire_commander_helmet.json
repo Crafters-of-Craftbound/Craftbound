@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:pyrium_helmet"
+  },
+  "input2": {
+    "item": "hazennstuff:pyrium_nugget"
+  },
+  "mode": "and",
+  "output": "hazennstuff:legionnaire_commander_helmet"
+}

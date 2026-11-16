@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:excalibur_fragment"
+  },
+  "input2": {
+    "item": "hazennstuff:wisewood_planks"
+  },
+  "mode": "and",
+  "output": "hazennstuff:bountiful_harvest"
+}

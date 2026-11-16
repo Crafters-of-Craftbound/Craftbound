@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:chalk": 4000,
+    "minestuck:amethyst": 2000,
+    "minestuck:quartz": 1000
+  },
+  "ingredient": {
+    "item": "aero_additions:windmaker_robes"
+  }
+}

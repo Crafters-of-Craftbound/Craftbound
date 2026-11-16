@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck_extended:shadow_sword"
+  },
+  "input2": {
+    "item": "hazennstuff:demonite_ingot"
+  },
+  "mode": "and",
+  "output": "hazennstuff:nights_edge"
+}

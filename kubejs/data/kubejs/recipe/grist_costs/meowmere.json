@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:diamond": 35000,
+    "minestuck:gold": 25000,
+    "minestuck:amethyst": 20000
+  },
+  "ingredient": {
+    "item": "hazennstuff:meowmere"
+  }
+}

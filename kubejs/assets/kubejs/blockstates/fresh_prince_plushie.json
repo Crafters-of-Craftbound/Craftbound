@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "kubejs:block/fresh_prince_plushie" },
+		"facing=east": { "model": "kubejs:block/fresh_prince_plushie", "y": 90 },
+		"facing=south": { "model": "kubejs:block/fresh_prince_plushie", "y": 180 },
+		"facing=west": { "model": "kubejs:block/fresh_prince_plushie", "y": 270 }
+	}
+}

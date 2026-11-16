@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_helmet"
+  },
+  "input2": {
+    "item": "hazentouvelib:shadow_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:masked_fool_helmet"
+}

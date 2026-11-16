@@ -1,0 +1,15 @@
+{
+	id: "0C47AA77BD157104"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ id: "38AED4927291C5BD", item: { count: 1, id: "refurbished_furniture:oak_mail_box" } }
+		{ id: "7B34FA2A93A67E83", item: { count: 1, id: "refurbished_furniture:spruce_mail_box" } }
+		{ id: "65838361A3E5C273", item: { count: 1, id: "refurbished_furniture:birch_mail_box" } }
+		{ id: "41CA522117C2D7D6", item: { count: 1, id: "refurbished_furniture:jungle_mail_box" } }
+		{ id: "26D8722030490515", item: { count: 1, id: "refurbished_furniture:acacia_mail_box" } }
+		{ id: "0D2ED5A2435A45A0", item: { count: 1, id: "refurbished_furniture:dark_oak_mail_box" } }
+		{ id: "7B8344F0E9A0C7E8", item: { count: 1, id: "refurbished_furniture:cherry_mail_box" } }
+		{ id: "6530E7BB3A7EC59E", item: { count: 1, id: "everycomp:rfm/quark/azalea_mail_box" } }
+	]
+}

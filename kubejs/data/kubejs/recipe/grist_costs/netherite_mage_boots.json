@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:diamond": 5000,
+    "minestuck:amethyst": 2500,
+    "minestuck:rust": 2000
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:netherite_mage_boots"
+  }
+}

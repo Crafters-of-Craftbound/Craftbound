@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "kubejs:block/second_coming_of_durian_with_a_gun" },
+		"facing=east": { "model": "kubejs:block/second_coming_of_durian_with_a_gun", "y": 90 },
+		"facing=south": { "model": "kubejs:block/second_coming_of_durian_with_a_gun", "y": 180 },
+		"facing=west": { "model": "kubejs:block/second_coming_of_durian_with_a_gun", "y": 270 }
+	}
+}

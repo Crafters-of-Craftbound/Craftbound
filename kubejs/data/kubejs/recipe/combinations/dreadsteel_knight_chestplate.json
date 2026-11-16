@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "input2": {
+    "item": "hazennstuff:dreadsteel_ingot"
+  },
+  "mode": "and",
+  "output": "hazennstuff:dreadsteel_knight_chestplate"
+}

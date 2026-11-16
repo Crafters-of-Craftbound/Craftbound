@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_chestplate"
+  },
+  "input2": {
+    "item": "hazennstuff:hydro_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:nautilus_knight_chestplate"
+}

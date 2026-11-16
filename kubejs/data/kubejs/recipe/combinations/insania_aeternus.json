@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:artificer_cane"
+  },
+  "input2": {
+    "item": "hazennstuff:eldritch_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:insania_aeternus"
+}

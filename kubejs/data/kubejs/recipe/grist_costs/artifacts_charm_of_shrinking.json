@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 30000,
+    "minestuck:quartz": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:charm_of_shrinking"
+  }
+}

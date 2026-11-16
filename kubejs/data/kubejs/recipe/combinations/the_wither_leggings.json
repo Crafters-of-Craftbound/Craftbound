@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:flesh_mass_leggings"
+  },
+  "input2": {
+    "item": "minecraft:wither_skeleton_skull"
+  },
+  "mode": "and",
+  "output": "hazennstuff:the_wither_leggings"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:electromancer_chestplate"
+  },
+  "input2": {
+    "item": "hazennstuff:zenalite_ingot"
+  },
+  "mode": "and",
+  "output": "hazennstuff:thunder_prowler_chestplate"
+}

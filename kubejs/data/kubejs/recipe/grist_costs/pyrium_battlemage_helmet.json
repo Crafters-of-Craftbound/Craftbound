@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 9500,
+    "minestuck:diamond": 5700,
+    "minestuck:amethyst": 3800
+  },
+  "ingredient": {
+    "item": "hazennstuff:pyrium_battlemage_helmet"
+  }
+}

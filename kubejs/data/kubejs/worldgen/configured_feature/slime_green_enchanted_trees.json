@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      { "chance": 0.25, "feature": { "feature": "kubejs:slime_green_enchanted_tree1", "placement": [] } },
+      { "chance": 0.33, "feature": { "feature": "kubejs:slime_green_enchanted_tree2", "placement": [] } },
+      { "chance": 0.5, "feature": { "feature": "kubejs:slime_green_enchanted_tree3", "placement": [] } }
+    ],
+    "default": { "feature": "kubejs:slime_green_enchanted_tree4", "placement": [] }
+  }
+}

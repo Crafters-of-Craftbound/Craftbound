@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:diamond_dagger"
+  },
+  "input2": {
+    "item": "irons_spellbooks:icy_fang"
+  },
+  "mode": "and",
+  "output": "hazennstuff:frostburn_dagger"
+}

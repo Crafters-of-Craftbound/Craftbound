@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:netherite_mage_boots"
+  },
+  "input2": {
+    "item": "minecraft:spectral_arrow"
+  },
+  "mode": "and",
+  "output": "hazennstuff:giorno_giovanna_boots"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:rust": 8000,
+    "minestuck:diamond": 5000,
+    "minestuck:amethyst": 3000
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:claymore"
+  }
+}

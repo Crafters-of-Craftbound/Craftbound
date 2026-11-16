@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 6000,
+    "minestuck:uranium": 3000,
+    "minestuck:diamond": 1000
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:invisibility_ring"
+  }
+}

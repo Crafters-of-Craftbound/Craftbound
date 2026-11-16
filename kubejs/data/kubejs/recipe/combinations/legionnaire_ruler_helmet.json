@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:pyrium_helmet"
+  },
+  "input2": {
+    "item": "irons_spellbooks:magic_cloth"
+  },
+  "mode": "and",
+  "output": "hazennstuff:legionnaire_ruler_helmet"
+}

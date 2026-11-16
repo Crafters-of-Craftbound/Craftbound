@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:sweet_berries"
+  },
+  "input2": {
+    "item": "minestuck:clubs_suitarang"
+  },
+  "mode": "and",
+  "output": "hazennstuff:thorn_chakram"
+}

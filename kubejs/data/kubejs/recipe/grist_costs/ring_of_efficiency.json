@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 7000,
+    "minestuck:uranium": 4000,
+    "minestuck:diamond": 2000
+  },
+  "ingredient": {
+    "item": "hazennstuff:ring_of_efficiency"
+  }
+}

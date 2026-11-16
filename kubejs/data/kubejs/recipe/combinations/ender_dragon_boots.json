@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:shadowwalker_boots"
+  },
+  "input2": {
+    "item": "minecraft:dragon_breath"
+  },
+  "mode": "and",
+  "output": "hazennstuff:ender_dragon_boots"
+}

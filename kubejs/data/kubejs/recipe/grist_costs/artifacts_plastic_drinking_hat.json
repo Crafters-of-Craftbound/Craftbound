@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:caulk": 30000,
+    "minestuck:iodine": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:plastic_drinking_hat"
+  }
+}

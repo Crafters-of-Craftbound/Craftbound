@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 4000,
+    "minestuck:iodine": 2000,
+    "minestuck:diamond": 1000
+  },
+  "ingredient": {
+    "item": "farmers_spell:foodgeist_ring"
+  }
+}

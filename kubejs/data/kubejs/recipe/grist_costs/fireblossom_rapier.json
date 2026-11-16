@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 10000,
+    "minestuck:ruby": 6000,
+    "minestuck:amethyst": 4000
+  },
+  "ingredient": {
+    "item": "hazennstuff:fireblossom_rapier"
+  }
+}

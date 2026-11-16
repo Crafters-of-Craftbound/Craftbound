@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:arcane_ingot"
+  },
+  "input2": {
+    "item": "minecraft:diamond"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:mana_ring"
+}

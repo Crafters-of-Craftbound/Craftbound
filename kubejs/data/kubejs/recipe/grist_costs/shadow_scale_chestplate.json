@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 5000,
+    "minestuck:diamond": 3000,
+    "minestuck:amethyst": 2000
+  },
+  "ingredient": {
+    "item": "hazennstuff:shadow_scale_chestplate"
+  }
+}

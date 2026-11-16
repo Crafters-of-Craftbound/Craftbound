@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:permafrost_shard"
+  },
+  "input2": {
+    "item": "minestuck:wizard_staff"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:ice_staff"
+}

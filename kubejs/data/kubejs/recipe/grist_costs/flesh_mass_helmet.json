@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:garnet": 8000,
+    "minestuck:gold": 5000,
+    "minestuck:amethyst": 3000
+  },
+  "ingredient": {
+    "item": "hazennstuff:flesh_mass_helmet"
+  }
+}

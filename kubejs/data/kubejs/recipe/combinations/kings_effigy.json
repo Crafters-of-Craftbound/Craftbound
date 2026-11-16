@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "input2": {
+    "item": "minestuck:derse_circlet"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:kings_effigy"
+}

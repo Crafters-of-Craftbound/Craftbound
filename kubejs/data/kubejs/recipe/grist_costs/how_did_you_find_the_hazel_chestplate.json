@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 19500,
+    "minestuck:diamond": 11700,
+    "minestuck:amethyst": 7800
+  },
+  "ingredient": {
+    "item": "hazennstuff:how_did_you_find_the_hazel_chestplate"
+  }
+}

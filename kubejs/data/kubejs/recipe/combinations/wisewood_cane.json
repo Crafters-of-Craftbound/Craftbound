@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:cane"
+  },
+  "input2": {
+    "item": "hazennstuff:wisewood_sapling"
+  },
+  "mode": "and",
+  "output": "hazennstuff:wisewood_cane"
+}

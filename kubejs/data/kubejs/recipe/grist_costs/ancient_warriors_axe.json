@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:marble": 10000,
+    "minestuck:diamond": 6000,
+    "minestuck:amethyst": 4000
+  },
+  "ingredient": {
+    "item": "hazennstuff:ancient_warriors_axe"
+  }
+}

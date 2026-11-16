@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 24,
+    "xz_spread": 6,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              { "data": { "Name": "biomeswevegone:shrub" }, "weight": 4 },
+              { "data": { "Name": "biomeswevegone:white_sage" }, "weight": 1 },
+              { "data": { "Name": "biomeswevegone:blue_sage" }, "weight": 1 },
+              { "data": { "Name": "biomeswevegone:purple_sage" }, "weight": 1 },
+              { "data": { "Name": "biomeswevegone:horseweed" }, "weight": 2 },
+              { "data": { "Name": "minecraft:firefly_bush" }, "weight": 1 },
+              { "data": { "Name": "minecraft:red_shrub" }, "weight": 2 }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              { "type": "minecraft:matching_blocks", "blocks": "minecraft:air" },
+              { "type": "minecraft:matching_blocks", "blocks": "minecraft:podzol", "offset": [0, -1, 0] }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

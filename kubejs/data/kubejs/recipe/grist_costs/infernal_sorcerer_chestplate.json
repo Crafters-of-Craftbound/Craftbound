@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 7000,
+    "minestuck:diamond": 4000,
+    "minestuck:amethyst": 3000
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:infernal_sorcerer_chestplate"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	id: "0BBF8D35BAFB8531"
+	loot_size: 1
+	order_index: 18
+	rewards: [{ id: "1F5D82F0D3EEBC75", item: { components: { "create:package_contents": [{ item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }] }, count: 1, id: "create:cardboard_package_10x8" } }]
+}

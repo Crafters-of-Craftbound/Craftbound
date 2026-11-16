@@ -1,0 +1,15 @@
+{
+  "custom.pesteropen": { "category": "master", "sounds": [ "custom/pesteropen" ] },
+  "custom.pesterclose": { "category": "master", "sounds": [ "custom/pesterclose" ] },
+  "custom.steps": { "category": "master", "sounds": [ "custom/steps" ] },
+  "custom.vanish": { "category": "master", "sounds": [ "custom/vanish" ] },
+  "custom.error": { "category": "master", "sounds": [ "custom/error" ] },
+  "custom.prospit_sleep": { "category": "master", "sounds": [ "custom/prospit_sleep" ] },
+  "custom.derse_sleep": { "category": "master", "sounds": [ "custom/derse_sleep" ] },
+  "custom.prospit_instant": { "category": "master", "sounds": [ "custom/prospit_instant" ] },
+  "custom.derse_instant": { "category": "master", "sounds": [ "custom/derse_instant" ] },
+  "custom.sburban_jungle": { "category": "record", "sounds": [ { "name": "custom/sburban_jungle", "stream": true } ] },
+"custom.act7": { "category": "record", "sounds": [ { "name": "custom/act7", "stream": true } ] },
+  "custom.phone_startup": { "category": "master", "sounds": [ "custom/phone_startup" ] },
+  "custom.phone_beep": { "category": "master", "sounds": [ "custom/phone_beep" ] }
+}

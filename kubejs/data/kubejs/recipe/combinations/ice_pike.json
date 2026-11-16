@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:permafrost_fragment"
+  },
+  "input2": {
+    "item": "irons_spellbooks:frosted_helve"
+  },
+  "mode": "and",
+  "output": "hazennstuff:ice_pike"
+}

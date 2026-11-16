@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:electromancer_boots"
+  },
+  "input2": {
+    "item": "hazennstuff:shadow_scale"
+  },
+  "mode": "and",
+  "output": "hazennstuff:charged_scourge_boots"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:uranium": 30000,
+    "minestuck:amethyst": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:warp_drive"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:mithril_scrap"
+  },
+  "input2": {
+    "item": "minecraft:iron_nugget"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:silver_ring"
+}

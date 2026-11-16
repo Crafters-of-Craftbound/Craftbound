@@ -1,0 +1,51 @@
+{
+	id: "2FF5467F8D70C729"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			id: "10535CAE3AB25434"
+			item: {
+				components: {
+					"minestuck:value": 10L
+				}
+				count: 1
+				id: "minestuck:boondollars"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "1DC970C8D59906B5"
+			item: {
+				components: {
+					"minestuck:value": 100L
+				}
+				count: 1
+				id: "minestuck:boondollars"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "41AF8E9480ADB1C3"
+			item: {
+				components: {
+					"minestuck:value": 1000L
+				}
+				count: 1
+				id: "minestuck:boondollars"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "70DCA2C9D8CBE351"
+			item: {
+				components: {
+					"minestuck:value": 10000L
+				}
+				count: 1
+				id: "minestuck:boondollars"
+			}
+			weight: 0.01f
+		}
+	]
+}

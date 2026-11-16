@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 10000,
+    "minestuck:uranium": 6000,
+    "minestuck:amethyst": 4000
+  },
+  "ingredient": {
+    "item": "hazennstuff:lights_bane"
+  }
+}

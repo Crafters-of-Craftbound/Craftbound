@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:arbitrium_robes_helmet"
+  },
+  "input2": {
+    "item": "minestuck:black_queens_ring"
+  },
+  "mode": "and",
+  "output": "hazennstuff:ascended_arbitrium_robes_helmet"
+}

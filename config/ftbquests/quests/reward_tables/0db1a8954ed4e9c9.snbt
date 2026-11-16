@@ -1,0 +1,202 @@
+{
+	id: "0DB1A8954ED4E9C9"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/grist add @p 20000 minestuck:build"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:build_gushers"
+			}
+			id: "3179D8DDFF897CE0"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 8000 minestuck:cobalt"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:cobalt_gum"
+			}
+			id: "53BD2E3129F68101"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 8000 minestuck:marble"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:marble_jawbreaker"
+			}
+			id: "4434EC761701F3B6"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 8000 minestuck:mercury"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:mercury_sixlets"
+			}
+			id: "487B965775E93596"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 8000 minestuck:quartz"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:quartz_jelly_bean"
+			}
+			id: "536699BF4388273A"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 8000 minestuck:sulfur"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:sulfur_candy_apple"
+			}
+			id: "0E6BA3E1B332C7E1"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 3.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 5000 minestuck:amethyst"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:amethyst_hard_candy"
+			}
+			id: "102E8ED4762CE954"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 5000 minestuck:garnet"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:garnet_twix"
+			}
+			id: "0FBEA8CB751514C6"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 5000 minestuck:ruby"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:ruby_lollipop"
+			}
+			id: "434DB42846A0E2EC"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 5000 minestuck:rust"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:rust_gummy_eye"
+			}
+			id: "262E124CE039B5C2"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 2500 minestuck:diamond"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:diamond_mint"
+			}
+			id: "271488F94CFDF931"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 2500 minestuck:gold"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:gold_candy_ribbon"
+			}
+			id: "70C4945205E2CFF6"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+		{
+			auto: "no_toast"
+			command: "/grist add @p 2500 minestuck:uranium"
+			disable_reward_screen_blur: true
+			icon: {
+				id: "minestuck:uranium_gummy_bear"
+			}
+			id: "10C72EE10EC74538"
+			ignore_reward_blocking: true
+			permission_level: 2
+			silent: true
+			team_reward: true
+			type: "command"
+			weight: 4.0f
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amber": 4000,
+    "minestuck:amethyst": 2000,
+    "minestuck:gold": 1000
+  },
+  "ingredient": {
+    "item": "tunes_n_tomes:bard_leggings"
+  }
+}

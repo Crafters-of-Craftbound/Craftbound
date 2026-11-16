@@ -1,0 +1,58 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench by Riotmode",
+	"render_type": "cutout",
+	"texture_size": [32, 32],
+	"textures": {
+		"4": "kubejs:block/infusizer_rod",
+		"particle": "kubejs:block/infusizer_rod"
+	},
+	"elements": [
+		{
+			"name": "baserod",
+			"from": [12, -2, 12],
+			"to": [16, 12, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 2, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 7], "texture": "#4"},
+				"east": {"uv": [2, 0, 4, 7], "texture": "#4"},
+				"south": {"uv": [4, 0, 6, 7], "texture": "#4"},
+				"west": {"uv": [6, 0, 8, 7], "texture": "#4"},
+				"up": {"uv": [0, 7, 2, 9], "texture": "#4"},
+				"down": {"uv": [2, 7, 4, 9], "texture": "#4"}
+			}
+		},
+		{
+			"from": [13.01, 12.01, 13.01],
+			"to": [14.99, 15.99, 14.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 13, 14]},
+			"faces": {
+				"north": {"uv": [4, 7, 5, 9], "texture": "#4"},
+				"east": {"uv": [5, 7, 6, 9], "texture": "#4"},
+				"south": {"uv": [6, 7, 7, 9], "texture": "#4"},
+				"west": {"uv": [7, 7, 8, 9], "texture": "#4"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#4"},
+				"down": {"uv": [8, 1, 9, 2], "texture": "#4"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "base2",
+			"origin": [7, -10, -24],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "totem2",
+					"origin": [7, -10, -24],
+					"scope": 0,
+					"color": 0,
+					"children": []
+				},
+				1
+			]
+		}
+	]
+}

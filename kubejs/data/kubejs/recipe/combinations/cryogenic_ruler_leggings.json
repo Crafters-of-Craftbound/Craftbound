@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:cryomancer_leggings"
+  },
+  "input2": {
+    "item": "irons_spellbooks:icy_fang"
+  },
+  "mode": "and",
+  "output": "hazennstuff:cryogenic_ruler_leggings"
+}

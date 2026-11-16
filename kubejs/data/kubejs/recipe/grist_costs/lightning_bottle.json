@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:mercury": 40,
+    "minestuck:sulfur": 20,
+    "minestuck:build": 10
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:lightning_bottle"
+  }
+}

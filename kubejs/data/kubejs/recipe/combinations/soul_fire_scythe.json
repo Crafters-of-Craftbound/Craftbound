@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:scythe"
+  },
+  "input2": {
+    "item": "minecraft:soul_lantern"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:soul_fire_scythe"
+}

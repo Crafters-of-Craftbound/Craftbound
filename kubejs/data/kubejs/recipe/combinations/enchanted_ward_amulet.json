@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:heavy_chain_necklace"
+  },
+  "input2": {
+    "item": "irons_spellbooks:protection_rune"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:enchanted_ward_amulet"
+}

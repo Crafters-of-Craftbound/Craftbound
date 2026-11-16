@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:netherite_mage_leggings"
+  },
+  "input2": {
+    "item": "irons_spellbooks:timeless_slurry"
+  },
+  "mode": "and",
+  "output": "hazennstuff:pyrium_battlemage_leggings"
+}

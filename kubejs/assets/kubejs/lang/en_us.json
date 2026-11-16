@@ -1,0 +1,12 @@
+{
+  "entity.kubejs.sprite": "Sprite",
+  "kubejs.dialogue.sprite.start": "Hey! Now that you've prototyped me, I can finally talk to you properly!",
+  "kubejs.dialogue.sprite.start.land": "Welcome to your Land! Don't worry, I'll stay close to the house.",
+  "kubejs.dialogue.sprite.start.desc": "Your sprite bobs in the air in front of you, waiting for you to say something.",
+  "kubejs.dialogue.sprite.start.what_now": "What should I do now?",
+  "kubejs.dialogue.sprite.start.bye": "See you later.",
+  "kubejs.dialogue.sprite.what_are_you": "I'm your Sprite! I'm part kernel and part whatever you prototyped me with. I'll float around here and help however I can.",
+  "kubejs.dialogue.sprite.what_are_you.desc": "It does a little spin, clearly proud of itself.",
+  "kubejs.dialogue.sprite.what_now": "Get into the Medium before the meteor hits! Carve a cruxite dowel on the Totem Lathe, alchemize your artifact and use it.",
+  "kubejs.dialogue.sprite.what_now.desc": "It floats over towards the Cruxtruder, then looks back at you."
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_leggings"
+  },
+  "input2": {
+    "item": "irons_spellbooks:holy_rune"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:priest_leggings"
+}

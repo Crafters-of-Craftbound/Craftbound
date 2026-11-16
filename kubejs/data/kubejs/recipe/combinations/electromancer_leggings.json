@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_leggings"
+  },
+  "input2": {
+    "item": "irons_spellbooks:lightning_rune"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:electromancer_leggings"
+}

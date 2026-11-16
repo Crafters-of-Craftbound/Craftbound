@@ -1,0 +1,9 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": { "item": "architects_palette:twisted_log" },
+  "sources": [
+    "#minecraft:logs",
+    "minecraft:netherrack"
+  ]
+}

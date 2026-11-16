@@ -1,0 +1,27 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 100000,
+    "minestuck:amber": 100000,
+    "minestuck:caulk": 100000,
+    "minestuck:chalk": 100000,
+    "minestuck:iodine": 100000,
+    "minestuck:shale": 100000,
+    "minestuck:tar": 100000,
+    "minestuck:cobalt": 100000,
+    "minestuck:marble": 100000,
+    "minestuck:mercury": 100000,
+    "minestuck:quartz": 100000,
+    "minestuck:sulfur": 100000,
+    "minestuck:amethyst": 100000,
+    "minestuck:garnet": 100000,
+    "minestuck:ruby": 100000,
+    "minestuck:rust": 100000,
+    "minestuck:diamond": 100000,
+    "minestuck:gold": 100000,
+    "minestuck:uranium": 100000
+  },
+  "ingredient": {
+    "item": "kubejs:divine_note"
+  }
+}

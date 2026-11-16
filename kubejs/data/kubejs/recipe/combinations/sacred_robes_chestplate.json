@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:mothic_witch_chestplate"
+  },
+  "input2": {
+    "item": "hazennstuff:divine_mold"
+  },
+  "mode": "and",
+  "output": "hazennstuff:sacred_robes_chestplate"
+}

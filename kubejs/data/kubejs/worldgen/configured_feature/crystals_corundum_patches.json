@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:noise_provider",
+        "seed": 2345,
+        "noise": { "firstOctave": 0, "amplitudes": [ 1.0 ] },
+        "scale": 0.02,
+        "states": [ { "Name": "quark:red_corundum" }, { "Name": "quark:orange_corundum" }, { "Name": "quark:yellow_corundum" }, { "Name": "quark:green_corundum" }, { "Name": "quark:blue_corundum" }, { "Name": "quark:indigo_corundum" }, { "Name": "quark:violet_corundum" } ]
+      },
+      "rules": []
+    },
+    "target": { "type": "minecraft:matching_blocks", "blocks": "minecraft:amethyst_block" },
+    "radius": { "type": "minecraft:uniform", "min_inclusive": 2, "max_inclusive": 4 },
+    "half_height": 1
+  }
+}

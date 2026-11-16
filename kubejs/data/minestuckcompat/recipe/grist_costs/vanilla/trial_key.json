@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:shale": 900,
+    "minestuck:tar": 4800
+  },
+  "ingredient": {
+    "item": "minecraft:trial_key"
+  }
+}

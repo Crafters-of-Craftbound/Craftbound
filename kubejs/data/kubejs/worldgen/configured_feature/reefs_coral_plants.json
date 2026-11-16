@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 32,
+    "xz_spread": 6,
+    "y_spread": 2,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": { "to_place": { "type": "minecraft:weighted_state_provider", "entries": [
+          { "weight": 1, "data": { "Name": "kubejs:tube_coral" } },
+          { "weight": 1, "data": { "Name": "kubejs:brain_coral" } },
+          { "weight": 1, "data": { "Name": "kubejs:bubble_coral" } },
+          { "weight": 1, "data": { "Name": "kubejs:fire_coral" } },
+          { "weight": 1, "data": { "Name": "kubejs:horn_coral" } }
+        ] } }
+      },
+      "placement": [
+        { "type": "minecraft:block_predicate_filter", "predicate": { "type": "minecraft:all_of", "predicates": [ { "type": "minecraft:matching_blocks", "blocks": "minecraft:air" }, { "type": "minecraft:matching_blocks", "blocks": [ "minecraft:sand", "minecraft:moss_block", "kubejs:tube_coral_block", "kubejs:brain_coral_block", "kubejs:bubble_coral_block", "kubejs:fire_coral_block", "kubejs:horn_coral_block" ], "offset": [ 0, -1, 0 ] } ] } }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:infestation_boots"
+  },
+  "input2": {
+    "item": "hazentouvelib:shadow_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:abberant_predator_boots"
+}

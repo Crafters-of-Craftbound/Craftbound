@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:cobalt": 11500,
+    "minestuck:diamond": 6900,
+    "minestuck:amethyst": 4600
+  },
+  "ingredient": {
+    "item": "hazennstuff:frostbite_knight_leggings"
+  }
+}

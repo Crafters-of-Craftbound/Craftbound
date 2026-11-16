@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:hazel_chestplate"
+  },
+  "input2": {
+    "item": "minecraft:leather"
+  },
+  "mode": "and",
+  "output": "hazennstuff:how_did_you_find_the_hazel_chestplate"
+}

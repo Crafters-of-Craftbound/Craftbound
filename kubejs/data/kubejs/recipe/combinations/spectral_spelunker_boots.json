@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:miner_boots"
+  },
+  "input2": {
+    "item": "irons_spellbooks:arcane_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:spectral_spelunker_boots"
+}

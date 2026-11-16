@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_chestplate"
+  },
+  "input2": {
+    "item": "irons_spellbooks:fire_rune"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:pyromancer_chestplate"
+}

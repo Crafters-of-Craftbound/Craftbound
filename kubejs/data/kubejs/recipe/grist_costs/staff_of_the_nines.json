@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:zillium": 2000,
+    "minestuck:diamond": 30000,
+    "minestuck:amethyst": 28000
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:staff_of_the_nines"
+  }
+}

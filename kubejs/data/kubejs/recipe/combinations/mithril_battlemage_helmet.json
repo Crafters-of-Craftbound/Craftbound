@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:netherite_mage_helmet"
+  },
+  "input2": {
+    "item": "irons_spellbooks:arcane_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:mithril_battlemage_helmet"
+}

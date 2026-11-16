@@ -1,0 +1,1347 @@
+{
+  "features": [
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_carrots",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 120
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_onions",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 120
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_potatoes",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_cabbages",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 30
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_beetroots",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 30
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_tomatoes",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_rice",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 20
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    }
+,
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:flower_default",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:flower_plain",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:flower_meadow",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:flower_flower_forest",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:flower_swamp",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:flower_cherry",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:forest_flowers",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:patch_sunflower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:wildflowers_birch_forest",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:wildflowers_meadow",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:flower_pale_garden",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:patch_firefly_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:patch_pumpkin",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:patch_melon",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minecraft:patch_berry_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "minestuck:strawberry_patch",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:blue_berry_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "hazennstuff:patch_fireblossom",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:allium_flower_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:allium_shrubland_flowers",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:alpine_bellflower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:amaranth_grassland_flowers",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:blue_rose_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:clovers_and_flowers",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:firecracker_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:flower_patch",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:hydrangea_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:jungle_flowers",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:kovan_flower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:lazarus_bellflower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:leather_flowers",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:lollipop_flower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:peach_leather_flower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:pink_allium_flower_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:protea_flower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:rose_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:rose_field_flowers",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:silver_vase_flower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:tall_allium_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:tall_pink_allium_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:tall_white_allium_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:violet_leather_flower",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "biomeswevegone:white_allium_flower_bush",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 64
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    }
+  ],
+  "structure_sets": [
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 200,
+          "separation": 165,
+          "salt": 1735000112,
+          "exclusion_zone": {
+            "chunk_count": 16,
+            "other_set": "kubejs:house_zone"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:life_qb",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 48,
+          "separation": 32,
+          "salt": 1735000122,
+          "exclusion_zone": {
+            "chunk_count": 16,
+            "other_set": "kubejs:house_zone"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:life_lair",
+            "weight": 1
+          }
+        ]
+      }
+    }
+  ]
+}

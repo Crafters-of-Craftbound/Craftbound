@@ -1,0 +1,9 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": { "item": "architects_palette:hadaline_lamp" },
+  "sources": [
+    "architects_palette:abyssaline_lamp",
+    "minecraft:netherrack"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 2500,
+    "minestuck:amethyst": 500
+  },
+  "ingredient": {
+    "item": "hazentouvelib:shadow_rune"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:container_grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 48,
+    "minestuck:uranium": 12
+  },
+  "ingredient": {
+    "item": "minecraft:lava_bucket"
+  }
+}

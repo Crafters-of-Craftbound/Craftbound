@@ -1,0 +1,10 @@
+{
+  "feature": "a_man_with_plushies:plushies_shrine_feature",
+  "placement": [
+    { "type": "minecraft:rarity_filter", "chance": 32 },
+    { "type": "minecraft:in_square" },
+    { "type": "minecraft:heightmap", "heightmap": "OCEAN_FLOOR_WG" },
+    { "type": "minecraft:block_predicate_filter", "predicate": { "type": "minecraft:matching_blocks", "blocks": [ "cluttered:starry_wallpaper", "cluttered:dark_starry_wallpaper", "cluttered:deep_raw_chalcedony" ], "offset": [ 0, -1, 0 ] } },
+    { "type": "minecraft:biome" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 20000,
+    "minestuck:diamond": 12000,
+    "minestuck:amethyst": 8000
+  },
+  "ingredient": {
+    "item": "hazennstuff:the_devourer"
+  }
+}

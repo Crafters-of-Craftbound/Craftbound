@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "kubejs:transportablizer2"
+  },
+  "sources": [
+    "minestuck:transportalizer",
+    "minestuck:chessboard"
+  ]
+}

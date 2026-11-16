@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:netherite_mage_helmet"
+  },
+  "input2": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:eldritch_warlock_mask"
+}

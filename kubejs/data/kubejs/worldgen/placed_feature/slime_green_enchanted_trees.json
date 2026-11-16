@@ -1,0 +1,10 @@
+{
+  "feature": "kubejs:slime_green_enchanted_trees",
+  "placement": [
+    { "type": "minecraft:rarity_filter", "chance": 3 },
+    { "type": "minecraft:in_square" },
+    { "type": "minecraft:heightmap", "heightmap": "MOTION_BLOCKING" },
+    {"type":"minecraft:block_predicate_filter","predicate":{"type":"minecraft:matching_blocks","blocks":["kubejs:thick_slime_block","kubejs:honeyfied_slime_block"],"offset":[0,-1,0]}},
+    { "type": "minecraft:biome" }
+  ]
+}

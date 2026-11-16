@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_boots"
+  },
+  "input2": {
+    "item": "farmers_spell:glutton_rune"
+  },
+  "mode": "and",
+  "output": "farmers_spell:gluttony_chef_boots"
+}

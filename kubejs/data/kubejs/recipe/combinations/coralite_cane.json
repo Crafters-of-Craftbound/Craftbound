@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:cane"
+  },
+  "input2": {
+    "item": "minecraft:brain_coral_block"
+  },
+  "mode": "and",
+  "output": "hazennstuff:coralite_cane"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 9000,
+    "minestuck:uranium": 6000,
+    "minestuck:amethyst": 3000
+  },
+  "ingredient": {
+    "item": "discerning_the_eldritch:eldritch_warlock_robes"
+  }
+}

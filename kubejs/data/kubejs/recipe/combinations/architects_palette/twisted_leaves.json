@@ -1,0 +1,7 @@
+{
+  "type": "minestuck:combination",
+  "input1": { "tag": "minecraft:leaves" },
+  "input2": { "item": "minecraft:netherrack" },
+  "mode": "or",
+  "output": "architects_palette:twisted_leaves"
+}

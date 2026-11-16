@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:cryomancer_chestplate"
+  },
+  "input2": {
+    "item": "irons_spellbooks:ice_rune"
+  },
+  "mode": "and",
+  "output": "hazennstuff:herta_puppet_chestplate"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "hazennstuff:seraph_helmet"
+  },
+  "input2": {
+    "item": "irons_spellbooks:arcane_essence"
+  },
+  "mode": "and",
+  "output": "hazennstuff:slc_cat_helmet"
+}

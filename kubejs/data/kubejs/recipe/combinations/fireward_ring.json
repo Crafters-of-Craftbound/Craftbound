@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:mithril_scrap"
+  },
+  "input2": {
+    "item": "irons_spellbooks:cinder_essence"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:fireward_ring"
+}

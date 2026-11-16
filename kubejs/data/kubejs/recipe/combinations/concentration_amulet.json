@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:mithril_ingot"
+  },
+  "input2": {
+    "item": "minecraft:chain"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:concentration_amulet"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:blank_rune"
+  },
+  "input2": {
+    "item": "hazennstuff:rose_quartz"
+  },
+  "mode": "and",
+  "output": "hazennstuff:health_rune"
+}

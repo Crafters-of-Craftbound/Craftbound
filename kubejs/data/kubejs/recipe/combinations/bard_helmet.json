@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:wizard_helmet"
+  },
+  "input2": {
+    "item": "tunes_n_tomes:melody_rune"
+  },
+  "mode": "and",
+  "output": "tunes_n_tomes:bard_helmet"
+}

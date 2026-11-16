@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 6500,
+    "minestuck:diamond": 3900,
+    "minestuck:quartz": 2600
+  },
+  "ingredient": {
+    "item": "hazennstuff:mithril_battlemage_chestplate"
+  }
+}

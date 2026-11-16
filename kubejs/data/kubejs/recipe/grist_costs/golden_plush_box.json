@@ -1,0 +1,15 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {
+    "minestuck:gold": 1000,
+    "minestuck:amber": 500,
+    "minestuck:chalk": 500
+  },
+  "ingredient": {
+    "item": "a_man_with_plushies:golden_plush_box"
+  },
+  "sources": [
+    "a_man_with_plushies:plush_box",
+    "minecraft:gold_block"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "kubejs:divine_note"
+  },
+  "input2": {
+    "item": "minestuck:transportalizer"
+  },
+  "mode": "or",
+  "output": "kubejs:transportablizer2"
+}

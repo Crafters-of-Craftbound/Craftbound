@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {"layer0": "kubejs:item/god_tier/hood"},
+  "overrides": [
+    {"predicate": {"trim_type": 0.01}, "model": "kubejs:item/god_tier/hood_breath"},
+    {"predicate": {"trim_type": 0.02}, "model": "kubejs:item/god_tier/hood_light"},
+    {"predicate": {"trim_type": 0.03}, "model": "kubejs:item/god_tier/hood_time"},
+    {"predicate": {"trim_type": 0.04}, "model": "kubejs:item/god_tier/hood_space"},
+    {"predicate": {"trim_type": 0.05}, "model": "kubejs:item/god_tier/hood_life"},
+    {"predicate": {"trim_type": 0.06}, "model": "kubejs:item/god_tier/hood_void"},
+    {"predicate": {"trim_type": 0.07}, "model": "kubejs:item/god_tier/hood_heart"},
+    {"predicate": {"trim_type": 0.08}, "model": "kubejs:item/god_tier/hood_mind"},
+    {"predicate": {"trim_type": 0.09}, "model": "kubejs:item/god_tier/hood_hope"},
+    {"predicate": {"trim_type": 0.1}, "model": "kubejs:item/god_tier/hood_doom"},
+    {"predicate": {"trim_type": 0.11}, "model": "kubejs:item/god_tier/hood_blood"},
+    {"predicate": {"trim_type": 0.12}, "model": "kubejs:item/god_tier/hood_rage"}
+  ]
+}

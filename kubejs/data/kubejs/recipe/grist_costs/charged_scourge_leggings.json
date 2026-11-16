@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:mercury": 9000,
+    "minestuck:uranium": 5000,
+    "minestuck:amethyst": 3000
+  },
+  "ingredient": {
+    "item": "hazennstuff:charged_scourge_leggings"
+  }
+}

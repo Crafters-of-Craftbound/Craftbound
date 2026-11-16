@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 30000,
+    "minestuck:sulfur": 20000
+  },
+  "ingredient": {
+    "item": "artifacts:obsidian_skull"
+  }
+}

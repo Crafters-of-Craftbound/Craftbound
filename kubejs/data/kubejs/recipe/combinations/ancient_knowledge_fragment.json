@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:written_book"
+  },
+  "input2": {
+    "item": "minecraft:echo_shard"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:ancient_knowledge_fragment"
+}

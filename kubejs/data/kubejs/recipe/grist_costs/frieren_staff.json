@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 25000,
+    "minestuck:diamond": 15000,
+    "minestuck:gold": 10000
+  },
+  "ingredient": {
+    "item": "hazennstuff:frieren_staff"
+  }
+}

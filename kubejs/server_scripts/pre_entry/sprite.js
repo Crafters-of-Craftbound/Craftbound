@@ -52,7 +52,7 @@
 		const id = String(stack.id)
 		if (!(stack.item instanceof $BlockItem)) return false
 		if (stack.hasTag('minecraft:signs') || stack.hasTag('minecraft:hanging_signs')) return false
-		if (/(^|_)(bricks?|tiles?|pillar)(_|$)|(^|_)(planks|stairs|slab|log|wood|leaves|door|trapdoor|fence|fence_gate)$/.test(id.split(':').pop()) && !/counter|endtable/.test(id)) return false
+		if (/(^|[_/])(armchair|chair|stool|sofa|seat|ottoman|bench|bed|crib|table|endtable|nightstand|desk|workbench|counter|cabinet|cabinetry|drawer|dresser|wardrobe|bookcase|bookshelf|book_stand|shelf|shelves|rack|crate|sink|basin|bath|shower)(_|$)/.test(id.split(':').pop()) && !/_(lamp|candle|plant|window|mirror|decor)(_|$)/.test(id.split(':').pop())) return false
 		return ['iden_decor', 'cluttered', 'refurbished_furniture', 'whimsy_deco', 'everycomp'].includes(id.split(':')[0]) || /plush|(^|_)(head|skull)(_|$)/.test(id.split(':').pop()) || /plush|\b(head|skull)\b/i.test(String(Text.translatable(stack.getDescriptionId()).getString()))
 	}
 

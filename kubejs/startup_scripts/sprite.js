@@ -22,6 +22,11 @@
 		const $Quaternionf = Java.loadClass('org.joml.Quaternionf')
 		const $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
 		const $Sheets = Java.loadClass('net.minecraft.client.renderer.Sheets')
+		const $RenderType = Java.loadClass('net.minecraft.client.renderer.RenderType')
+		const $TextureAtlas = Java.loadClass('net.minecraft.client.renderer.texture.TextureAtlas')
+		const $MultiBufferSource = Java.loadClass('net.minecraft.client.renderer.MultiBufferSource')
+		const $VertexConsumerWrapper = Java.loadClass('net.neoforged.neoforge.client.model.pipeline.VertexConsumerWrapper')
+		const whiteness = 12
 		const texture = $ResourceLocation.parse('kubejs:textures/block/sprite_base.png')
 		const looks = {}
 		let failed = false
@@ -31,7 +36,7 @@
 			if (looks[id]) return looks[id]
 			const path = id.split(':').pop()
 			const small = ['iden_decor', 'cluttered', 'refurbished_furniture', 'whimsy_deco'].includes(id.split(':')[0]) && !/plush|doll|(^|_)(head|skull)(_|$)/.test(path) && !/plush|doll|\b(head|skull)\b/i.test(String(stack.getHoverName().getString()))
-			looks[id] = { flip: stack.hasTag('minecraft:skulls') || id.startsWith('refurbished_furniture:'), head: small ? [1.5, 0.95, 0.25] : [2.01, 1.2, 0.25] }
+			looks[id] = { flip: stack.hasTag('minecraft:skulls') || id.startsWith('refurbished_furniture:'), head: small ? [1.5, 0.95, 0.25] : [2.01, 1.2, 0.25], custom: $Minecraft.getInstance().getItemRenderer().getModel(stack, null, null, 0).isCustomRenderer() }
 			return looks[id]
 		}
 
@@ -39,6 +44,14 @@
 			const items = context.getItemRenderer()
 			const dispatcher = context.getEntityRenderDispatcher()
 			const baseState = $BuiltInRegistries.BLOCK.get($ResourceLocation.parse('kubejs:sprite_base')).defaultBlockState()
+			const whiteSheet = $RenderType.entityTranslucent($TextureAtlas.LOCATION_BLOCKS)
+			const whiten = (buffers, custom) => new JavaAdapter($MultiBufferSource, {
+				getBuffer: type => {
+					const buffer = buffers.getBuffer(type == $Sheets.translucentCullBlockSheet() || type == $Sheets.translucentItemSheet() ? whiteSheet : type)
+					if (!custom) return buffer
+					return new JavaAdapter($VertexConsumerWrapper, { setUv1: (u, v) => buffer.setUv1(whiteness, 10) }, buffer)
+				}
+			})
 			const draw = (place, flip, pose, paint) => {
 				pose.pushPose()
 				try {
@@ -58,15 +71,14 @@
 					render: function (sprite, yaw, partialTick, pose, buffers, light) {
 						const head = sprite.getItemBySlot($EquipmentSlot.HEAD)
 						const second = sprite.getItemBySlot($EquipmentSlot.MAINHAND)
-						const color = sprite.getColor()
 						try {
 							draw([1.25, -0.17, 0], false, pose, () => {
 								const blocks = $Minecraft.getInstance().getBlockRenderer()
 								pose.translate(-0.5, -0.5, -0.5)
-								blocks.getModelRenderer().renderModel(pose.last(), buffers.getBuffer($Sheets.cutoutBlockSheet()), baseState, blocks.getBlockModel(baseState), (color >> 16 & 255) / 255, (color >> 8 & 255) / 255, (color & 255) / 255, light, 655360)
+								blocks.getModelRenderer().renderModel(pose.last(), buffers.getBuffer($Sheets.cutoutBlockSheet()), baseState, blocks.getBlockModel(baseState), 1, 1, 1, light, 655360)
 							})
-							if (!head.isEmpty()) draw(look(head).head, look(head).flip, pose, () => items.renderStatic(head, $ItemDisplayContext.NONE, light, 655360, pose, buffers, null, 0))
-							if (!second.isEmpty()) draw([1.75, 1.84, 0.09], look(second).flip, pose, () => items.renderStatic(second, $ItemDisplayContext.NONE, light, 655360, pose, buffers, null, 0))
+							if (!head.isEmpty()) draw(look(head).head, look(head).flip, pose, () => items.renderStatic(head, $ItemDisplayContext.NONE, light, whiteness | 10 << 16, pose, whiten(buffers, look(head).custom), null, 0))
+							if (!second.isEmpty()) draw([1.75, 1.84, 0.09], look(second).flip, pose, () => items.renderStatic(second, $ItemDisplayContext.NONE, light, whiteness | 10 << 16, pose, whiten(buffers, look(second).custom), null, 0))
 						} catch (error) {
 							if (!failed) console.error(`Sprite renderer: ${error}`)
 							failed = true

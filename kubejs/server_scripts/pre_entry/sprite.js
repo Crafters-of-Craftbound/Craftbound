@@ -25,6 +25,14 @@
 		sprite.removeTag('Prototyping')
 	}
 
+	function glow(sprite, player) {
+		const aspectColors = { breath: 'aqua', mind: 'dark_aqua', void: 'dark_blue', space: 'dark_gray', doom: 'dark_green', heart: 'light_purple', blood: 'dark_red', hope: 'yellow', light: 'gold', life: 'green', time: 'red', rage: 'dark_purple' }
+		const aspect = player ? Object.keys(aspectColors).find(name => player.tags.contains(name)) : null
+		const color = aspect ? aspectColors[aspect] : 'gray'
+		sprite.setGlowing(true)
+		atSprite(sprite.server, sprite, [`team add ${color}`, `team modify ${color} color ${color}`, `team join ${color} @s`])
+	}
+
 	function flash(server, sprite) {
 		atSprite(server, sprite, ['particle cataclysm:lightning_explode', 'playsound cataclysm:super_lightning_strike master @a[distance=..20] ~ ~ ~'])
 	}
@@ -39,6 +47,7 @@
 		sprite.setBoundOrigin(sprite.blockPosition())
 		sprite.getDialogueComponent().setDialogue('kubejs:sprite/start', true)
 		sprite.spawn()
+		glow(sprite, owner.getPlayer(level.server))
 		return sprite
 	}
 
@@ -117,7 +126,12 @@
 	PlayerEvents.advancement('minestuck:minestuck/entry', event => {
 		const player = event.player
 		const name = String(player.username)
-		player.server.scheduleInTicks(100, () => setSpawnHere(player.server, name))
+		player.server.scheduleInTicks(100, () => {
+			setSpawnHere(player.server, name)
+			near(player, 64).forEach(sprite => {
+				if (sprite.type == 'kubejs:sprite' && sprite.getOwner() && sprite.getOwner().appliesTo(player)) glow(sprite, player)
+			})
+		})
 		player.server.scheduleInTicks(1, () => setSpawnHere(player.server, name))
 	})
 

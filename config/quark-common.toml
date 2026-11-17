@@ -1355,9 +1355,9 @@
 	Forgotten = false
 	Foxhound = true
 	Shiba = true
-	Stonelings = true
-	Toretoise = true
-	Wraith = true
+	Stonelings = false
+	Toretoise = false
+	Wraith = false
 
 	[mobs.crabs]
 		"Enable Brewing" = true

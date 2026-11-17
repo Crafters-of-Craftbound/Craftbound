@@ -26,14 +26,27 @@
 		'minecraft:strider': 'plushie_buddies:plushie_strider',
 		'minecraft:vex': 'plushie_buddies:plushie_vex',
 		'minecraft:warden': 'plushie_buddies:plushie_warden',
-		'minecraft:wither': 'plushie_buddies:plushie_wither'
+		'minecraft:wither': 'plushie_buddies:plushie_wither',
+		'minecraft:sulfur_cube': 'kubejs:sulfur_cube_head',
+		'minecraft:tropical_fish': 'kubejs:tropical_fish_head',
+		'quark:crab': 'kubejs:crab_head',
+		'quark:foxhound': 'kubejs:foxhound_head',
+		'quark:shiba': 'kubejs:shiba_head',
+		'crittersandcompanions:dumbo_octopus': 'kubejs:dumbo_octopus_head',
+		'crittersandcompanions:ferret': 'kubejs:ferret_head',,
+		'crittersandcompanions:koi_fish': 'kubejs:koi_fish_head',
+		'crittersandcompanions:otter': 'kubejs:otter_head',
+		'crittersandcompanions:red_panda': 'kubejs:red_panda_head',
+		'crittersandcompanions:sea_bunny': 'kubejs:sea_bunny_head',
+		'crittersandcompanions:shima_enaga': 'kubejs:shima_enaga_head'
 	}
 
 	EntityEvents.drops(event => {
 		const entity = event.entity
 		const killer = event.source.immediate
-		if (entity.tags.contains('SpriteGuardian') || !(killer && killer.isPlayer() && killer.mainHandItem.id == 'kubejs:head_cleaver')) return
-		if (DROPS[String(entity.type)]) event.addDrop(DROPS[String(entity.type)])
+		const headDroppingKill = (killer && killer.isPlayer() && killer.mainHandItem.id == 'kubejs:head_cleaver') || ['anvil', 'explosion', 'explosion.player', 'badRespawnPoint', 'fireworks', 'fireball', 'unattributedFireball'].includes(String(event.source.getType())) || (killer && ['irons_spellbooks:fireball', 'irons_spellbooks:small_fireball'].includes(String(killer.type)))
+		if (entity.tags.contains('SpriteGuardian') || !headDroppingKill || (killer && killer.type == 'minecraft:creeper' && killer.isPowered())) return
+		if (DROPS[String(entity.type)] && Item.exists(DROPS[String(entity.type)])) event.addDrop(DROPS[String(entity.type)])
 		const head = $HeadTypes.getMatchingHead(entity)
 		if (!head || entity.isBaby()) return
 		event.addDrop(head.getHeadItem())

@@ -82,6 +82,7 @@
 		if (stack.count > 1) drop.setItem(stack.copyWithCount(stack.count - 1))
 		else drop.discard()
 		flash(sprite.server, sprite)
+		if (owner.getPlayer(sprite.server)) owner.getPlayer(sprite.server).give('kubejs:sprite_medallion')
 	}
 
 	EntityEvents.spawned('minecraft:item', event => {

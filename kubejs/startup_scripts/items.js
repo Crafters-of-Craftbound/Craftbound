@@ -14,7 +14,7 @@
 		event.create('snackshot').displayName('§cSnackshot').rarity('RARE').unstackable()
 		event.create('edible_modus').displayName('§eEdible Modus').food(food => food.nutrition(8).saturation(0.8)).rarity('RARE')
 
-		event.create('sprite_medallion').displayName('§bSprite Medallion').tooltip('§7Calls your Sprite to you, or allows you to make a new one').unstackable().texture('alchemancy:item/wayward_medallion')
+		event.create('sprite_medallion').displayName('§bSprite Medallion').tooltip('§7Calls your sprite to you and sets their Home Point').unstackable().texture('alchemancy:item/wayward_medallion')
 		event.create('inventory_upgrade').displayName('§aInventory Upgrade').rarity('EPIC')
 		event.create('blankusb').displayName('Blank USB Drive')
 		event.create('alchemizeusb').displayName('§44LCH3M-1Z3.ska').glow(true).rarity('EPIC').tooltip('A USB drive containing the 4LCH3M-1Z3 genetic code.')

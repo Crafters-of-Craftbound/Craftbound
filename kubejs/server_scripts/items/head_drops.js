@@ -21,6 +21,7 @@
 		'minecraft:polar_bear': 'plushie_buddies:plushie_polar_bear',
 		'minecraft:pufferfish': 'plushie_buddies:plushie_pufferfish',
 		'minecraft:rabbit': 'plushie_buddies:plushie_rabbit',
+		'minecraft:ravager': 'plushie_buddies:plushie_ravanger',
 		'minecraft:shulker': 'plushie_buddies:plushie_shulker',
 		'minecraft:sniffer': 'plushie_buddies:plushie_sniffer',
 		'minecraft:strider': 'plushie_buddies:plushie_strider',
@@ -32,13 +33,23 @@
 		'quark:crab': 'kubejs:crab_head',
 		'quark:foxhound': 'kubejs:foxhound_head',
 		'quark:shiba': 'kubejs:shiba_head',
+        'crittersandcompanions:dragonfly': 'kubejs:dragonfly_head',
 		'crittersandcompanions:dumbo_octopus': 'kubejs:dumbo_octopus_head',
-		'crittersandcompanions:ferret': 'kubejs:ferret_head',,
+		'crittersandcompanions:ferret': 'kubejs:ferret_head',
+		'crittersandcompanions:jumping_spider': 'kubejs:jumping_spider_head',
 		'crittersandcompanions:koi_fish': 'kubejs:koi_fish_head',
+		'crittersandcompanions:ladybug': 'kubejs:ladybug_head',
+		'crittersandcompanions:leaf_insect': 'kubejs:leaf_insect_head',
 		'crittersandcompanions:otter': 'kubejs:otter_head',
 		'crittersandcompanions:red_panda': 'kubejs:red_panda_head',
+		'crittersandcompanions:roly_poly': 'kubejs:roly_poly_head',
 		'crittersandcompanions:sea_bunny': 'kubejs:sea_bunny_head',
-		'crittersandcompanions:shima_enaga': 'kubejs:shima_enaga_head'
+		'crittersandcompanions:shima_enaga': 'kubejs:shima_enaga_head',
+		'crittersandcompanions:snail': 'kubejs:snail_head',
+		'crittersandcompanions:stag_beetle': 'kubejs:stag_beetle_head',
+		'crittersandcompanions:stick_bug': 'kubejs:stick_bug_head',
+		'crittersandcompanions:weevil': 'kubejs:weevil_head',
+		'biomeswevegone:man_o_war': 'kubejs:man_o_war_head'
 	}
 
 	EntityEvents.drops(event => {

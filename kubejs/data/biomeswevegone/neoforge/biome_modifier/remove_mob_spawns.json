@@ -2,7 +2,6 @@
 	"type": "neoforge:remove_spawns",
 	"biomes": "#minecraft:is_overworld",
 	"entity_types": [
-		"biomeswevegone:man_o_war",
 		"biomeswevegone:oddion",
 		"biomeswevegone:pumpkin_warden"
 	]

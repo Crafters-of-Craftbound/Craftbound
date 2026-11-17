@@ -2,7 +2,20 @@
 	configVersion: 2,
 	spawning: {
 		prevent_monster_spawns_in_lush_caves: false,
-		leaf_insect: [],
+		leaf_insect: [
+			{
+				biome_spec: "#c:is_jungle",
+				weight: 14,
+				min: 1,
+				max: 1
+			},
+			{
+				biome_spec: "#c:is_forest",
+				weight: 6,
+				min: 1,
+				max: 1
+			}
+		],
 		red_panda: [
 			{
 				biome_spec: "#c:is_jungle",
@@ -11,7 +24,26 @@
 				max: 2
 			}
 		],
-		jumping_spider: [],
+		jumping_spider: [
+			{
+				biome_spec: "#c:is_jungle",
+				weight: 2,
+				min: 1,
+				max: 1
+			},
+			{
+				biome_spec: "#c:is_forest",
+				weight: 2,
+				min: 1,
+				max: 1
+			},
+			{
+				biome_spec: "#c:is_lush",
+				weight: 4,
+				min: 1,
+				max: 1
+			}
+		],
 		ferret: [
 			{
 				biome_spec: "#c:is_forest",
@@ -106,7 +138,26 @@
 				max: 5
 			}
 		],
-		dragonfly: [],
+		dragonfly: [
+			{
+				biome_spec: "#c:is_river",
+				weight: 4,
+				min: 1,
+				max: 1
+			},
+			{
+				biome_spec: "#c:is_swamp",
+				weight: 5,
+				min: 1,
+				max: 1
+			},
+			{
+				biome_spec: "#c:is_lush",
+				weight: 10,
+				min: 1,
+				max: 1
+			}
+		],
 		shima_enaga: [
 			{
 				biome_spec: "#c:is_snowy",
@@ -115,9 +166,60 @@
 				max: 3
 			}
 		],
-		ladybug: [],
-		stag_beetle: [],
-		roly_poly: [],
+		ladybug: [
+			{
+				biome_spec: "#c:is_forest",
+				weight: 6,
+				min: 1,
+				max: 3
+			},
+			{
+				biome_spec: "#c:is_lush",
+				weight: 10,
+				min: 1,
+				max: 2
+			},
+			{
+				biome_spec: "#c:is_floral",
+				weight: 12,
+				min: 1,
+				max: 2
+			}
+		],
+		stag_beetle: [
+			{
+				biome_spec: "#c:is_forest",
+				weight: 4,
+				min: 1,
+				max: 2
+			},
+			{
+				biome_spec: "#c:is_lush",
+				weight: 10,
+				min: 1,
+				max: 2
+			}
+		],
+		roly_poly: [
+			{
+				biome_spec: "#c:is_forest",
+				weight: 5,
+				min: 1,
+				max: 3
+			},
+			{
+				biome_spec: "#c:is_lush",
+				weight: 10,
+				min: 1,
+				max: 2
+			},
+			{
+				biome_spec: "#c:is_swamp",
+				weight: 10,
+				min: 1,
+				max: 2
+			}
+		],
 		snail: [
 			{
 				biome_spec: "#c:is_forest",
@@ -138,8 +240,34 @@
 				max: 2
 			}
 		],
-		stick_bug: [],
-		weevil: []
+		stick_bug: [
+			{
+				biome_spec: "#c:is_forest",
+				weight: 4,
+				min: 1,
+				max: 2
+			},
+			{
+				biome_spec: "#c:is_lush",
+				weight: 10,
+				min: 1,
+				max: 2
+			}
+		],
+		weevil: [
+			{
+				biome_spec: "#c:is_forest",
+				weight: 4,
+				min: 1,
+				max: 3
+			},
+			{
+				biome_spec: "#c:is_lush",
+				weight: 10,
+				min: 1,
+				max: 2
+			}
+		]
 	},
 	necklace: {
 		swim_speed: 0.2,

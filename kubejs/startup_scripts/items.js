@@ -1,5 +1,5 @@
 (() => {
-	const GOD_TIER_CLASSES = ['bard', 'heir', 'knight', 'mage', 'maid', 'page', 'prince', 'rogue', 'seer', 'sylph', 'thief', 'witch']
+	const GOD_TIER_CLASSES = ['bard', 'heir', 'knight', 'mage', 'maid', 'page', 'prince', 'rogue', 'seer', 'sylph', 'thief', 'witch', 'lord', 'muse']
 
 	StartupEvents.registry('armor_material', event => {
 		event.create('god_tier').defense({ helmet: 1, chestplate: 3, leggings: 2, boots: 1, body: 3 }).enchantmentValue(15).equipSound('minecraft:item.armor.equip_leather')
@@ -182,8 +182,9 @@
 		})
 
 		GOD_TIER_CLASSES.forEach(godClass => {
+			const sheet = ['lord', 'muse'].includes(godClass) ? 'god_tier_master' : 'god_tier'
 			event.modify([`kubejs:${godClass}_hood`, `kubejs:${godClass}_shirt`, `kubejs:${godClass}_pants`, `kubejs:${godClass}_shoes`], item => {
-				item.setCustomData({ armor_model_api: { model: `kubejs:geo/god_tier/${godClass}.geo.json`, texture: 'kubejs:textures/models/armor/god_tier_layer_1.png', trim: 'kubejs:trims/models/armor/god_tier' } })
+				item.setCustomData({ armor_model_api: { model: `kubejs:geo/god_tier/${godClass}.geo.json`, texture: `kubejs:textures/models/armor/${sheet}_layer_1.png`, trim: `kubejs:trims/models/armor/${sheet}` } })
 				item.setUnbreakableWithTooltip()
 				item.setFireResistant()
 			})

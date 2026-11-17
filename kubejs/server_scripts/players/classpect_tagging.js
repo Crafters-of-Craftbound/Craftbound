@@ -1,7 +1,7 @@
 (() => {
 	const $PlayerData = Java.loadClass('com.mraof.minestuck.player.PlayerData')
 	const $MSAttachments = Java.loadClass('com.mraof.minestuck.util.MSAttachments')
-	const CLASSES = ['bard', 'heir', 'knight', 'mage', 'maid', 'page', 'prince', 'rogue', 'seer', 'sylph', 'thief', 'witch']
+	const CLASSES = ['bard', 'heir', 'knight', 'mage', 'maid', 'page', 'prince', 'rogue', 'seer', 'sylph', 'thief', 'witch', 'lord', 'muse']
 	const ASPECTS = ['blood', 'breath', 'doom', 'heart', 'hope', 'life', 'light', 'mind', 'rage', 'space', 'time', 'void']
 	const HUES = { breath: 190, blood: 1, time: 7, light: 31, void: 245, mind: 162, heart: 332, life: 80, doom: 135, hope: 55, rage: 280 }
 

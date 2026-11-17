@@ -11,6 +11,19 @@
     {"type": "single", "resource": "kubejs:trims/models/armor/hope", "sprite": "kubejs:trims/models/armor/god_tier_hope"},
     {"type": "single", "resource": "kubejs:trims/models/armor/doom", "sprite": "kubejs:trims/models/armor/god_tier_doom"},
     {"type": "single", "resource": "kubejs:trims/models/armor/blood", "sprite": "kubejs:trims/models/armor/god_tier_blood"},
-    {"type": "single", "resource": "kubejs:trims/models/armor/rage", "sprite": "kubejs:trims/models/armor/god_tier_rage"}
+    {"type": "single", "resource": "kubejs:trims/models/armor/rage", "sprite": "kubejs:trims/models/armor/god_tier_rage"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/rage", "sprite": "kubejs:trims/models/armor/god_tier_rage"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_breath", "sprite": "kubejs:trims/models/armor/god_tier_master_breath"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_light", "sprite": "kubejs:trims/models/armor/god_tier_master_light"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_time", "sprite": "kubejs:trims/models/armor/god_tier_master_time"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_space", "sprite": "kubejs:trims/models/armor/god_tier_master_space"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_life", "sprite": "kubejs:trims/models/armor/god_tier_master_life"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_void", "sprite": "kubejs:trims/models/armor/god_tier_master_void"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_heart", "sprite": "kubejs:trims/models/armor/god_tier_master_heart"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_mind", "sprite": "kubejs:trims/models/armor/god_tier_master_mind"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_hope", "sprite": "kubejs:trims/models/armor/god_tier_master_hope"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_doom", "sprite": "kubejs:trims/models/armor/god_tier_master_doom"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_blood", "sprite": "kubejs:trims/models/armor/god_tier_master_blood"},
+    {"type": "single", "resource": "kubejs:trims/models/armor/master_rage", "sprite": "kubejs:trims/models/armor/god_tier_master_rage"}
   ]
 }

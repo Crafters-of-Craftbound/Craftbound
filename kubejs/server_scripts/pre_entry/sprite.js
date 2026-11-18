@@ -120,6 +120,16 @@
 		event.cancel()
 	})
 
+	ItemEvents.entityInteracted(event => {
+		const sprite = event.target
+		if (!['kubejs:sprite', 'minestuck:kernelsprite'].includes(String(sprite.type)) || event.player.isShiftKeyDown()) return
+		if (!sprite.getDialogueComponent().hasAnyOngoingDialogue()) sprite.getDialogueComponent().tryStartDialogue(event.player)
+		event.cancel()
+	})
+
+	EntityEvents.spawned('kubejs:sprite', event => event.entity.setStayPutGoal(false))
+	EntityEvents.spawned('minestuck:kernelsprite', event => event.entity.setStayPutGoal(false))
+
 	function setSpawnHere(server, name) {
 		server.runCommandSilent(`execute as ${name} at @s run spawnpoint @s ~ ~ ~`)
 	}

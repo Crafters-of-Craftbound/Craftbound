@@ -49,7 +49,7 @@ const spaceHubTick = (() => {
 		if (target == 'ring') return { target: target, item: 'kubejs:veil_meteors', scale: 16.34, radius: 0, angle: 0, y: 81.5, hit: 0, spin: false }
 		const slot = server.persistentData.getCompound('SpaceHubSlots').getInt(target)
 		const terrain = String($LandTypes.TERRAIN_REGISTRY.getKey($LandTypePair.getTypes(server.getLevel(target)).get().getTerrain()).getPath())
-		return { target: target, item: LAND_BLOCKS[terrain] || 'minecraft:stone', scale: 2, radius: 17, angle: LAND_ANGLES[slot % 24] * Math.PI / 180, y: 81.5 + 2 * Math.floor(slot / 24), hit: 1, spin: 12 }
+		return { target: target, item: LAND_BLOCKS[terrain] || 'minecraft:stone', scale: 2, radius: 15, angle: LAND_ANGLES[slot % 24] * Math.PI / 180, y: 81.5 + 2 * Math.floor(slot / 24), hit: 1, spin: 12 }
 	}
 
 	function bodyPosition(radius, angle, y, hub) {
@@ -124,7 +124,7 @@ const spaceHubTick = (() => {
 		if (dimension == 'minestuck:skaia') return { x: 0.5, y: 79, z: 3.5, yaw: 0 }
 		const body = bodyFor(server, dimension)
 		const hub = server.persistentData.getInt('SpaceHubStep') * Math.PI / 120
-		const spot = bodyPosition({ 'minestuck:prospit': 8, 'minestuck:derse': 19.5, 'minestuck:veil': 19.5 }[dimension] || 14, body.angle, 79, hub)
+		const spot = bodyPosition({ 'minestuck:prospit': 8, 'minestuck:derse': 19.5, 'minestuck:veil': 19.5 }[dimension] || 12, body.angle, 79, hub)
 		spot.yaw = (dimension == 'minestuck:prospit' ? 180 : 0) - (body.angle + hub) * 180 / Math.PI
 		return spot
 	}
@@ -202,7 +202,7 @@ const spaceHubTick = (() => {
 			player.abilities.flying = true
 			player.onUpdateAbilities()
 		}
-		if (player.y < 79 || player.y > 83) player.teleportTo(player.x, 81, player.z)
+		if (player.y < 69 || player.y > 90) player.teleportTo(player.x, player.y < 69 ? 70 : 89, player.z)
 		const distance = Math.hypot(player.x - 0.5, player.z - 0.5)
 		if (distance > 35) player.teleportTo(0.5 + (player.x - 0.5) * 33 / distance, player.y, 0.5 + (player.z - 0.5) * 33 / distance)
 		if (player.level.time - lastStepTime > 100) startSpaceHub(player.server)

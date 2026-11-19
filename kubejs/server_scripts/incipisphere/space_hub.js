@@ -151,6 +151,7 @@ const spaceHubTick = (() => {
 			delete travelling[player.username]
 			player.teleportTo('kubejs:space', spot.x, spot.y, spot.z, spot.yaw, 0)
 			player.addTag('SpaceHub')
+			player.potionEffects.add('minecraft:resistance', -1, 254, false, false)
 		})
 		server.scheduleInTicks(40, () => {
 			if (!player.tags.contains('SpaceHub')) return
@@ -163,6 +164,7 @@ const spaceHubTick = (() => {
 		const saved = player.persistentData.getCompound('SpaceHubReturns').getCompound(target)
 		const spot = saved.contains('x') ? [saved.getDouble('x'), saved.getDouble('z')] : ({ 'minestuck:prospit': [0, -100], 'minestuck:derse': [0, 100], 'minestuck:veil': [170, -60], 'minestuck:skaia': [0, 0] }[target] || [100, 100])
 		player.removeTag('SpaceHub')
+		player.removeEffect('minecraft:resistance')
 		delete lastPositions[player.username]
 		player.server.scheduleInTicks(1, () => player.teleportTo(target, spot[0], 290, spot[1], saved.getDouble('yaw'), 90))
 	}
@@ -192,6 +194,7 @@ const spaceHubTick = (() => {
 		}
 		if (String(player.level.dimension) != 'kubejs:space') {
 			player.removeTag('SpaceHub')
+			player.removeEffect('minecraft:resistance')
 			delete lastPositions[player.username]
 			return
 		}
@@ -199,7 +202,9 @@ const spaceHubTick = (() => {
 			player.abilities.flying = true
 			player.onUpdateAbilities()
 		}
-		if (player.y < 79) player.teleportTo(player.x, 81, player.z)
+		if (player.y < 79 || player.y > 83) player.teleportTo(player.x, 81, player.z)
+		const distance = Math.hypot(player.x - 0.5, player.z - 0.5)
+		if (distance > 35) player.teleportTo(0.5 + (player.x - 0.5) * 33 / distance, player.y, 0.5 + (player.z - 0.5) * 33 / distance)
 		if (player.level.time - lastStepTime > 100) startSpaceHub(player.server)
 		const target = touchedBody(player)
 		if (target) leaveSpaceHub(player, target)

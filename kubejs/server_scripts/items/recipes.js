@@ -41,6 +41,7 @@
 		})
 
 		event.remove({ id: 'minestuck:combinations/elytra_from_feather' })
+		event.remove({ id: 'javd:portal_block' })
 		event.remove({ id: 'minestuck:combinations/elytra_from_leather_chestplate' })
 		event.remove({ id: 'verseworks:dimensional_analyzer' })
 		event.remove({ id: 'verseworks:guidebook' })

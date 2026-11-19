@@ -130,6 +130,7 @@
 		if (isGodTier(player)) {
 			delete wasOnMoon[name]
 			delete crouchTicks[name]
+			spaceHubTick(player)
 			return
 		}
 		const onMoon = isOnMoon(player)

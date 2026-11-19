@@ -69,6 +69,10 @@
 
 		event.create('pajama_box').displayName('Pajama Box').soundType('stone').unbreakable()
 		event.create('prospit_vault').displayName('Prospitian Vault').soundType('stone').unbreakable()
+		event.create('planet_skaia').displayName('Skaia').soundType('stone').unbreakable().fullBlock(false).opaque(false).notSolid().renderType('translucent')
+		event.create('planet_prospit').displayName('Prospit').soundType('stone').unbreakable().fullBlock(false).opaque(false).notSolid().renderType('cutout')
+		event.create('planet_derse').displayName('Derse').soundType('stone').unbreakable().fullBlock(false).opaque(false).notSolid().renderType('cutout')
+		event.create('veil_meteors').displayName('Veil Meteors').soundType('stone').unbreakable().fullBlock(false).opaque(false).notSolid()
 
 		event.create('breath0').displayName('Breath Lair Entrance').soundType('stone').unbreakable()
 		event.create('breath_pedestal').displayName('Breath Pedestal').soundType('stone').unbreakable()

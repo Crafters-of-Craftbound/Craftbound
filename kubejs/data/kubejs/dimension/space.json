@@ -1,0 +1,13 @@
+{
+  "type": "kubejs:space",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "kubejs:space",
+      "lakes": false,
+      "features": false,
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

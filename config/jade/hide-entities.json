@@ -5,6 +5,8 @@
     "firework_rocket",
     "interaction",
     "text_display",
+    "item_display",
+    "block_display",
     "lightning_bolt",
     "cataclysm:maledictus",
     "cataclysm:netherite_monstrosity",

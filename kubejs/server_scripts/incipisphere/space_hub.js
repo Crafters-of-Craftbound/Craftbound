@@ -45,7 +45,7 @@ const spaceHubTick = (() => {
 		if (target == 'minestuck:skaia') return { target: target, item: 'kubejs:planet_skaia', scale: 3, radius: 0, angle: 0, y: 81.5, hit: 1.5, spin: false }
 		if (target == 'minestuck:prospit') return { target: target, item: 'kubejs:planet_prospit', scale: 1, radius: 5, angle: 0, y: 81.5, hit: 0.5, spin: 6 }
 		if (target == 'minestuck:derse') return { target: target, item: 'kubejs:planet_derse', scale: 1, radius: 26.63, angle: 4.11, y: 81.5, hit: 0.5, spin: 6 }
-		if (target == 'minestuck:veil') return { target: target, item: 'minecraft:iron_block', scale: 2, radius: 26.63, angle: 0.97, y: 81.5, hit: 1, spin: false }
+		if (target == 'minestuck:veil') return { target: target, item: 'kubejs:veil_temple', scale: 1, radius: 26.63, angle: 0.97, y: 81.5, hit: 1, spin: false }
 		if (target == 'ring') return { target: target, item: 'kubejs:veil_meteors', scale: 16.34, radius: 0, angle: 0, y: 81.5, hit: 0, spin: false }
 		const slot = server.persistentData.getCompound('SpaceHubSlots').getInt(target)
 		const terrain = String($LandTypes.TERRAIN_REGISTRY.getKey($LandTypePair.getTypes(server.getLevel(target)).get().getTerrain()).getPath())

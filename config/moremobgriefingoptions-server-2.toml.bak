@@ -1937,9 +1937,6 @@
 		#minecraft:cushion mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"minecraft:cushion" = "DEFAULT"
-		#vortylib:seat_entity mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"vortylib:seat_entity" = "DEFAULT"
 		#extrastuck:captain_justice_shield mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"extrastuck:captain_justice_shield" = "DEFAULT"
@@ -2708,3 +2705,360 @@
 		#kubejs:sprite mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"kubejs:sprite" = "DEFAULT"
+		#carryonextend:custom_falling_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"carryonextend:custom_falling_block" = "DEFAULT"
+		#monsterspellbooks:divine_sword mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:divine_sword" = "DEFAULT"
+		#monsterspellbooks:ice_sword mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:ice_sword" = "DEFAULT"
+		#monsterspellbooks:wrath mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:wrath" = "DEFAULT"
+		#monsterspellbooks:rancor_phantom mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:rancor_phantom" = "DEFAULT"
+		#monsterspellbooks:soul_casting_field mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:soul_casting_field" = "DEFAULT"
+		#monsterspellbooks:redstone_mines mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:redstone_mines" = "DEFAULT"
+		#monsterspellbooks:leaf_crystal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:leaf_crystal" = "DEFAULT"
+		#monsterspellbooks:small_obsidian_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:small_obsidian_arrow" = "DEFAULT"
+		#monsterspellbooks:void_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:void_arrow" = "DEFAULT"
+		#monsterspellbooks:obsidian_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:obsidian_arrow" = "DEFAULT"
+		#monsterspellbooks:obsidian_arrow_volley mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:obsidian_arrow_volley" = "DEFAULT"
+		#monsterspellbooks:herobrine_cultist_mage mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:herobrine_cultist_mage" = "DEFAULT"
+		#monsterspellbooks:herobrine_cultist_assassin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:herobrine_cultist_assassin" = "DEFAULT"
+		#monsterspellbooks:torment_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:torment_arrow" = "DEFAULT"
+		#monsterspellbooks:dwarven_spinblade mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:dwarven_spinblade" = "DEFAULT"
+		#monsterspellbooks:redsnake_wither_skeleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:redsnake_wither_skeleton" = "DEFAULT"
+		#monsterspellbooks:prismarine_keeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:prismarine_keeper" = "DEFAULT"
+		#monsterspellbooks:summoned_prismarine_keeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:summoned_prismarine_keeper" = "DEFAULT"
+		#monsterspellbooks:ink_bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:ink_bomb" = "DEFAULT"
+		#monsterspellbooks:volt_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:volt_arrow" = "DEFAULT"
+		#monsterspellbooks:elthor_beam mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:elthor_beam" = "DEFAULT"
+		#monsterspellbooks:plasma_bolt mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:plasma_bolt" = "DEFAULT"
+		#monsterspellbooks:soul_firebolt mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:soul_firebolt" = "DEFAULT"
+		#monsterspellbooks:frosted_snowbolt mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:frosted_snowbolt" = "DEFAULT"
+		#monsterspellbooks:graveyard_hand mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:graveyard_hand" = "DEFAULT"
+		#monsterspellbooks:raigo mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:raigo" = "DEFAULT"
+		#monsterspellbooks:stray_grasp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:stray_grasp" = "DEFAULT"
+		#monsterspellbooks:water_trident mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:water_trident" = "DEFAULT"
+		#monsterspellbooks:vile_slash mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:vile_slash" = "DEFAULT"
+		#monsterspellbooks:holy_hammer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:holy_hammer" = "DEFAULT"
+		#monsterspellbooks:extended_wind_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:extended_wind_charge" = "DEFAULT"
+		#monsterspellbooks:forceful_wind mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:forceful_wind" = "DEFAULT"
+		#monsterspellbooks:bone_dagger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:bone_dagger" = "DEFAULT"
+		#monsterspellbooks:poison_quill mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:poison_quill" = "DEFAULT"
+		#monsterspellbooks:cave_spider_fang mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:cave_spider_fang" = "DEFAULT"
+		#monsterspellbooks:ice_spider_fang mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:ice_spider_fang" = "DEFAULT"
+		#monsterspellbooks:chaurus_mandibles mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:chaurus_mandibles" = "DEFAULT"
+		#monsterspellbooks:rancor_skull mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:rancor_skull" = "DEFAULT"
+		#monsterspellbooks:blood_thorn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:blood_thorn" = "DEFAULT"
+		#monsterspellbooks:ancient_lightning_strike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:ancient_lightning_strike" = "DEFAULT"
+		#monsterspellbooks:frost_breath mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:frost_breath" = "DEFAULT"
+		#monsterspellbooks:small_frenzy_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:small_frenzy_fireball" = "DEFAULT"
+		#monsterspellbooks:small_brimstone_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:small_brimstone_fireball" = "DEFAULT"
+		#monsterspellbooks:dragon_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:dragon_charge" = "DEFAULT"
+		#monsterspellbooks:redstone_chain_lightning mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:redstone_chain_lightning" = "DEFAULT"
+		#monsterspellbooks:soul_chain mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:soul_chain" = "DEFAULT"
+		#monsterspellbooks:space_rupture mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:space_rupture" = "DEFAULT"
+		#monsterspellbooks:sanguinite_evisceration mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:sanguinite_evisceration" = "DEFAULT"
+		#monsterspellbooks:blood_pierce mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:blood_pierce" = "DEFAULT"
+		#monsterspellbooks:vital_blast mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:vital_blast" = "DEFAULT"
+		#monsterspellbooks:pale_thorn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:pale_thorn" = "DEFAULT"
+		#monsterspellbooks:guardians_neutralizer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:guardians_neutralizer" = "DEFAULT"
+		#monsterspellbooks:wither_nova mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:wither_nova" = "DEFAULT"
+		#monsterspellbooks:cauterizing_touch mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:cauterizing_touch" = "DEFAULT"
+		#monsterspellbooks:space_breaker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:space_breaker" = "DEFAULT"
+		#monsterspellbooks:brimstone_buzzsaw mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:brimstone_buzzsaw" = "DEFAULT"
+		#monsterspellbooks:frenzied_burst mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:frenzied_burst" = "DEFAULT"
+		#monsterspellbooks:snow_cloud mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:snow_cloud" = "DEFAULT"
+		#monsterspellbooks:powder_snow_splash mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:powder_snow_splash" = "DEFAULT"
+		#monsterspellbooks:ancient_flash mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:ancient_flash" = "DEFAULT"
+		#monsterspellbooks:infection_slash mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:infection_slash" = "DEFAULT"
+		#monsterspellbooks:hallow_slash mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:hallow_slash" = "DEFAULT"
+		#monsterspellbooks:static_cleave mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:static_cleave" = "DEFAULT"
+		#monsterspellbooks:spectral_blast mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:spectral_blast" = "DEFAULT"
+		#monsterspellbooks:predatory_scream mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:predatory_scream" = "DEFAULT"
+		#monsterspellbooks:life_drain mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:life_drain" = "DEFAULT"
+		#monsterspellbooks:bubble_spray mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:bubble_spray" = "DEFAULT"
+		#monsterspellbooks:steam_stream mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:steam_stream" = "DEFAULT"
+		#monsterspellbooks:wither_bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:wither_bomb" = "DEFAULT"
+		#monsterspellbooks:razorblade_typhoon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:razorblade_typhoon" = "DEFAULT"
+		#monsterspellbooks:napalm_orb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:napalm_orb" = "DEFAULT"
+		#monsterspellbooks:putrescence_field mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:putrescence_field" = "DEFAULT"
+		#monsterspellbooks:brimstone_field mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:brimstone_field" = "DEFAULT"
+		#monsterspellbooks:distortion_field mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:distortion_field" = "DEFAULT"
+		#monsterspellbooks:static_field mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:static_field" = "DEFAULT"
+		#monsterspellbooks:soul_fire_field mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:soul_fire_field" = "DEFAULT"
+		#monsterspellbooks:putrescence_mass mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:putrescence_mass" = "DEFAULT"
+		#monsterspellbooks:effervescence_bubble mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:effervescence_bubble" = "DEFAULT"
+		#monsterspellbooks:blast_fungus_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:blast_fungus_projectile" = "DEFAULT"
+		#monsterspellbooks:aegis mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:aegis" = "DEFAULT"
+		#monsterspellbooks:dwarven_sphere mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:dwarven_sphere" = "DEFAULT"
+		#monsterspellbooks:dwarven_slicer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:dwarven_slicer" = "DEFAULT"
+		#monsterspellbooks:redstone_elemental mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:redstone_elemental" = "DEFAULT"
+		#monsterspellbooks:soul_wraith mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:soul_wraith" = "DEFAULT"
+		#monsterspellbooks:drippler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:drippler" = "DEFAULT"
+		#monsterspellbooks:spriggan mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:spriggan" = "DEFAULT"
+		#monsterspellbooks:wither_warlock mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:wither_warlock" = "DEFAULT"
+		#monsterspellbooks:wither_warrior mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:wither_warrior" = "DEFAULT"
+		#monsterspellbooks:summoned_wither_warrior mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:summoned_wither_warrior" = "DEFAULT"
+		#monsterspellbooks:illager_enchanter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:illager_enchanter" = "DEFAULT"
+		#monsterspellbooks:illager_iceologer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:illager_iceologer" = "DEFAULT"
+		#monsterspellbooks:illager_fireologer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:illager_fireologer" = "DEFAULT"
+		#monsterspellbooks:draugr_evoker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:draugr_evoker" = "DEFAULT"
+		#monsterspellbooks:draugr_vindicator mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:draugr_vindicator" = "DEFAULT"
+		#monsterspellbooks:draugr_elite_vindicator mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:draugr_elite_vindicator" = "DEFAULT"
+		#monsterspellbooks:draugr_pillager mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:draugr_pillager" = "DEFAULT"
+		#monsterspellbooks:soul_wizard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:soul_wizard" = "DEFAULT"
+		#monsterspellbooks:dwarven_swarm_drone mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:dwarven_swarm_drone" = "DEFAULT"
+		#monsterspellbooks:jungle_whisperer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:jungle_whisperer" = "DEFAULT"
+		#monsterspellbooks:jungle_leapleaf mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:jungle_leapleaf" = "DEFAULT"
+		#monsterspellbooks:magma_atronach mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:magma_atronach" = "DEFAULT"
+		#monsterspellbooks:blastling mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:blastling" = "DEFAULT"
+		#monsterspellbooks:poison_quill_vine mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:poison_quill_vine" = "DEFAULT"
+		#monsterspellbooks:living_leaf_crystal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:living_leaf_crystal" = "DEFAULT"
+		#monsterspellbooks:orbital_snowball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:orbital_snowball" = "DEFAULT"
+		#monsterspellbooks:ice_serpeant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:ice_serpeant" = "DEFAULT"
+		#monsterspellbooks:vile_skeleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:vile_skeleton" = "DEFAULT"
+		#monsterspellbooks:summoned_aegis mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:summoned_aegis" = "DEFAULT"
+		#monsterspellbooks:summoned_vile_skeleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:summoned_vile_skeleton" = "DEFAULT"
+		#monsterspellbooks:death_knight mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"monsterspellbooks:death_knight" = "DEFAULT"
+		#nirvana:reefer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:reefer" = "DEFAULT"
+		#nirvana:thc mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:thc" = "DEFAULT"
+		#nirvana:thc_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:thc_minecart" = "DEFAULT"
+		#irons_artifice:bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:bullet" = "DEFAULT"
+		#irons_artifice:chain mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:chain" = "DEFAULT"
+		#irons_artifice:soul mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:soul" = "DEFAULT"
+		#irons_artifice:gunslinger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:gunslinger" = "DEFAULT"
+		#irons_artifice:illificer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:illificer" = "DEFAULT"

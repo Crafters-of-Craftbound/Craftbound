@@ -12,7 +12,6 @@
     {"type": "single", "resource": "kubejs:trims/models/armor/doom", "sprite": "kubejs:trims/models/armor/god_tier_doom"},
     {"type": "single", "resource": "kubejs:trims/models/armor/blood", "sprite": "kubejs:trims/models/armor/god_tier_blood"},
     {"type": "single", "resource": "kubejs:trims/models/armor/rage", "sprite": "kubejs:trims/models/armor/god_tier_rage"},
-    {"type": "single", "resource": "kubejs:trims/models/armor/rage", "sprite": "kubejs:trims/models/armor/god_tier_rage"},
     {"type": "single", "resource": "kubejs:trims/models/armor/master_breath", "sprite": "kubejs:trims/models/armor/god_tier_master_breath"},
     {"type": "single", "resource": "kubejs:trims/models/armor/master_light", "sprite": "kubejs:trims/models/armor/god_tier_master_light"},
     {"type": "single", "resource": "kubejs:trims/models/armor/master_time", "sprite": "kubejs:trims/models/armor/god_tier_master_time"},

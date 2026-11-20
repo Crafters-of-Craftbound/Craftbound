@@ -1937,9 +1937,6 @@
 		#minecraft:cushion mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"minecraft:cushion" = "DEFAULT"
-		#vortylib:seat_entity mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"vortylib:seat_entity" = "DEFAULT"
 		#extrastuck:captain_justice_shield mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"extrastuck:captain_justice_shield" = "DEFAULT"
@@ -2705,3 +2702,9 @@
 		#kaleidoscope_cookery:throwable_baozi mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"kaleidoscope_cookery:throwable_baozi" = "DEFAULT"
+		#kubejs:sprite mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"kubejs:sprite" = "DEFAULT"
+		#carryonextend:custom_falling_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"carryonextend:custom_falling_block" = "DEFAULT"

@@ -71,7 +71,7 @@
 		const server = event.server
 		const name = String(player.username)
 		const direction = ['north', 'south', 'east', 'west'][Math.floor(Math.random() * 4)]
-		if (!player.tags.contains('Settled') || !event.advancement.hasDisplay() || !event.advancement.display.shouldShowToast() || String(event.advancement.id) == 'minecraft:kogtyvtav/root' || player.isAdvancementDone('minestuck:minestuck/entry') || showering[name] || player.isCreative()) return
+		if (!player.tags.contains('Settled') || !event.advancement.hasDisplay() || !event.advancement.display.shouldShowToast() || String(event.advancement.id) == 'minecraft:kogtyvtav/root' || player.isAdvancementDone('minestuck:minestuck/entry') || showering[name]) return
 		if (Math.random() >= 0.2) return
 		for (let i = 0; i < 10; i++) {
 			server.scheduleInTicks(i * 10, () => {

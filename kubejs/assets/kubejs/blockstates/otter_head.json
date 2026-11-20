@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kubejs:block/otter_head"
+    },
+    "facing=east": {
+      "model": "kubejs:block/otter_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kubejs:block/otter_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/otter_head",
+      "y": 270
+    }
+  }
+}

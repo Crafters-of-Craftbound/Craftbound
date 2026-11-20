@@ -1781,303 +1781,6 @@
 		#simplehats:hatdisplay mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"simplehats:hatdisplay" = "DEFAULT"
-		#immersive_aircraft:gyrodyne mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:gyrodyne" = "DEFAULT"
-		#immersive_aircraft:biplane mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:biplane" = "DEFAULT"
-		#immersive_aircraft:airship mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:airship" = "DEFAULT"
-		#immersive_aircraft:cargo_airship mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:cargo_airship" = "DEFAULT"
-		#immersive_aircraft:warship mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:warship" = "DEFAULT"
-		#immersive_aircraft:quadrocopter mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:quadrocopter" = "DEFAULT"
-		#immersive_aircraft:bamboo_hopper mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:bamboo_hopper" = "DEFAULT"
-		#immersive_aircraft:bullet mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:bullet" = "DEFAULT"
-		#immersive_aircraft:tiny_tnt mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"immersive_aircraft:tiny_tnt" = "DEFAULT"
-		#civilian_aviation:e500_red mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:e500_red" = "DEFAULT"
-		#civilian_aviation:e500_blackred mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:e500_blackred" = "DEFAULT"
-		#civilian_aviation:e500_blue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:e500_blue" = "DEFAULT"
-		#civilian_aviation:e500_extravagant mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:e500_extravagant" = "DEFAULT"
-		#civilian_aviation:e500_green mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:e500_green" = "DEFAULT"
-		#civilian_aviation:e500_rusty mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:e500_rusty" = "DEFAULT"
-		#civilian_aviation:e500_silver mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:e500_silver" = "DEFAULT"
-		#civilian_aviation:e500_yellow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:e500_yellow" = "DEFAULT"
-		#civilian_aviation:bell206_blackstripe mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_blackstripe" = "DEFAULT"
-		#civilian_aviation:bell206_black mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_black" = "DEFAULT"
-		#civilian_aviation:bell206_blank mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_blank" = "DEFAULT"
-		#civilian_aviation:bell206_blue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_blue" = "DEFAULT"
-		#civilian_aviation:bell206_brown mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_brown" = "DEFAULT"
-		#civilian_aviation:bell206_gray mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_gray" = "DEFAULT"
-		#civilian_aviation:bell206_green mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_green" = "DEFAULT"
-		#civilian_aviation:bell206_olive mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_olive" = "DEFAULT"
-		#civilian_aviation:bell206_orange mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_orange" = "DEFAULT"
-		#civilian_aviation:bell206_police mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_police" = "DEFAULT"
-		#civilian_aviation:bell206_red mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_red" = "DEFAULT"
-		#civilian_aviation:bell206_seagreen mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_seagreen" = "DEFAULT"
-		#civilian_aviation:bell206_skyblue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_skyblue" = "DEFAULT"
-		#civilian_aviation:bell206_yellow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell206_yellow" = "DEFAULT"
-		#civilian_aviation:bell47g mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell47g" = "DEFAULT"
-		#civilian_aviation:bell47g_black mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell47g_black" = "DEFAULT"
-		#civilian_aviation:bell47g_blue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell47g_blue" = "DEFAULT"
-		#civilian_aviation:bell47g_olive mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bell47g_olive" = "DEFAULT"
-		#civilian_aviation:pzlp11 mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzlp11" = "DEFAULT"
-		#civilian_aviation:pzlp11_brown mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzlp11_brown" = "DEFAULT"
-		#civilian_aviation:pzlp11_green mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzlp11_green" = "DEFAULT"
-		#civilian_aviation:pzlp11_tan mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzlp11_tan" = "DEFAULT"
-		#civilian_aviation:pzl37los mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzl37los" = "DEFAULT"
-		#civilian_aviation:pzl37los_arctic mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzl37los_arctic" = "DEFAULT"
-		#civilian_aviation:pzl37los_brown mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzl37los_brown" = "DEFAULT"
-		#civilian_aviation:pzl37los_green mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzl37los_green" = "DEFAULT"
-		#civilian_aviation:pzl37los_tan mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:pzl37los_tan" = "DEFAULT"
-		#civilian_aviation:trimotor_blue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:trimotor_blue" = "DEFAULT"
-		#civilian_aviation:vulcanair_red mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_red" = "DEFAULT"
-		#civilian_aviation:vulcanair_blackred mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_blackred" = "DEFAULT"
-		#civilian_aviation:vulcanair_blackyellow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_blackyellow" = "DEFAULT"
-		#civilian_aviation:vulcanair_blank mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_blank" = "DEFAULT"
-		#civilian_aviation:vulcanair_blue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_blue" = "DEFAULT"
-		#civilian_aviation:vulcanair_bluestripe mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_bluestripe" = "DEFAULT"
-		#civilian_aviation:vulcanair_cow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_cow" = "DEFAULT"
-		#civilian_aviation:vulcanair_gray mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_gray" = "DEFAULT"
-		#civilian_aviation:vulcanair_green mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_green" = "DEFAULT"
-		#civilian_aviation:vulcanair_orange mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_orange" = "DEFAULT"
-		#civilian_aviation:vulcanair_police mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_police" = "DEFAULT"
-		#civilian_aviation:vulcanair_redsnail mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_redsnail" = "DEFAULT"
-		#civilian_aviation:vulcanair_redyellow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_redyellow" = "DEFAULT"
-		#civilian_aviation:vulcanair_seagreen mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_seagreen" = "DEFAULT"
-		#civilian_aviation:vulcanair_white mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_white" = "DEFAULT"
-		#civilian_aviation:vulcanair_winged mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_winged" = "DEFAULT"
-		#civilian_aviation:vulcanair_yellow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:vulcanair_yellow" = "DEFAULT"
-		#civilian_aviation:trimotor_black mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:trimotor_black" = "DEFAULT"
-		#civilian_aviation:trimotor_red mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:trimotor_red" = "DEFAULT"
-		#civilian_aviation:trimotor_white mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:trimotor_white" = "DEFAULT"
-		#civilian_aviation:comanche_red mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:comanche_red" = "DEFAULT"
-		#civilian_aviation:comanche_blue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:comanche_blue" = "DEFAULT"
-		#civilian_aviation:comanche_blackredstripe mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:comanche_blackredstripe" = "DEFAULT"
-		#civilian_aviation:comanche_yellow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:comanche_yellow" = "DEFAULT"
-		#civilian_aviation:comanche_orangebrown mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:comanche_orangebrown" = "DEFAULT"
-		#civilian_aviation:comanche_seagreen mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:comanche_seagreen" = "DEFAULT"
-		#civilian_aviation:comanche_blank mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:comanche_blank" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_red mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_red" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_coffee mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_coffee" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_bluestripe mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_bluestripe" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_green mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_green" = "DEFAULT"
-		#civilian_aviation:skyhawk_red mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_red" = "DEFAULT"
-		#civilian_aviation:skyhawk_coffee mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_coffee" = "DEFAULT"
-		#civilian_aviation:skyhawk_bluestripe mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_bluestripe" = "DEFAULT"
-		#civilian_aviation:skyhawk_green mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_green" = "DEFAULT"
-		#civilian_aviation:skyhawk_blackorange mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_blackorange" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_blackorange mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_blackorange" = "DEFAULT"
-		#civilian_aviation:skyhawk_blackred mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_blackred" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_blackred mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_blackred" = "DEFAULT"
-		#civilian_aviation:skyhawk_blackyellow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_blackyellow" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_blackyellow mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_blackyellow" = "DEFAULT"
-		#civilian_aviation:skyhawk_blank mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_blank" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_blank mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_blank" = "DEFAULT"
-		#civilian_aviation:skyhawk_blue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_blue" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_blue mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_blue" = "DEFAULT"
-		#civilian_aviation:skyhawk_bluered mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_bluered" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_bluered mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_bluered" = "DEFAULT"
-		#civilian_aviation:skyhawk_brown mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_brown" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_brown mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_brown" = "DEFAULT"
-		#civilian_aviation:skyhawk_butter mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_butter" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_butter mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_butter" = "DEFAULT"
-		#civilian_aviation:skyhawk_red2 mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_red2" = "DEFAULT"
-		#civilian_aviation:skyhawk_pr_red2 mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:skyhawk_pr_red2" = "DEFAULT"
-		#civilian_aviation:basicbomb mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:basicbomb" = "DEFAULT"
 		#sophisticatedbackpacks:everlasting_backpack_item mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"sophisticatedbackpacks:everlasting_backpack_item" = "DEFAULT"
@@ -2096,9 +1799,6 @@
 		#cluttered:chair_entity mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"cluttered:chair_entity" = "DEFAULT"
-		#civilian_aviation:bullet mobGriefing
-		#Allowed Values: DEFAULT, TRUE, FALSE
-		"civilian_aviation:bullet" = "DEFAULT"
 		#tunes_n_tomes:default_note mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"tunes_n_tomes:default_note" = "DEFAULT"
@@ -2696,3 +2396,315 @@
 		#alchemancystuck:rage_path_brain mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"alchemancystuck:rage_path_brain" = "DEFAULT"
+		#immersive_aircraft:gyrodyne mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:gyrodyne" = "DEFAULT"
+		#immersive_aircraft:biplane mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:biplane" = "DEFAULT"
+		#immersive_aircraft:airship mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:airship" = "DEFAULT"
+		#immersive_aircraft:cargo_airship mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:cargo_airship" = "DEFAULT"
+		#immersive_aircraft:warship mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:warship" = "DEFAULT"
+		#immersive_aircraft:quadrocopter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:quadrocopter" = "DEFAULT"
+		#immersive_aircraft:bamboo_hopper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:bamboo_hopper" = "DEFAULT"
+		#immersive_aircraft:bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:bullet" = "DEFAULT"
+		#immersive_aircraft:tiny_tnt mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"immersive_aircraft:tiny_tnt" = "DEFAULT"
+		#civilian_aviation:e500_red mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:e500_red" = "DEFAULT"
+		#civilian_aviation:e500_blackred mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:e500_blackred" = "DEFAULT"
+		#civilian_aviation:e500_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:e500_blue" = "DEFAULT"
+		#civilian_aviation:e500_extravagant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:e500_extravagant" = "DEFAULT"
+		#civilian_aviation:e500_green mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:e500_green" = "DEFAULT"
+		#civilian_aviation:e500_rusty mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:e500_rusty" = "DEFAULT"
+		#civilian_aviation:e500_silver mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:e500_silver" = "DEFAULT"
+		#civilian_aviation:e500_yellow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:e500_yellow" = "DEFAULT"
+		#civilian_aviation:bell206_blackstripe mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_blackstripe" = "DEFAULT"
+		#civilian_aviation:bell206_black mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_black" = "DEFAULT"
+		#civilian_aviation:bell206_blank mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_blank" = "DEFAULT"
+		#civilian_aviation:bell206_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_blue" = "DEFAULT"
+		#civilian_aviation:bell206_brown mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_brown" = "DEFAULT"
+		#civilian_aviation:bell206_gray mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_gray" = "DEFAULT"
+		#civilian_aviation:bell206_green mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_green" = "DEFAULT"
+		#civilian_aviation:bell206_olive mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_olive" = "DEFAULT"
+		#civilian_aviation:bell206_orange mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_orange" = "DEFAULT"
+		#civilian_aviation:bell206_police mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_police" = "DEFAULT"
+		#civilian_aviation:bell206_red mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_red" = "DEFAULT"
+		#civilian_aviation:bell206_seagreen mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_seagreen" = "DEFAULT"
+		#civilian_aviation:bell206_skyblue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_skyblue" = "DEFAULT"
+		#civilian_aviation:bell206_yellow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell206_yellow" = "DEFAULT"
+		#civilian_aviation:bell47g mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell47g" = "DEFAULT"
+		#civilian_aviation:bell47g_black mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell47g_black" = "DEFAULT"
+		#civilian_aviation:bell47g_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell47g_blue" = "DEFAULT"
+		#civilian_aviation:bell47g_olive mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bell47g_olive" = "DEFAULT"
+		#civilian_aviation:pzlp11 mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzlp11" = "DEFAULT"
+		#civilian_aviation:pzlp11_brown mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzlp11_brown" = "DEFAULT"
+		#civilian_aviation:pzlp11_green mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzlp11_green" = "DEFAULT"
+		#civilian_aviation:pzlp11_tan mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzlp11_tan" = "DEFAULT"
+		#civilian_aviation:pzl37los mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzl37los" = "DEFAULT"
+		#civilian_aviation:pzl37los_arctic mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzl37los_arctic" = "DEFAULT"
+		#civilian_aviation:pzl37los_brown mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzl37los_brown" = "DEFAULT"
+		#civilian_aviation:pzl37los_green mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzl37los_green" = "DEFAULT"
+		#civilian_aviation:pzl37los_tan mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:pzl37los_tan" = "DEFAULT"
+		#civilian_aviation:trimotor_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:trimotor_blue" = "DEFAULT"
+		#civilian_aviation:vulcanair_red mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_red" = "DEFAULT"
+		#civilian_aviation:vulcanair_blackred mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_blackred" = "DEFAULT"
+		#civilian_aviation:vulcanair_blackyellow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_blackyellow" = "DEFAULT"
+		#civilian_aviation:vulcanair_blank mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_blank" = "DEFAULT"
+		#civilian_aviation:vulcanair_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_blue" = "DEFAULT"
+		#civilian_aviation:vulcanair_bluestripe mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_bluestripe" = "DEFAULT"
+		#civilian_aviation:vulcanair_cow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_cow" = "DEFAULT"
+		#civilian_aviation:vulcanair_gray mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_gray" = "DEFAULT"
+		#civilian_aviation:vulcanair_green mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_green" = "DEFAULT"
+		#civilian_aviation:vulcanair_orange mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_orange" = "DEFAULT"
+		#civilian_aviation:vulcanair_police mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_police" = "DEFAULT"
+		#civilian_aviation:vulcanair_redsnail mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_redsnail" = "DEFAULT"
+		#civilian_aviation:vulcanair_redyellow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_redyellow" = "DEFAULT"
+		#civilian_aviation:vulcanair_seagreen mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_seagreen" = "DEFAULT"
+		#civilian_aviation:vulcanair_white mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_white" = "DEFAULT"
+		#civilian_aviation:vulcanair_winged mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_winged" = "DEFAULT"
+		#civilian_aviation:vulcanair_yellow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:vulcanair_yellow" = "DEFAULT"
+		#civilian_aviation:trimotor_black mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:trimotor_black" = "DEFAULT"
+		#civilian_aviation:trimotor_red mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:trimotor_red" = "DEFAULT"
+		#civilian_aviation:trimotor_white mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:trimotor_white" = "DEFAULT"
+		#civilian_aviation:comanche_red mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:comanche_red" = "DEFAULT"
+		#civilian_aviation:comanche_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:comanche_blue" = "DEFAULT"
+		#civilian_aviation:comanche_blackredstripe mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:comanche_blackredstripe" = "DEFAULT"
+		#civilian_aviation:comanche_yellow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:comanche_yellow" = "DEFAULT"
+		#civilian_aviation:comanche_orangebrown mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:comanche_orangebrown" = "DEFAULT"
+		#civilian_aviation:comanche_seagreen mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:comanche_seagreen" = "DEFAULT"
+		#civilian_aviation:comanche_blank mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:comanche_blank" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_red mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_red" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_coffee mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_coffee" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_bluestripe mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_bluestripe" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_green mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_green" = "DEFAULT"
+		#civilian_aviation:skyhawk_red mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_red" = "DEFAULT"
+		#civilian_aviation:skyhawk_coffee mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_coffee" = "DEFAULT"
+		#civilian_aviation:skyhawk_bluestripe mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_bluestripe" = "DEFAULT"
+		#civilian_aviation:skyhawk_green mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_green" = "DEFAULT"
+		#civilian_aviation:skyhawk_blackorange mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_blackorange" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_blackorange mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_blackorange" = "DEFAULT"
+		#civilian_aviation:skyhawk_blackred mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_blackred" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_blackred mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_blackred" = "DEFAULT"
+		#civilian_aviation:skyhawk_blackyellow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_blackyellow" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_blackyellow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_blackyellow" = "DEFAULT"
+		#civilian_aviation:skyhawk_blank mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_blank" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_blank mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_blank" = "DEFAULT"
+		#civilian_aviation:skyhawk_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_blue" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_blue" = "DEFAULT"
+		#civilian_aviation:skyhawk_bluered mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_bluered" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_bluered mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_bluered" = "DEFAULT"
+		#civilian_aviation:skyhawk_brown mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_brown" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_brown mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_brown" = "DEFAULT"
+		#civilian_aviation:skyhawk_butter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_butter" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_butter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_butter" = "DEFAULT"
+		#civilian_aviation:skyhawk_red2 mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_red2" = "DEFAULT"
+		#civilian_aviation:skyhawk_pr_red2 mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:skyhawk_pr_red2" = "DEFAULT"
+		#civilian_aviation:basicbomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:basicbomb" = "DEFAULT"
+		#civilian_aviation:bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"civilian_aviation:bullet" = "DEFAULT"
+		#kaleidoscope_cookery:sit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"kaleidoscope_cookery:sit" = "DEFAULT"
+		#kaleidoscope_cookery:scarecrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"kaleidoscope_cookery:scarecrow" = "DEFAULT"
+		#kaleidoscope_cookery:throwable_baozi mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"kaleidoscope_cookery:throwable_baozi" = "DEFAULT"
+		#kubejs:sprite mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"kubejs:sprite" = "DEFAULT"

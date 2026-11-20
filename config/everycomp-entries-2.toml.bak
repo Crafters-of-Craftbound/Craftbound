@@ -81,6 +81,14 @@
 			pale_oak = true
 			poplar = true
 
+		[types.wood_type.abyssal_decor]
+			white_wood = true
+			blackwood = true
+			cinnamon = true
+
+		[types.wood_type.architects_palette]
+			twisted = true
+
 		[types.leaves_type.biomeswevegone]
 			flowering_palo_verde = true
 			aspen = true
@@ -200,6 +208,13 @@
 			orange_poplar = true
 			yellow_poplar = true
 
+		[types.leaves_type.abyssal_decor]
+			cinnamon = true
+			flowering_cinnamon = true
+
+		[types.leaves_type.architects_palette]
+			twisted = true
+
 		[entries.wood_type.create]
 			window = true
 			window_pane = true
@@ -242,6 +257,18 @@
 
 		[entries.wood_type.vanillabackport]
 			shelf = true
+
+		[entries.wood_type.architects_palette]
+			board_stairs = false
+			railing = false
+			board_slab = false
+			boards = false
+			board_wall = false
+
+		[entries.wood_type.kaleidoscope_cookery]
+			cook_stool = false
+			chair = false
+			table = false
 
 		[entries.leaves_type.quark]
 			hedge = true

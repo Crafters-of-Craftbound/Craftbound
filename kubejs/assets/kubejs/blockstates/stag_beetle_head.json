@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kubejs:block/stag_beetle_head"
+    },
+    "facing=east": {
+      "model": "kubejs:block/stag_beetle_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kubejs:block/stag_beetle_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/stag_beetle_head",
+      "y": 270
+    }
+  }
+}

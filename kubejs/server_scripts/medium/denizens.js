@@ -183,7 +183,7 @@
 			const pos = player.persistentData.getCompound('PreDenizen')
 			let busy = false
 			if (event.hand != 'MAIN_HAND') return
-			if (!inVeil(player) && !String(player.level.dimension).startsWith("minestuck:debug_land") && (String(player.level.dimension) != `minestuck:land_${String(player.username).toLowerCase()}` || !player.tags.contains(aspect))) return
+			if (!inVeil(player) && !player.tags.contains(aspect)) return
 			if (player.tags.contains('DenizenActive')) dismiss(player)
 			if (inVeil(player)) {
 				leaveLair(player)

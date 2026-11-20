@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kubejs:block/happy_ghast_head"
+    },
+    "facing=east": {
+      "model": "kubejs:block/happy_ghast_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kubejs:block/happy_ghast_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/happy_ghast_head",
+      "y": 270
+    }
+  }
+}

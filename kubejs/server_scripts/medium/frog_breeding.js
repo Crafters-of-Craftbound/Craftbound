@@ -107,8 +107,10 @@
 
 	function floatAway(tadpole, dimension, ticksLeft) {
 		if (tadpole.isRemoved()) return
-		if (ticksLeft == 200) lightningGrow(tadpole, dimension, 3)
-		if (ticksLeft == 100) lightningGrow(tadpole, dimension, 6)
+		if (ticksLeft == 960) lightningGrow(tadpole, dimension, 3)
+		if (ticksLeft == 720) lightningGrow(tadpole, dimension, 6)
+		if (ticksLeft == 480) lightningGrow(tadpole, dimension, 12)
+		if (ticksLeft == 240) lightningGrow(tadpole, dimension, 24)
 		if (ticksLeft <= 0) {
 			tadpole.server.runCommandSilent(`execute in ${dimension} run particle minecraft:poof ${tadpole.x.toFixed(2)} ${(tadpole.y + 0.2).toFixed(2)} ${tadpole.z.toFixed(2)} 0.2 0.2 0.2 0.02 15`)
 			tadpole.discard()
@@ -149,7 +151,7 @@
 		player.server.runCommandSilent(`${nearby} stopsound @s music`)
 		player.server.runCommandSilent(`${nearby} stopsound @s record`)
 		player.server.runCommandSilent(`${nearby} playsound minecraft:custom.act7 music @s ~ ~ ~ 1`)
-		floatAway(tadpole, dimension, 300)
+		floatAway(tadpole, dimension, 1200)
 	})
 
 	function thanksForPlaying(player) {

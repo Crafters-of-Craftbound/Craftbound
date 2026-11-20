@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kubejs:block/man_o_war_head"
+    },
+    "facing=east": {
+      "model": "kubejs:block/man_o_war_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kubejs:block/man_o_war_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/man_o_war_head",
+      "y": 270
+    }
+  }
+}

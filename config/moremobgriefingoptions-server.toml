@@ -2708,3 +2708,27 @@
 		#carryonextend:custom_falling_block mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"carryonextend:custom_falling_block" = "DEFAULT"
+		#nirvana:reefer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:reefer" = "DEFAULT"
+		#nirvana:thc mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:thc" = "DEFAULT"
+		#nirvana:thc_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:thc_minecart" = "DEFAULT"
+		#irons_artifice:bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:bullet" = "DEFAULT"
+		#irons_artifice:chain mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:chain" = "DEFAULT"
+		#irons_artifice:soul mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:soul" = "DEFAULT"
+		#irons_artifice:gunslinger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:gunslinger" = "DEFAULT"
+		#irons_artifice:illificer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:illificer" = "DEFAULT"

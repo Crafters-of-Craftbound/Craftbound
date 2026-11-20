@@ -1,0 +1,64 @@
+{
+  "processors": [
+    {
+      "processor_type": "irons_spellbooks:foundation",
+      "block": {
+        "Name": "minecraft:blackstone"
+      }
+    },
+    {
+      "processor_type": "irons_spellbooks:clear_vault_data"
+    },
+    {
+      "processor_type": "irons_spellbooks:handle_lit_blocks",
+      "chanceLit": 0.65
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_bricks",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "irons_spellbooks:armor_pile",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "irons_spellbooks:book_stack",
+            "probability": 0.40
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minestuck:block_registry"
+    }
+  ]
+}

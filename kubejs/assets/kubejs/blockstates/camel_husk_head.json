@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kubejs:block/camel_husk_head"
+    },
+    "facing=east": {
+      "model": "kubejs:block/camel_husk_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kubejs:block/camel_husk_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/camel_husk_head",
+      "y": 270
+    }
+  }
+}

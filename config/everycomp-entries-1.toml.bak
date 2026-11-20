@@ -89,6 +89,9 @@
 		[types.wood_type.architects_palette]
 			twisted = true
 
+		[types.wood_type.monsterspellbooks]
+			coral = true
+
 		[types.leaves_type.biomeswevegone]
 			flowering_palo_verde = true
 			aspen = true
@@ -259,11 +262,16 @@
 			shelf = true
 
 		[entries.wood_type.architects_palette]
-			board_stairs = true
-			railing = true
-			board_slab = true
-			boards = true
-			board_wall = true
+			board_stairs = false
+			railing = false
+			board_slab = false
+			boards = false
+			board_wall = false
+
+		[entries.wood_type.kaleidoscope_cookery]
+			cook_stool = false
+			chair = false
+			table = false
 
 		[entries.leaves_type.quark]
 			hedge = true

@@ -130,6 +130,18 @@
 	EntityEvents.spawned('kubejs:sprite', event => event.entity.setStayPutGoal(false))
 	EntityEvents.spawned('minestuck:kernelsprite', event => event.entity.setStayPutGoal(false))
 
+	function blockArtifact(event, item) {
+		if (!['minestuck:cruxite_apple', 'minestuck:cruxite_potion', 'minestuck:cruxite_disc', 'minestuck:cruxite_disk', 'minestuck:cruxite_shears'].includes(String(item.id))) return
+		if (!near(event.player, 100).find(entity => entity.type == 'minestuck:kernelsprite')) return
+		event.player.setStatusMessage(Text.green('Prototype your Kernelsprite!'))
+		event.cancel()
+	}
+
+	ItemEvents.rightClicked(event => blockArtifact(event, event.item))
+	BlockEvents.rightClicked(event => blockArtifact(event, event.item))
+	ItemEvents.entityInteracted(event => blockArtifact(event, event.item))
+	BlockEvents.broken(event => blockArtifact(event, event.player.mainHandItem))
+
 	function setSpawnHere(server, name) {
 		server.runCommandSilent(`execute as ${name} at @s run spawnpoint @s ~ ~ ~`)
 	}

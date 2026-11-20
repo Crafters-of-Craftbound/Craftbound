@@ -2705,3 +2705,54 @@
 		#kubejs:sprite mobGriefing
 		#Allowed Values: DEFAULT, TRUE, FALSE
 		"kubejs:sprite" = "DEFAULT"
+		#carryonextend:custom_falling_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"carryonextend:custom_falling_block" = "DEFAULT"
+		#nirvana:reefer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:reefer" = "DEFAULT"
+		#nirvana:thc mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:thc" = "DEFAULT"
+		#nirvana:thc_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"nirvana:thc_minecart" = "DEFAULT"
+		#irons_artifice:bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:bullet" = "DEFAULT"
+		#irons_artifice:chain mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:chain" = "DEFAULT"
+		#irons_artifice:soul mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:soul" = "DEFAULT"
+		#irons_artifice:gunslinger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:gunslinger" = "DEFAULT"
+		#irons_artifice:illificer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"irons_artifice:illificer" = "DEFAULT"
+		#gametechbcs_spellbooks:reversal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"gametechbcs_spellbooks:reversal" = "DEFAULT"
+		#gametechbcs_spellbooks:ashen_breath mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"gametechbcs_spellbooks:ashen_breath" = "DEFAULT"
+		#gametechbcs_spellbooks:hard_dead_king mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"gametechbcs_spellbooks:hard_dead_king" = "DEFAULT"
+		#gametechbcs_spellbooks:blackout_anti_magic_field mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"gametechbcs_spellbooks:blackout_anti_magic_field" = "DEFAULT"
+		#gametechbcs_spellbooks:acid_rain_aoe mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"gametechbcs_spellbooks:acid_rain_aoe" = "DEFAULT"
+		#gametechbcs_spellbooks:blood_rain_aoe mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"gametechbcs_spellbooks:blood_rain_aoe" = "DEFAULT"
+		#gametechbcs_spellbooks:ensnare mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"gametechbcs_spellbooks:ensnare" = "DEFAULT"
+		#gametechbcs_spellbooks:psychic_bolt_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"gametechbcs_spellbooks:psychic_bolt_projectile" = "DEFAULT"

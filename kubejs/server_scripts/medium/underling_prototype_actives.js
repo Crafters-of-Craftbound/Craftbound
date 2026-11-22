@@ -1,21 +1,20 @@
 ServerEvents.tags('item', event => {
 
-	event.add('kubejs:prototypeFiery', ["plushie_buddies:plushie_blaze", "plushie_buddies:plushie_ghast", "a_man_with_plushies:ghast_plush"])
-	event.add('kubejs:prototypable', ["plushie_buddies:plushie_blaze", "plushie_buddies:plushie_ghast", "a_man_with_plushies:ghast_plush"])
-	event.add('kubejs:prototypeHasty', ["plushie_buddies:plushie_blaze", "plushie_buddies:plushie_ghast", "a_man_with_plushies:ghast_plush", "plushie_buddies:plushie_horse", "a_man_with_plushies:coil_head_plush", "a_man_with_plushies:gd_cube_plush", "a_man_with_plushies:peppino_plush", "farmers_spell:ember_block"])
+	event.add('kubejs:prototype_fiery', ["plushie_buddies:plushie_blaze", "plushie_buddies:plushie_ghast", "a_man_with_plushies:ghast_plush"])
+	event.add('kubejs:prototypable', ["#kubejs:prototype_fiery", "#kubejs:prototype_hasty"])
+	event.add('kubejs:prototype_hasty', ["plushie_buddies:plushie_blaze", "plushie_buddies:plushie_ghast", "a_man_with_plushies:ghast_plush", "plushie_buddies:plushie_horse", "a_man_with_plushies:coil_head_plush", "a_man_with_plushies:gd_cube_plush", "a_man_with_plushies:peppino_plush", "farmers_spell:ember_block"])
 })
   
 const prototypeTags = {
-	"kubejs:prototypeFiery": {
+	"kubejs:prototype_fiery": {
         "irons_spellbooks:firebolt": 60,
         "irons_spellbooks:fireball": 60,
         "irons_spellbooks:flaming_strike": 60,
     },
-	"kubejs:prototypeIcy": {
+	"kubejs:prototype_icy": {
         "irons_spellbooks:snowball": 60,
     },
-//	"kubejs:prototypeHasty": false,
-	"kubejs:prototypeHasty": {
+	"kubejs:prototype_hasty": {
         "aero_additions:dash": 60,
     }
 }

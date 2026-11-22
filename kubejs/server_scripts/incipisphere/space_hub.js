@@ -42,14 +42,14 @@ const spaceHubTick = (() => {
 	let lastStepTime = 0
 
 	function bodyFor(server, target) {
-		if (target == 'minestuck:skaia') return { target: target, item: 'kubejs:planet_skaia', scale: 3, radius: 0, angle: 0, y: 81.5, hit: 1.5, spin: false }
+		if (target == 'minestuck:skaia') return { target: target, item: 'kubejs:planet_skaia', scale: 3, radius: 0, angle: 0, y: 81.5, hit: 1.5, spin: 120 }
 		if (target == 'minestuck:prospit') return { target: target, item: 'kubejs:planet_prospit', scale: 1, radius: 5, angle: 0, y: 81.5, hit: 0.5, spin: 6 }
 		if (target == 'minestuck:derse') return { target: target, item: 'kubejs:planet_derse', scale: 1, radius: 26.63, angle: 4.11, y: 81.5, hit: 0.5, spin: 6 }
-		if (target == 'minestuck:veil') return { target: target, item: 'kubejs:veil_temple', scale: 1, radius: 26.63, angle: 0.97, y: 81.5, hit: 1, spin: false }
+		if (target == 'minestuck:veil') return { target: target, item: 'kubejs:veil_temple', scale: 1, radius: 25.13, angle: 0.97, y: 81.5, hit: 1, spin: false }
 		if (target == 'ring') return { target: target, item: 'kubejs:veil_meteors', scale: 16.34, radius: 0, angle: 0, y: 81.5, hit: 0, spin: false }
 		const slot = server.persistentData.getCompound('SpaceHubSlots').getInt(target)
 		const terrain = String($LandTypes.TERRAIN_REGISTRY.getKey($LandTypePair.getTypes(server.getLevel(target)).get().getTerrain()).getPath())
-		return { target: target, item: LAND_BLOCKS[terrain] || 'minecraft:stone', scale: 2, radius: 15, angle: LAND_ANGLES[slot % 24] * Math.PI / 180, y: 81.5 + 2 * Math.floor(slot / 24), hit: 1, spin: 12 }
+		return { target: target, item: LAND_BLOCKS[terrain] || 'minecraft:stone', scale: 1, radius: 15, angle: LAND_ANGLES[slot % 24] * Math.PI / 180, y: 81.5 + 2 * Math.floor(slot / 24), hit: 0.5, spin: 12 }
 	}
 
 	function bodyPosition(radius, angle, y, hub) {
@@ -78,12 +78,12 @@ const spaceHubTick = (() => {
 		const hub = step * Math.PI / 120
 		const pos = bodyPosition(body.radius, body.angle, body.y, hub)
 		let turn = 0
-		if (body.spin) turn = (Math.floor(step / body.spin) + 1) * Math.PI / 2
-		if (target == 'ring') turn = hub
+		if (target == 'ring' || target == 'minestuck:veil') turn = hub
 		const display = server.getLevel('kubejs:space').createEntity('minecraft:item_display')
 		display.setPos(pos.x, pos.y, pos.z)
 		display.mergeNbt({ item: { id: body.item, count: 1 }, teleport_duration: 50, brightness: { sky: 15, block: 15 }, Tags: ['SpaceHubBody'], transformation: spinTransformation(turn, body.scale) })
 		display.persistentData.putString('Target', target)
+		if (body.spin) display.persistentData.putInt('Spin', Math.round(body.spin * (0.8 + Math.random() * 0.4)))
 		display.spawn()
 		summoned.putBoolean(target, true)
 		server.persistentData.put('SpaceBodies', summoned)
@@ -105,8 +105,11 @@ const spaceHubTick = (() => {
 			if (!entity.tags.contains('SpaceHubBody')) return
 			const body = bodyFor(server, String(entity.persistentData.getString('Target')))
 			const to = bodyPosition(body.radius, body.angle, body.y, hub)
-			if (body.target == 'ring') entity.mergeNbt({ start_interpolation: 0, interpolation_duration: 50, transformation: spinTransformation(hub, body.scale) })
-			if (body.spin && step % body.spin == 0) entity.mergeNbt({ item: { id: body.item, count: 1 }, start_interpolation: 0, interpolation_duration: body.spin * 50, transformation: spinTransformation((step / body.spin + 1) * Math.PI / 2, body.scale) })
+			const spin = entity.persistentData.getInt('Spin') || body.spin
+			const turns = entity.persistentData.getInt('Turns') + 1
+			if (body.target == 'ring' || body.target == 'minestuck:veil') entity.mergeNbt({ start_interpolation: 0, interpolation_duration: 50, transformation: spinTransformation(hub, body.scale) })
+			if (spin) entity.persistentData.putInt('Turns', turns)
+			if (spin && turns % spin == 0) entity.mergeNbt({ item: { id: body.item, count: 1 }, start_interpolation: 0, interpolation_duration: spin * 50, transformation: spinTransformation(turns / spin * Math.PI / 2, body.scale) })
 			if (body.hit > 0) bodyPaths.push({ target: body.target, hit: body.hit, from: { x: entity.x, y: entity.y, z: entity.z }, to: to })
 			entity.teleportTo(to.x, to.y, to.z)
 		})

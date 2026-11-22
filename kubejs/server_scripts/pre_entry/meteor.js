@@ -48,7 +48,7 @@
 
 	BlockEvents.rightClicked('minestuck:cruxtruder_tube', event => {
 		const player = event.player
-		if (event.hand != 'MAIN_HAND' || player.tags.contains('MeteorShower')) return
+		if (event.hand != 'MAIN_HAND' || player.tags.contains('MeteorShower') || event.block.up.id != 'minecraft:air') return
 		const color = $PlayerData.get(player).get().getData($MSAttachments.PLAYER_COLOR)
 		const message = Text.gray('[S] ')
 			.append(Text.literal(player.getDisplayName().getString()).color(Color.rgba((color >> 16) & 255, (color >> 8) & 255, color & 255, 255)))

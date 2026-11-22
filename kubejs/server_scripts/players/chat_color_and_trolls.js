@@ -5,6 +5,33 @@
 	const $Double = Java.loadClass('java.lang.Double')
 	const $Integer = Java.loadClass('java.lang.Integer')
 	const $EntityInteractSpecific = Java.loadClass('net.neoforged.neoforge.event.entity.player.PlayerInteractEvent$EntityInteractSpecific')
+	const $HashMap = Java.loadClass('java.util.HashMap')
+	const $DiscordMinecraftUtils = Java.loadClass('com.denisnumb.discord_chat_mod.MinecraftUtils')
+	const $DiscordChannelCategory = Java.loadClass('com.denisnumb.discord_chat_mod.discord.model.ChannelCategory')
+	const $DiscordMessageType = Java.loadClass('com.denisnumb.discord_chat_mod.discord.chat_style.MessageType')
+	const $DiscordParameters = Java.loadClass('com.denisnumb.discord_chat_mod.chat_style.Parameters')
+	const $DiscordChatStyleProvider = Java.loadClass('com.denisnumb.discord_chat_mod.discord.chat_style.DiscordChatStyleProvider')
+	const $DiscordChannelRegistry = Java.loadClass('com.denisnumb.discord_chat_mod.discord.DiscordChannelRegistry')
+	const $DiscordMessageUtils = Java.loadClass('com.denisnumb.discord_chat_mod.discord.utils.DiscordMessageUtils')
+
+	function sendPlayerChatToDiscord(player, rawMessage) {
+		$DiscordMessageUtils.handleDiscord(() => {
+			const processed = $DiscordMinecraftUtils.processChatMessage(rawMessage, $DiscordChannelCategory.PLAYER_CHAT)
+			const parameters = new $HashMap($DiscordChatStyleProvider.buildPlayerParameters(player))
+			parameters.put($DiscordParameters.MESSAGE, processed.forDiscord())
+			const message = $DiscordChatStyleProvider.getDiscordMessageComponents($DiscordMessageType.CHAT, parameters)
+			const webhookMessage = $DiscordChatStyleProvider.getDiscordMessageComponents($DiscordMessageType.CHAT_WEBHOOK, parameters)
+			if (message.isPresent() && webhookMessage.isPresent()) {
+				$DiscordMessageUtils.sendMessageFromPlayer(
+					$DiscordChannelCategory.PLAYER_CHAT,
+					$DiscordChannelRegistry.getAllContexts(),
+					player,
+					webhookMessage.get(),
+					message.get()
+				)
+			}
+		})
+	}
 
 	PlayerEvents.chat(event => {
 		const player = event.player
@@ -12,6 +39,7 @@
 		const grimdark = player.tags.contains('Grimdark')
 		let chatColor = Color.rgba((color >> 16) & 255, (color >> 8) & 255, color & 255, 255)
 		if (grimdark) chatColor = '#322559'
+		sendPlayerChatToDiscord(player, event.getComponent().getString())
 		event.server.tell(player.getDisplayName().color(chatColor).obfuscated(grimdark)
 			.append(Text.of(': ').color(Color.WHITE).obfuscated(false))
 			.append(event.getComponent().color(chatColor).obfuscated(grimdark)))

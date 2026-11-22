@@ -12,7 +12,7 @@
 				name += word.charAt(0).toUpperCase() + word.slice(1)
 			})
 		}
-		return name.replace(/§./g, '').replace(' Plushie', '').replace(' Plush', '').replace("'s Head", '').replace(' Wall Head', '').replace(' Head', '').replace(' Wall Skull', '').replace(' Skull', '').replace(' Doll', '').replace('Bucket of ', '').replace(' Bucket', '')
+		return name.replace(/§./g, '').replace(' Plushie', '').replace(' Plush', '').replace(' Hat', '').replace("'s Head", '').replace(' Wall Head', '').replace(' Head', '').replace(' Wall Skull', '').replace(' Skull', '').replace(' Doll', '').replace('Bucket of ', '').replace(' Bucket', '')
 	}
 
 	function near(entity, range) {
@@ -51,8 +51,7 @@
 		return sprite
 	}
 
-	function prototype(kernel, drop) {
-		const stack = drop.item
+	function prototype(kernel, drop, stack) {
 		let head = stack.copyWithCount(1)
 		const mobToDisplay = {
 			'minecraft:cod_bucket': 'heads:cod_head',
@@ -67,6 +66,13 @@
 			'crittersandcompanions:dumbo_octopus_bucket': 'kubejs:dumbo_octopus_head',
 			'biomeswevegone:man_o_war_bucket': 'kubejs:man_o_war_head'
 		}[String(stack.id)]
+		const pData = drop.level.server.persistentData;
+        const tags = stack.getTags();
+		pData.underlingPrototypes = pData.underlingPrototypes || {}; //makes sure that we don't get a bajillion errors if pData doesnt exist yet
+		const tagList = tags.filter(element => Object.keys(prototypeTags).toString().includes(element)); //filters out extra item tags so we ONLY get those on the list
+		tagList.forEach(tag => {
+			pData.underlingPrototypes[tag] = true;
+		});
 		if (mobToDisplay && Item.exists(mobToDisplay)) head = Item.of(mobToDisplay)
 		if (stack.id == 'minecraft:axolotl_bucket') head = Item.of(`heads:axolotl_${['lucy', 'wild', 'gold', 'cyan', 'blue'][head.save(drop.level.registryAccess()).getCompound('components').getCompound('minecraft:bucket_entity_data').getInt('Variant')]}_head`)
 		let owner = kernel.getOwner()
@@ -98,7 +104,39 @@
 			const kernel = near(drop, 2).find(entity => entity.type == 'minestuck:kernelsprite' && entity.boundingBox.inflate(0.25).intersects(drop.boundingBox))
 			if (!kernel) return
 			check.clear()
-			prototype(kernel, drop)
+			prototype(kernel, drop, drop.item)
+		})
+	})
+
+	function holdPrototype(sprite, item) {
+		let oldName = ''
+		if (sprite.getCustomName()) oldName = String(sprite.getCustomName().getString()).replace(/§./g, '')
+		sprite.setMainHandItem(item.copyWithCount(1))
+		sprite.setCustomName(`${readableName(item.getHoverName(), item.getDescriptionId())}${oldName}`)
+		flash(sprite.server, sprite)
+	}
+
+	function canTakeCorpse(entity) {
+		return entity.type == 'minestuck:kernelsprite' || (entity.type == 'kubejs:sprite' && entity.mainHandItem.empty)
+	}
+
+	EntityEvents.spawned('corpse:corpse', event => {
+		const corpse = event.entity
+		let checks = 0
+		if (!corpse.isEmpty() || !near(corpse, 16).find(entity => canTakeCorpse(entity))) return
+		corpse.server.scheduleRepeatingInTicks(2, check => {
+			checks++
+			if (corpse.isRemoved() || checks > 300) {
+				check.clear()
+				return
+			}
+			const sprite = near(corpse, 2).find(entity => canTakeCorpse(entity) && entity.boundingBox.inflate(0.25).intersects(corpse.boundingBox))
+			if (!sprite) return
+			check.clear()
+			const head = Item.of(`minecraft:player_head[profile={name:"${corpse.getCorpseName()}"}]`)
+			if (sprite.type == 'minestuck:kernelsprite') prototype(sprite, corpse, head)
+			else holdPrototype(sprite, head)
+			corpse.discard()
 		})
 	})
 
@@ -110,11 +148,7 @@
 		if (String(item.id).startsWith('kubejs:') || item.id == 'minestuck:captcha_card' || item.hasTag('minestuck:cruxite_artifacts')) return
 		if (['minestuck:blank_disk', 'minestuck:client_disk', 'minestuck:server_disk', 'minestuck:sburb_code', 'minestuck:completed_sburb_code', 'minestuck:computer_parts', 'minestuck:computer', 'minestuck:old_computer', 'minestuck:laptop', 'minestuck:crockertop', 'minestuck:hubtop', 'minestuck:lunchtop', 'minestuck_extended:skaia_pc'].includes(String(item.id))) return
 		if (['whimsy_deco:vintage_globe', 'whimsy_deco:antique_vintage_globe', 'whimsy_deco:singing_frog', 'whimsy_deco:fan', 'minecraft:name_tag', 'minecraft:saddle'].includes(String(item.id))) return
-		let oldName = ''
-		if (sprite.getCustomName()) oldName = String(sprite.getCustomName().getString()).replace(/§./g, '')
-		sprite.setMainHandItem(item.copyWithCount(1))
-		sprite.setCustomName(`${readableName(item.getHoverName(), item.getDescriptionId())}${oldName}`)
-		flash(player.server, sprite)
+		holdPrototype(sprite, item)
 		item.shrink(1)
 		player.swing()
 		event.cancel()
@@ -127,8 +161,14 @@
 		event.cancel()
 	})
 
-	EntityEvents.spawned('kubejs:sprite', event => event.entity.setStayPutGoal(false))
-	EntityEvents.spawned('minestuck:kernelsprite', event => event.entity.setStayPutGoal(false))
+	EntityEvents.spawned('kubejs:sprite', event => {
+		event.entity.setStayPutGoal(false)
+		event.entity.setRandomMoveGoal(true)
+	})
+	EntityEvents.spawned('minestuck:kernelsprite', event => {
+		event.entity.setStayPutGoal(false)
+		event.entity.setRandomMoveGoal(true)
+	})
 
 	function blockArtifact(event, item) {
 		if (!['minestuck:cruxite_apple', 'minestuck:cruxite_potion', 'minestuck:cruxite_disc', 'minestuck:cruxite_disk', 'minestuck:cruxite_shears'].includes(String(item.id))) return
@@ -141,6 +181,15 @@
 	BlockEvents.rightClicked(event => blockArtifact(event, event.item))
 	ItemEvents.entityInteracted(event => blockArtifact(event, event.item))
 	BlockEvents.broken(event => blockArtifact(event, event.player.mainHandItem))
+
+	function giveArtifactBonus(player, tag, item) {
+		if (player.tags.contains(tag)) return
+		player.addTag(tag)
+		player.give(Item.of(item))
+	}
+
+	PlayerEvents.inventoryChanged('minestuck:cruxite_disc', event => giveArtifactBonus(event.player, 'CruxiteJukebox', `minecraft:jukebox[custom_name='{"text":"Cruxite Jukebox","color":"aqua","italic":false}']`))
+	PlayerEvents.inventoryChanged('minestuck:cruxite_shears', event => giveArtifactBonus(event.player, 'CruxiteLeaves', `biomeswevegone:blue_enchanted_leaves[custom_name='{"text":"Cruxite Leaves","color":"aqua","italic":false}']`))
 
 	function setSpawnHere(server, name) {
 		server.runCommandSilent(`execute as ${name} at @s run spawnpoint @s ~ ~ ~`)

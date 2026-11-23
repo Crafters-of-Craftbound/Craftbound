@@ -53,7 +53,7 @@
 			player.server.runCommandSilent(`attribute ${player.username} minecraft:generic.scale base set 0.5`)
 			player.server.runCommandSilent(`effect give ${player.username} minecraft:resistance infinite 255 true`)
 			showAll(player)
-			player.tell(Text.gray('To disable terrain choosing, run ').append(Text.green('/meteorlab chooseterrain false')))
+			player.server.scheduleInTicks(20, () => player.tell(Text.gray('To enable terrain choosing, an operator can run ').append(Text.green('/meteorlab chooseterrain true'))))
 		})
 	})
 
@@ -102,7 +102,7 @@
 		if (!player || !player.tags.contains('InMeteorLab')) return 0
 		const choices = player.persistentData.getCompound('MeteorLabChoices')
 		const step = STEPS.indexOf(String(choices.getString('step')))
-		const noTerrainChoice = player.server.persistentData.getBoolean('NoTerrainChoice')
+		const noTerrainChoice = !player.server.persistentData.getBoolean('TerrainChoice')
 		if (OPTIONS[words[0]] && OPTIONS[words[0]].includes(words[1])) {
 			choices.putString(words[0], words[1])
 			show(player, words[0], words[1])
@@ -137,7 +137,7 @@
 		event.register(Commands.literal('meteorlab')
 			.then(Commands.literal('chooseterrain').requires(source => source.hasPermission(2))
 				.then(Commands.argument('value', Arguments.BOOLEAN.create(event)).executes(ctx => {
-					ctx.source.server.persistentData.putBoolean('NoTerrainChoice', !Arguments.BOOLEAN.getResult(ctx, 'value'))
+					ctx.source.server.persistentData.putBoolean('TerrainChoice', Arguments.BOOLEAN.getResult(ctx, 'value'))
 					return 1
 				})))
 			.then(Commands.argument('choice', Arguments.GREEDY_STRING.create(event)).executes(ctx => choose(ctx.source.player, String(Arguments.GREEDY_STRING.getResult(ctx, 'choice')).split(' ')))))

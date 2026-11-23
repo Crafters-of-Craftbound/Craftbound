@@ -156,7 +156,7 @@
 			player.persistentData.put('PreMeteor', pos)
 			player.server.scheduleInTicks(1, () => {
 				transportEffects(player)
-				player.teleportTo('minestuck:veil', 99.5, 189, -31.5, 30, 0)
+				player.teleportTo('minestuck:veil', 98.5, 191, -22.5, 30, 0)
 				transportEffects(player)
 			})
 		} else if (pos.contains('dimension')) {

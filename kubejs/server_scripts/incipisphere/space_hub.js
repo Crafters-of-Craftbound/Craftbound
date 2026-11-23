@@ -205,9 +205,6 @@ const spaceHubTick = (() => {
 			player.abilities.flying = true
 			player.onUpdateAbilities()
 		}
-		if (player.y < 69 || player.y > 90) player.teleportTo(player.x, player.y < 69 ? 70 : 89, player.z)
-		const distance = Math.hypot(player.x - 0.5, player.z - 0.5)
-		if (distance > 35) player.teleportTo(0.5 + (player.x - 0.5) * 33 / distance, player.y, 0.5 + (player.z - 0.5) * 33 / distance)
 		if (player.level.time - lastStepTime > 100) startSpaceHub(player.server)
 		const target = touchedBody(player)
 		if (target) leaveSpaceHub(player, target)

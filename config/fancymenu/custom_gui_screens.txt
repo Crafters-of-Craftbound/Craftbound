@@ -3,3 +3,79 @@ type = custom_gui_screens
 overridden_screens {
 }
 
+custom_gui {
+  identifier = meteor_title
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = meteor_sway
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = meteor_terrain
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = meteor_canon
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = meteor_rtp
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = meteor_voice
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = meteor_confirm
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}

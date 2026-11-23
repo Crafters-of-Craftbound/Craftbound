@@ -1,4 +1,8 @@
 {
+  "mob_spawns": [
+    { "biome_types": [ "normal" ], "category": "creature", "spawner_data": { "type": "minestuck:frog", "maxCount": 5, "minCount": 2, "weight": 10 } },
+    { "biome_types": [ "rough" ], "category": "creature", "spawner_data": { "type": "minestuck:frog", "maxCount": 8, "minCount": 3, "weight": 20 } }
+  ],
   "structure_sets": [
     {
       "structure_set": {

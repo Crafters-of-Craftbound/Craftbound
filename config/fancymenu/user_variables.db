@@ -1,2 +1,86 @@
 type = user_variables
 
+variable {
+  name = meteor_aspect
+  value = heart
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_terrain
+  value = slime
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_voice
+  value = off
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_class_name
+  value = Lord
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_voice_name
+  value = Off
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_rtp
+  value = no
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_rtp_name
+  value = No
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_class
+  value = lord
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_canon_name
+  value = No
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_aspect_name
+  value = Heart
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_sway
+  value = derse
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_sway_name
+  value = Derse
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_canon
+  value = no
+  reset_on_launch = false
+}
+
+variable {
+  name = meteor_terrain_name
+  value = Slime
+  reset_on_launch = false
+}
+

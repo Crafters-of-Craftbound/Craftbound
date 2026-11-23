@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minestuck_extended:cinderblock"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minestuck:dagger"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ms_extras:throwing_knife"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ms_extras:throwing_knives"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minestuck:set_modus_card"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minestuck:array_modus_card"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"plushie_buddies:stuffing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"plushie_buddies:thread"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:eldritch_manuscript"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minestuck_extended:plush_genesis_frog"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

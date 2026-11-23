@@ -12,7 +12,7 @@
 			{ name: 'Ranine Creation', hover: 'Choosing this lets your Frog Net summon frogs', message: 'Your frog net gained a new ability!', apply: player => { player.addTag('RanineCreation'); player.server.runCommandSilent(`give ${player.username} minestuck:bug_net[custom_name='[{"text":"Frog Net","italic":false}]']`) } }
 		],
 		time: [
-			{ name: 'Face Yourselves', hover: 'See the versions of yourself that died instead of you', message: 'Haste level increased', apply: player => { for (let i = 0; i < Math.min(player.stats.deaths, 10); i++) player.server.runCommandSilent(`execute in minestuck:veil run summon strawstatues:straw_statue ${(1672 + Math.random() * 40).toFixed(2)} 70 ${(-125 + Math.random() * 42).toFixed(2)} {profile:{name:"${player.username}"},Rotation:[${(Math.random() * 360).toFixed(1)}f,0f],SlimArms:1b}`); gainSpell(player, 'irons_spellbooks:haste', 5) } },
+			{ name: 'Face Yourselves', hover: 'See the versions of yourself that died instead of you', message: 'Haste level increased', apply: player => { for (let i = 0; i < Math.min(player.stats.deaths, 10); i++) player.server.runCommandSilent(`execute in javd:void run summon strawstatues:straw_statue ${(-20 + Math.random() * 40).toFixed(2)} 70 ${(-143 + Math.random() * 42).toFixed(2)} {profile:{name:"${player.username}"},Rotation:[${(Math.random() * 360).toFixed(1)}f,0f],SlimArms:1b}`); gainSpell(player, 'irons_spellbooks:haste', 5) } },
 			{ name: 'Face Away', hover: 'See nothing', message: 'Evasion level increased', apply: player => gainSpell(player, 'irons_spellbooks:evasion', 5) }
 		],
 		breath: [
@@ -66,7 +66,7 @@
 			player.tell(Text.gray('By slaying your Denizen, you have made your choice.'))
 			return false
 		}
-		if (aspect == 'time' && (!player.tags.contains('DenizenActive') || String(player.level.dimension) != 'minestuck:veil')) message = "You must be in Cat-Sith's lair to make this choice."
+		if (aspect == 'time' && (!player.tags.contains('DenizenActive') || String(player.level.dimension) != 'javd:void')) message = "You must be in Cat-Sith's lair to make this choice."
 		if (aspect == 'life' && player.inventory.count('kubejs:seed_vault') == 0) message = 'You need a Seed Vault to make this choice.'
 		if (aspect == 'void' && player.inventory.count('kubejs:obscured_truth') == 0) message = 'You need the Obscured Truth to make this choice.'
 		if (aspect == 'blood' && !player.tags.contains('DenizenActive')) message = "You must be in Rhiannon's lair to make this choice."

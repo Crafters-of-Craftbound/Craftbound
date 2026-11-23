@@ -39,7 +39,7 @@
       },
       {
         "type": "minecraft:beehive",
-        "probability": 0.3
+        "probability": 0.02
       }
     ],
     "dirt_provider": {

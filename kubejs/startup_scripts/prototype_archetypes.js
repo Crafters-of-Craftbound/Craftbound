@@ -16,28 +16,28 @@ global.prototypeArchetypes = {
 	aquatic: {
 		name: 'Aquatic',
 		colour: '#5A91C3',
-		items: ['heads:turtle_head', 'plushie_buddies:plushie_turtle', 'simplehats:babyturtle', 'minecraft:sponge', 'minecraft:wet_sponge', 'kubejs:sea_bunny_head', 'crittersandcompanions:sea_bunny_bucket', '#refurbished_furniture:wooden_toilet', 'simplehats:toilet', 'cluttered:watering_can', 'cluttered:watering_can_copper', 'heads:dolphin_head', 'plushie_buddies:plushie_dolphin', 'simplehats:babydolphin', 'kubejs:otter_head', 'kubejs:man_o_war_head', 'a_man_with_plushies:blue_pikmin_plush'],
+		items: ['heads:turtle_head', 'plushie_buddies:plushie_turtle', 'simplehats:babyturtle', 'minecraft:sponge', 'minecraft:wet_sponge', 'kubejs:sea_bunny_head', 'crittersandcompanions:sea_bunny_bucket', '#refurbished_furniture:wooden_toilet', 'simplehats:toilet', 'cluttered:watering_can', 'cluttered:watering_can_copper', 'heads:dolphin_head', 'plushie_buddies:plushie_dolphin', 'simplehats:babydolphin', 'kubejs:otter_head', 'kubejs:man_o_war_head', 'a_man_with_plushies:blue_pikmin_plush', 'whimsy_deco:washing_machine', 'heads:drowned_head', 'plushie_buddies:plushie_drowned'],
 		look: { bones: ['HatAquatic'], defaults: [], painted: 'aquatic' },
 		spells: { attack: ['hazennstuff:water_bolt'] }
 	},
 	space_suit: {
 		name: 'Space Suit',
 		colour: '#FF9900',
-		items: ['simplehats:alienphil', 'cluttered:mushroom_terrarium_red', 'cluttered:mushroom_terrarium_brown', 'cluttered:glowshroom_terrarium_pink', 'cluttered:glowshroom_terrarium_purple', 'cluttered:glowshroom_terrarium_yellow', 'cluttered:glowshroom_terrarium_green', 'cluttered:glowshroom_terrarium_blue'],
+		items: ['simplehats:alienphil', 'cluttered:mushroom_terrarium_red', 'cluttered:mushroom_terrarium_brown', 'cluttered:glowshroom_terrarium_pink', 'cluttered:glowshroom_terrarium_purple', 'cluttered:glowshroom_terrarium_yellow', 'cluttered:glowshroom_terrarium_green', 'cluttered:glowshroom_terrarium_blue', 'cluttered:glass_vase_of_flowers', 'a_man_with_plushies:crewmate_plush', 'a_man_with_plushies:rainbow_crewmate_plush', 'simplehats:baby_crewmate', 'a_man_with_plushies:employee_orange_suit_plush', 'a_man_with_plushies:masked_employee_orange_suit_plush', 'simplehats:astronaut'],
 		look: { bones: ['HatSpaceSuit', 'ClothesSpaceSuit'], defaults: [], painted: 'space_suit' },
 		spells: { attack: ['irons_spellbooks:gravity_fissure'] }
 	},
 	flaming: {
 		name: 'Flaming',
 		colour: '#F6B26B',
-		items: ['heads:magma_cube_head', 'plushie_buddies:plushie_magma_cube', 'kubejs:foxhound_head', 'minecraft:furnace', 'quark:blackstone_furnace', 'quark:deepslate_furnace', 'minecraft:blast_furnace', 'minecraft:smoker', 'kaleidoscope_cookery:stove', 'cluttered:tarrytown_stove', 'refurbished_furniture:light_stove', 'refurbished_furniture:dark_stove', 'refurbished_furniture:light_toaster', 'refurbished_furniture:dark_toaster', 'cluttered:retro_toaster_white', 'cluttered:retro_toaster_black', 'cluttered:retro_toaster_red', 'cluttered:retro_toaster_yellow', 'cluttered:retro_toaster_blue', 'cluttered:retro_toaster_turquoise', 'cluttered:retro_toaster_pink', 'cluttered:retro_toaster_purple', 'simplehats:eyeholder_warm', 'plushie_buddies:plushie_strider', 'heads:blaze_head', 'plushie_buddies:plushie_blaze', 'a_man_with_plushies:red_pikmin_plush', 'plushie_buddies:plushie_ghast', 'a_man_with_plushies:ghast_plush'],
+		items: ['heads:magma_cube_head', 'plushie_buddies:plushie_magma_cube', 'kubejs:foxhound_head', 'minecraft:furnace', 'quark:blackstone_furnace', 'quark:deepslate_furnace', 'minecraft:blast_furnace', 'minecraft:smoker', 'kaleidoscope_cookery:stove', 'cluttered:tarrytown_stove', 'refurbished_furniture:light_stove', 'refurbished_furniture:dark_stove', 'refurbished_furniture:light_toaster', 'refurbished_furniture:dark_toaster', 'cluttered:retro_toaster_white', 'cluttered:retro_toaster_black', 'cluttered:retro_toaster_red', 'cluttered:retro_toaster_yellow', 'cluttered:retro_toaster_blue', 'cluttered:retro_toaster_turquoise', 'cluttered:retro_toaster_pink', 'cluttered:retro_toaster_purple', 'simplehats:eyeholder_warm', 'plushie_buddies:plushie_strider', 'heads:blaze_head', 'plushie_buddies:plushie_blaze', 'a_man_with_plushies:red_pikmin_plush', 'plushie_buddies:plushie_ghast', 'a_man_with_plushies:ghast_plush', 'minecraft:wither_skeleton_skull', 'plushie_buddies:plushie_wither_skeleton'],
 		look: {},
 		spells: { attack: ['irons_spellbooks:firebolt', 'irons_spellbooks:fireball', 'irons_spellbooks:flaming_strike'] }
 	},
 	icy: {
 		name: 'Icy',
 		colour: '#00FFFF',
-		items: ['simplehats:penguinbaby', 'heads:goat_head', 'plushie_buddies:plushie_goat', 'heads:fox_snow_head', 'kubejs:happy_ghast_head', 'plushie_buddies:plushie_polar_bear', 'heads:snow_golem_head', 'simplehats:snowmanbaby', 'refurbished_furniture:light_fridge', 'refurbished_furniture:dark_fridge', 'cluttered:retro_fridge_black', 'cluttered:retro_fridge_white', 'cluttered:retro_fridge_yellow', 'cluttered:retro_fridge_blue', 'cluttered:retro_fridge_red', 'cluttered:retro_fridge_turquoise', 'cluttered:retro_fridge_pink', 'cluttered:retro_fridge_purple', 'a_man_with_plushies:snow_pea_plush'],
+		items: ['simplehats:penguinbaby', 'heads:goat_head', 'plushie_buddies:plushie_goat', 'heads:fox_snow_head', 'kubejs:happy_ghast_head', 'plushie_buddies:plushie_polar_bear', 'heads:snow_golem_head', 'simplehats:snowmanbaby', 'refurbished_furniture:light_fridge', 'refurbished_furniture:dark_fridge', 'cluttered:retro_fridge_black', 'cluttered:retro_fridge_white', 'cluttered:retro_fridge_yellow', 'cluttered:retro_fridge_blue', 'cluttered:retro_fridge_red', 'cluttered:retro_fridge_turquoise', 'cluttered:retro_fridge_pink', 'cluttered:retro_fridge_purple', 'a_man_with_plushies:snow_pea_plush', 'simplehats:icedragonskull', 'heads:stray_head', 'plushie_buddies:plushie_stray'],
 		look: {},
 		spells: { attack: ['irons_spellbooks:snowball'] }
 	},

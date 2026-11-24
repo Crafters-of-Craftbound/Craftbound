@@ -66,13 +66,12 @@
 			'crittersandcompanions:dumbo_octopus_bucket': 'kubejs:dumbo_octopus_head',
 			'biomeswevegone:man_o_war_bucket': 'kubejs:man_o_war_head'
 		}[String(stack.id)]
-		const pData = drop.level.server.persistentData;
-        const tags = stack.getTags();
-		pData.underlingPrototypes = pData.underlingPrototypes || {}; //makes sure that we don't get a bajillion errors if pData doesnt exist yet
-		const tagList = tags.filter(element => Object.keys(prototypeTags).toString().includes(element)); //filters out extra item tags so we ONLY get those on the list
-		tagList.forEach(tag => {
-			pData.underlingPrototypes[tag] = true;
-		});
+		const pData = drop.level.server.persistentData
+		const underlingPrototypes = pData.getCompound('underlingPrototypes')
+		stack.getTagKeys().forEach(tagKey => {
+			if (tagKey.location().namespace == 'kubejs' && global.prototypeArchetypes[String(tagKey.location().path).replace('prototype_', '')]) underlingPrototypes.putBoolean(String(tagKey.location()), true)
+		})
+		pData.put('underlingPrototypes', underlingPrototypes)
 		if (mobToDisplay && Item.exists(mobToDisplay)) head = Item.of(mobToDisplay)
 		if (stack.id == 'minecraft:axolotl_bucket') head = Item.of(`heads:axolotl_${['lucy', 'wild', 'gold', 'cyan', 'blue'][head.save(drop.level.registryAccess()).getCompound('components').getCompound('minecraft:bucket_entity_data').getInt('Variant')]}_head`)
 		let owner = kernel.getOwner()

@@ -11,6 +11,15 @@ layout-meta {
   layout_index = 0
   [loading_requirement_container_meta:meteor_title_meta] = [groups:][instances:]
 }
+
+menu_background {
+  instance_identifier = meteor_title_dim
+  background_type = color_fancymenu
+  show_background = true
+  opacity = 0.5
+  color = #000000FF
+}
+
 element {
   element_type = text_v2
   instance_identifier = meteor_title_class_text
@@ -627,6 +636,9 @@ element {
   [executable_action_instance:meteor_title_aspect_blood-action][action_type:sendmessage] = /meteorlab aspect blood
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/blood_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/blood_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/blood_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_blood-active
   [loading_requirement_container_meta:meteor_title_aspect_blood-active] = [groups:][instances:meteor_title_aspect_blood-active-r0;]
@@ -664,6 +676,9 @@ element {
   [executable_action_instance:meteor_title_aspect_breath-action][action_type:sendmessage] = /meteorlab aspect breath
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/breath_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/breath_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/breath_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_breath-active
   [loading_requirement_container_meta:meteor_title_aspect_breath-active] = [groups:][instances:meteor_title_aspect_breath-active-r0;]
@@ -701,6 +716,9 @@ element {
   [executable_action_instance:meteor_title_aspect_doom-action][action_type:sendmessage] = /meteorlab aspect doom
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/doom_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/doom_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/doom_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_doom-active
   [loading_requirement_container_meta:meteor_title_aspect_doom-active] = [groups:][instances:meteor_title_aspect_doom-active-r0;]
@@ -738,6 +756,9 @@ element {
   [executable_action_instance:meteor_title_aspect_heart-action][action_type:sendmessage] = /meteorlab aspect heart
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/heart_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/heart_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/heart_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_heart-active
   [loading_requirement_container_meta:meteor_title_aspect_heart-active] = [groups:][instances:meteor_title_aspect_heart-active-r0;]
@@ -775,6 +796,9 @@ element {
   [executable_action_instance:meteor_title_aspect_hope-action][action_type:sendmessage] = /meteorlab aspect hope
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/hope_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/hope_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/hope_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_hope-active
   [loading_requirement_container_meta:meteor_title_aspect_hope-active] = [groups:][instances:meteor_title_aspect_hope-active-r0;]
@@ -812,6 +836,9 @@ element {
   [executable_action_instance:meteor_title_aspect_life-action][action_type:sendmessage] = /meteorlab aspect life
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/life_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/life_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/life_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_life-active
   [loading_requirement_container_meta:meteor_title_aspect_life-active] = [groups:][instances:meteor_title_aspect_life-active-r0;]
@@ -849,6 +876,9 @@ element {
   [executable_action_instance:meteor_title_aspect_light-action][action_type:sendmessage] = /meteorlab aspect light
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/light_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/light_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/light_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_light-active
   [loading_requirement_container_meta:meteor_title_aspect_light-active] = [groups:][instances:meteor_title_aspect_light-active-r0;]
@@ -886,6 +916,9 @@ element {
   [executable_action_instance:meteor_title_aspect_mind-action][action_type:sendmessage] = /meteorlab aspect mind
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/mind_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/mind_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/mind_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_mind-active
   [loading_requirement_container_meta:meteor_title_aspect_mind-active] = [groups:][instances:meteor_title_aspect_mind-active-r0;]
@@ -923,6 +956,9 @@ element {
   [executable_action_instance:meteor_title_aspect_rage-action][action_type:sendmessage] = /meteorlab aspect rage
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/rage_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/rage_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/rage_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_rage-active
   [loading_requirement_container_meta:meteor_title_aspect_rage-active] = [groups:][instances:meteor_title_aspect_rage-active-r0;]
@@ -960,6 +996,9 @@ element {
   [executable_action_instance:meteor_title_aspect_space-action][action_type:sendmessage] = /meteorlab aspect space
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/space_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/space_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/space_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_space-active
   [loading_requirement_container_meta:meteor_title_aspect_space-active] = [groups:][instances:meteor_title_aspect_space-active-r0;]
@@ -997,6 +1036,9 @@ element {
   [executable_action_instance:meteor_title_aspect_time-action][action_type:sendmessage] = /meteorlab aspect time
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/time_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/time_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/time_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_time-active
   [loading_requirement_container_meta:meteor_title_aspect_time-active] = [groups:][instances:meteor_title_aspect_time-active-r0;]
@@ -1034,6 +1076,9 @@ element {
   [executable_action_instance:meteor_title_aspect_void-action][action_type:sendmessage] = /meteorlab aspect void
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/void_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/void_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/void_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_title_aspect_void-active
   [loading_requirement_container_meta:meteor_title_aspect_void-active] = [groups:][instances:meteor_title_aspect_void-active-r0;]

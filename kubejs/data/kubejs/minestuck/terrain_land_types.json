@@ -9,5 +9,7 @@
   { "value": "kubejs:depths" },
   { "value": "kubejs:haunts" },
   { "value": "kubejs:clouds" },
-  { "value": "kubejs:bugs" }
+  { "value": "kubejs:bugs" },
+  { "value": "kubejs:circuits" },
+  { "value": "kubejs:reactants" }
 ]

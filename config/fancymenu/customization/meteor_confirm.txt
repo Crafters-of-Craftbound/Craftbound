@@ -11,6 +11,15 @@ layout-meta {
   layout_index = 0
   [loading_requirement_container_meta:meteor_confirm_meta] = [groups:][instances:]
 }
+
+menu_background {
+  instance_identifier = meteor_confirm_dim
+  background_type = color_fancymenu
+  show_background = true
+  opacity = 0.5
+  color = #000000FF
+}
+
 element {
   element_type = text_v2
   instance_identifier = meteor_confirm_text
@@ -25,7 +34,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -153
-  y = -48
+  y = -62
   width = 306
   height = 150
   stretch_x = false

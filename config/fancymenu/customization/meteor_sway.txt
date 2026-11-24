@@ -11,6 +11,15 @@ layout-meta {
   layout_index = 0
   [loading_requirement_container_meta:meteor_sway_meta] = [groups:][instances:]
 }
+
+menu_background {
+  instance_identifier = meteor_sway_dim
+  background_type = color_fancymenu
+  show_background = true
+  opacity = 0.5
+  color = #000000FF
+}
+
 element {
   element_type = text_v2
   instance_identifier = meteor_sway_text
@@ -75,6 +84,9 @@ element {
   [executable_action_instance:meteor_sway_sway_prospit-action][action_type:sendmessage] = /meteorlab sway prospit
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/prospit_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/prospit_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/prospit_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_sway_sway_prospit-active
   [loading_requirement_container_meta:meteor_sway_sway_prospit-active] = [groups:][instances:meteor_sway_sway_prospit-active-r0;]
@@ -112,6 +124,9 @@ element {
   [executable_action_instance:meteor_sway_sway_derse-action][action_type:sendmessage] = /meteorlab sway derse
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/meteor_buttons/derse_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/meteor_buttons/derse_hovered.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/meteor_buttons/derse_inactive.png
   navigatable = true
   widget_active_state_requirement_container_identifier = meteor_sway_sway_derse-active
   [loading_requirement_container_meta:meteor_sway_sway_derse-active] = [groups:][instances:meteor_sway_sway_derse-active-r0;]

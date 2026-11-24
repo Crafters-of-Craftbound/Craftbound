@@ -86,7 +86,7 @@
 			event.server.runCommandSilent(`execute at ${player.username} run particle minestuck:transportalizer ${block.x} ${block.y + 2} ${block.z} 0 0 0 0 1 force`)
 			event.server.runCommandSilent(`execute at ${player.username} run playsound minestuck:block.transportalizer.teleport block @a[distance=..20] ${block.x} ${block.y} ${block.z} 1 1.5`)
 			const yaw = Math.atan2(block.x + 0.5 - player.x, player.z - block.z - 0.5) * 180 / Math.PI
-			event.server.runCommandSilent(`execute in ${level.dimension} run summon minestuck:frog ${block.x + 0.5} ${block.y + 1.25} ${block.z + 0.5} {NoAI:1b,Silent:1b,Invulnerable:1b,Variant:"golden",Rotation:[${yaw.toFixed(1)}f,0f],Tags:["AutoclaveFrog"]}`)
+			event.server.runCommandSilent(`execute in ${level.dimension} run summon minestuck:frog ${block.x + 0.5} ${block.y + 0.75} ${block.z + 0.5} {NoAI:1b,Silent:1b,Invulnerable:1b,Variant:"golden",Rotation:[${yaw.toFixed(1)}f,0f],Tags:["AutoclaveFrog"]}`)
 			if (!player.isRemoved()) player.setStatusMessage(Text.gray('Appearify!'))
 			event.server.scheduleInTicks(40, () => {
 				level.getEntitiesWithin(AABB.of(block.x - 1, block.y, block.z - 1, block.x + 2, block.y + 3, block.z + 2)).forEach(entity => {

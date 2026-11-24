@@ -53,13 +53,16 @@
 			player.server.runCommandSilent(`attribute ${player.username} minecraft:generic.scale base set 0.5`)
 			player.server.runCommandSilent(`effect give ${player.username} minecraft:resistance infinite 255 true`)
 			showAll(player)
-			player.server.scheduleInTicks(20, () => player.tell(Text.gray('To enable terrain choosing, an operator can run ').append(Text.green('/meteorlab chooseterrain true'))))
+			player.server.runCommandSilent(`execute in minestuck:veil positioned 88 192 -17 unless entity @e[tag=meteor_plate_text,distance=..3] run summon text_display ~0.5 ~1.25 ~0.5 {Tags:["meteor_plate_text"],billboard:"center",text:'{"text":"Choose Your Destiny"}'}`)
+			player.server.runCommandSilent(`execute in minestuck:veil positioned 88 192 -17 unless entity @e[tag=meteor_plate_glow,distance=..3] run summon block_display ~ ~ ~ {Tags:["meteor_plate_glow"],Glowing:1b,glow_color_override:16777215,block_state:{Name:"minestuck:shade_pressure_plate"},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.001f,0f,-0.001f],scale:[1.002f,1.002f,1.002f]}}`)
+			player.server.scheduleInTicks(200, () => player.tell(Text.gray('To enable terrain choosing, an operator can run ').append(Text.green('/meteorlab chooseterrain true'))))
 		})
 	})
 
 	BlockEvents.rightClicked('minestuck:shade_pressure_plate', event => {
 		const player = event.player
 		if (event.hand != 'MAIN_HAND' || !player.tags.contains('InMeteorLab') || player.isAdvancementDone('minestuck:minestuck/entry')) return
+		showAll(player)
 		openStep(player)
 		player.swing()
 		event.cancel()
@@ -79,6 +82,8 @@
 		if (choices.getString('voice') == 'on') player.addTag('VoiceActing')
 		player.addTag('MeteorLab')
 		player.removeTag('InMeteorLab')
+		player.server.runCommandSilent('execute unless entity @a[tag=InMeteorLab] run kill @e[tag=meteor_plate_text]')
+		player.server.runCommandSilent('execute unless entity @a[tag=InMeteorLab] run kill @e[tag=meteor_plate_glow]')
 		player.persistentData.remove('MeteorLabChoices')
 		player.persistentData.remove('InitialMeteorPosition')
 		player.server.runCommandSilent(`closeguiscreen ${name}`)
@@ -88,13 +93,14 @@
 		player.server.runCommandSilent(`item replace entity ${name} hotbar.7 with farmersdelight:cabbage_rolls 10`)
 		player.server.runCommandSilent(`item replace entity ${name} hotbar.8 with ftbquests:book`)
 		if (choices.getString('rtp') == 'yes') player.server.runCommandSilent(`execute as ${name} run rtp`)
-		player.server.runCommandSilent(`execute at ${name} run particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 force`)
-		player.server.runCommandSilent(`execute at ${name} run playsound minecraft:entity.generic.explode player @a ~ ~ ~`)
 		player.server.runCommandSilent(`effect give ${name} cataclysm:stun 3 0 true`)
 		player.server.runCommandSilent(`effect give ${name} minecraft:blindness 3 0 true`)
 		player.server.scheduleInTicks(60, () => {
 			player.server.runCommandSilent(`effect clear ${name} cataclysm:stun`)
 			player.server.runCommandSilent(`effect clear ${name} minecraft:blindness`)
+			player.server.runCommandSilent(`execute at ${name} run playsound minecraft:entity.generic.explode player @a ~ ~ ~`)
+			player.server.runCommandSilent(`execute at ${name} run particle minecraft:large_smoke ~ ~1 ~ 2 1 2 0.05 400 force`)
+			player.server.runCommandSilent(`execute at ${name} run particle minecraft:campfire_cosy_smoke ~ ~0.5 ~ 2 0.5 2 0.02 150 force`)
 		})
 	}
 
@@ -137,7 +143,9 @@
 		event.register(Commands.literal('meteorlab')
 			.then(Commands.literal('chooseterrain').requires(source => source.hasPermission(2))
 				.then(Commands.argument('value', Arguments.BOOLEAN.create(event)).executes(ctx => {
-					ctx.source.server.persistentData.putBoolean('TerrainChoice', Arguments.BOOLEAN.getResult(ctx, 'value'))
+					const terrainChoice = String(Arguments.BOOLEAN.getResult(ctx, 'value')) == 'true'
+					ctx.source.server.persistentData.putBoolean('TerrainChoice', terrainChoice)
+					ctx.source.server.runCommandSilent(`title @a actionbar {"text":"Terrain choosing ${terrainChoice ? 'enabled' : 'disabled'}","color":"gray"}`)
 					return 1
 				})))
 			.then(Commands.argument('choice', Arguments.GREEDY_STRING.create(event)).executes(ctx => choose(ctx.source.player, String(Arguments.GREEDY_STRING.getResult(ctx, 'choice')).split(' ')))))

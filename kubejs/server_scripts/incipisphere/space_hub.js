@@ -30,7 +30,7 @@ const spaceHubTick = (() => {
 		dark: 'minecraft:sculk',
 		bugs: 'minecraft:honeycomb_block',
 		haunts: 'minecraft:soul_sand',
-		circuitry: 'minecraft:green_concrete',
+		circuits: 'minecraft:green_concrete',
 		reactants: 'kubejs:krypton_moss',
 		red_sand: 'minecraft:red_sand',
 		clouds: 'kubejs:cloud'

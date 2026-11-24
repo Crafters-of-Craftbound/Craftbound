@@ -2,13 +2,13 @@ type = user_variables
 
 variable {
   name = meteor_aspect
-  value = heart
+  value = blood
   reset_on_launch = false
 }
 
 variable {
   name = meteor_terrain
-  value = slime
+  value = reactants
   reset_on_launch = false
 }
 
@@ -20,7 +20,7 @@ variable {
 
 variable {
   name = meteor_class_name
-  value = Lord
+  value = Rogue
   reset_on_launch = false
 }
 
@@ -32,19 +32,19 @@ variable {
 
 variable {
   name = meteor_rtp
-  value = no
+  value = yes
   reset_on_launch = false
 }
 
 variable {
   name = meteor_rtp_name
-  value = No
+  value = Yes
   reset_on_launch = false
 }
 
 variable {
   name = meteor_class
-  value = lord
+  value = rogue
   reset_on_launch = false
 }
 
@@ -56,7 +56,7 @@ variable {
 
 variable {
   name = meteor_aspect_name
-  value = Heart
+  value = Blood
   reset_on_launch = false
 }
 
@@ -80,7 +80,7 @@ variable {
 
 variable {
   name = meteor_terrain_name
-  value = Slime
+  value = Reactants
   reset_on_launch = false
 }
 

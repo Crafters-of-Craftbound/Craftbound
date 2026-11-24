@@ -64,11 +64,11 @@
 				if (String(underling.type) != 'minestuck:imp') return
 				const prototypes = String(underling.getItemBySlot($EquipmentSlot.BODY).customData)
 				const slotChoices = {}
-				Object.keys(impLooks).filter(archetype => prototypes.includes(archetype)).forEach(archetype => impLooks[archetype].bones.forEach(name => slotChoices[boneSlots[name]] = (slotChoices[boneSlots[name]] || []).concat(name)))
-				shownBones = Object.keys(slotChoices).map(slot => slotChoices[slot][new $Random(underling.getUUID().hashCode() * 31 + slot.split('').reduce((hash, letter) => (hash * 31 + letter.charCodeAt(0)) | 0, 0)).nextInt(slotChoices[slot].length)])
-				shownLooks = Object.keys(impLooks).map(archetype => impLooks[archetype]).filter(look => look.bones.some(name => shownBones.includes(name)))
-				hiddenDefaults = shownLooks.flatMap(look => look.defaults)
 				try {
+					Object.keys(impLooks).filter(archetype => prototypes.includes(archetype)).forEach(archetype => impLooks[archetype].bones.forEach(name => slotChoices[boneSlots[name]] = (slotChoices[boneSlots[name]] || []).concat(name)))
+					shownBones = Object.keys(slotChoices).map(slot => slotChoices[slot][new $Random((String(underling.uuid) + slot).split('').reduce((hash, letter) => (hash * 31 + letter.charCodeAt(0)) | 0, 0)).nextInt(slotChoices[slot].length)])
+					shownLooks = Object.keys(impLooks).map(archetype => impLooks[archetype]).filter(look => look.bones.some(name => shownBones.includes(name)))
+					hiddenDefaults = shownLooks.flatMap(look => look.defaults)
 					Object.keys(boneSlots).forEach(name => bakedModel.getBone(name).ifPresent(bone => bone.setHidden(!shownBones.includes(name))))
 					slotDefaults.forEach(name => bakedModel.getBone(name).ifPresent(bone => bone.setHidden(hiddenDefaults.includes(name))))
 				} catch (error) {
